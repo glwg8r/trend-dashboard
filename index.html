@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Gator News Network – Cognitive Trends</title>
+  <link rel="stylesheet" href="assets/styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/d3-cloud/build/d3.layout.cloud.min.js"></script>
+</head>
+<body>
+  <header>
+    <div class="logo-wrap">
+      <img src="assets/GNN-logo.png" alt="Gator News Network" class="logo" />
+      <div class="tagline">Cognitive Trend Dashboard</div>
+    </div>
+    <p>Tier-1 signals: Google Trends · Wikipedia Pageviews · Reddit Hot · YouTube Trending</p>
+    <small>Last updated: <span id="lastUpdated">—</span></small>
+  </header>
+
+  <!-- GNN Keyword Ticker -->
+  <section class="ticker" aria-label="Trending keywords ticker">
+    <div class="ticker-glow"></div>
+    <div class="ticker-track" id="tickerTrack" role="marquee" aria-live="polite"></div>
+  </section>
+
+  <main class="grid">
+    <section class="card span4">
+      <h2>Top Keywords (24h)</h2>
+      <ol id="topKeywords" class="list"></ol>
+    </section>
+
+    <section class="card span8">
+      <h2>Word Cloud</h2>
+      <div id="wordCloud" class="wordcloud"></div>
+    </section>
+
+    <section class="card span7">
+      <h2>Velocity (since last run)</h2>
+      <canvas id="velocityChart" height="220"></canvas>
+    </section>
+
+    <section class="card span5">
+      <h2>Sources</h2>
+      <div class="sources">
+        <div>
+          <h3>Google Trends</h3>
+          <ul id="googleTrends" class="list"></ul>
+        </div>
+        <div>
+          <h3>Wikipedia Top Reads</h3>
+          <ul id="wikiTrends" class="list"></ul>
+        </div>
+        <div>
+          <h3>Reddit Hot</h3>
+          <ul id="redditTrends" class="list"></ul>
+        </div>
+        <div>
+          <h3>YouTube Trending</h3>
+          <ul id="ytTrends" class="list"></ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <small>© Gator News Network — Built for narrative detection</small>
+  </footer>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>
