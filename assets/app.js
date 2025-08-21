@@ -1,50 +1,34 @@
-// CTA / GNN Dashboard front-end (fixed ids + sizing)
-// - renders Top Keywords, Word Cloud, Velocity
-// - Explore grid shows live links from RSS categories
-// - ticker uses brand colors
+// CTA / GNN Dashboard front-end
 
 async function loadTrends() {
   const res = await fetch('data/trends.json', { cache: 'no-store' });
   const data = await res.json();
 
-  // Last updated
   const ts = document.getElementById('lastUpdated');
   if (ts) ts.textContent = new Date(data.generated_at).toLocaleString();
 
-  // ----- Top keywords -----
   const top = (data.keyword_frequencies || []).slice(0, 20);
   const topList = document.getElementById('topKeywords');
   if (topList) {
     topList.innerHTML = '';
-    top.forEach(([word, count], i) => {
+    top.forEach(([word, count]) => {
       const li = document.createElement('li');
-      li.innerHTML =
-        `<span class="kw">${escapeHtml(word)}</span> — <span class="count">${count}</span>`;
+      li.innerHTML = `<span class="kw">${escapeHtml(word)}</span> — <span class="count">${count}</span>`;
       topList.appendChild(li);
     });
   }
 
-  // ----- Word cloud -----
-  // make the cloud fill its card height
   syncTallHeights();
-  renderWordCloud(top.map(([text, size]) => ({
-    text,
-    size: 10 + Math.sqrt(size) * 12
-  })));
+  renderWordCloud(top.map(([text, size]) => ({ text, size: 10 + Math.sqrt(size) * 12 })));
 
-  // ----- Velocity -----
   const velocity = (data.keyword_velocity || []).slice(0, 16);
   renderVelocity(velocity);
 
-  // ----- Explore (live links) -----
   renderExploreLinks(data.sources || {}, data.source_counts || {});
-
-  // ----- Ticker -----
   renderTicker(top);
 }
 
 function syncTallHeights() {
-  // Make mascot card the same height as word cloud card
   const cloud = document.getElementById('cloudCard');
   const mascot = document.getElementById('mascotCard');
   if (!cloud || !mascot) return;
@@ -52,12 +36,11 @@ function syncTallHeights() {
   mascot.style.height = `${h}px`;
   const img = mascot.querySelector('.mascot-img');
   if (img) {
-    img.style.height = `calc(${h}px - 48px)`; // padding fudge
+    img.style.height = `calc(${h}px - 48px)`;
     img.style.objectFit = 'contain';
   }
 }
 
-// -------- helpers --------
 function escapeHtml(str) {
   return String(str)
     .replaceAll('&', '&amp;').replaceAll('<', '&lt;')
@@ -69,7 +52,7 @@ function renderWordCloud(words) {
   const el = document.getElementById('wordCloud');
   if (!el) return;
   el.innerHTML = '';
-  const w = el.clientWidth, h = el.clientHeight || 420;
+  const w = el.clientWidth, h = el.clientHeight || 480;
 
   const palette = ['#ff00a8','#a4ff4f','#7f00ff','#ff0050','#ff6b00','#b87333','#f2efe8'];
 
@@ -97,20 +80,20 @@ function renderWordCloud(words) {
   }
 }
 
+// —— FIX: no animation, no responsive resize loops
 function renderVelocity(velocity) {
   const canvas = document.getElementById('velocityChart');
   if (!canvas) return;
   const ctx = canvas.getContext('2d');
 
-  // scale down: fixed height
+  // Set explicit size; prevent resize observer churn
+  canvas.width = canvas.clientWidth;
   canvas.height = 220;
 
   const labels = velocity.map(v => v.keyword);
   const values = velocity.map(v => v.delta);
 
-  if (canvas._chart) {
-    canvas._chart.destroy();
-  }
+  if (canvas._chart) canvas._chart.destroy();
 
   canvas._chart = new Chart(ctx, {
     type: 'bar',
@@ -125,9 +108,8 @@ function renderVelocity(velocity) {
       }]
     },
     options: {
-      responsive: true,
-      maintainAspectRatio: false,
-      animation: { duration: 350 },
+      responsive: false,           // <— stop auto-resize loop
+      animation: false,            // <— no repeat animations
       scales: {
         x: { ticks: { color: '#f2efe8' }, grid: { color: '#202433' } },
         y: { beginAtZero: true, ticks: { color: '#f2efe8' }, grid: { color: '#202433' } }
@@ -140,45 +122,43 @@ function renderVelocity(velocity) {
   });
 }
 
-// ----- Ticker -----
+// —— Ticker (magenta words; half speed; pause on hover via CSS)
 function renderTicker(topKeywords) {
   const track = document.getElementById('tickerTrack');
   if (!track) return;
-  const items = (topKeywords || []).slice(0, 20);
+  const items = (topKeywords || []).slice(0, 24);
 
-  const makeRow = () => {
-    const frag = document.createDocumentFragment();
-    items.forEach(([word, count], idx) => {
+  const frag = document.createDocumentFragment();
+  const build = () => {
+    const f = document.createDocumentFragment();
+    items.forEach(([word, count], i) => {
       const span = document.createElement('span');
       span.className = 'ticker-item';
       span.innerHTML = `<span class="ticker-word">${escapeHtml(word)}</span><span class="badge">${count}</span>`;
-      frag.appendChild(span);
-
-      if (idx !== items.length - 1) {
+      f.appendChild(span);
+      if (i !== items.length - 1) {
         const sep = document.createElement('span');
         sep.className = 'ticker-sep';
         sep.textContent = '•';
-        frag.appendChild(sep);
+        f.appendChild(sep);
       }
     });
-    return frag;
+    return f;
   };
-
   track.innerHTML = '';
-  track.appendChild(makeRow());
-  track.appendChild(makeRow());
+  track.appendChild(build());
+  track.appendChild(build());
 }
 
-// ----- Explore: live links per category -----
+// —— Explore: live links (Google Trends removed)
 function renderExploreLinks(sources, counts) {
   const grid = document.getElementById('exploreGrid');
   if (!grid) return;
   grid.innerHTML = '';
 
   const categories = [
-    { key: 'google_trends', label: 'Google Trends (US)', max: 6, fallback: 'https://trends.google.com/trends/trendingsearches/daily?geo=US' },
     { key: 'major_outlets', label: 'Major Outlets',      max: 6, fallback: 'https://news.google.com/topstories?hl=en-US&gl=US&ceid=US:en' },
-    { key: 'reddit',        label: 'Reddit (r/news·worldnews·politics)', max: 6, fallback: 'https://www.reddit.com/r/news/' },
+    { key: 'reddit',        label: 'Reddit (r/news · worldnews · politics)', max: 6, fallback: 'https://www.reddit.com/r/news/' },
     { key: 'tech',          label: 'Tech (HN · Techmeme)', max: 6, fallback: 'https://news.ycombinator.com/' },
     { key: 'wikipedia',     label: 'Wikipedia Top Reads', max: 6, fallback: 'https://en.wikipedia.org/wiki/Wikipedia:Top_25_Report' }
   ];
@@ -218,9 +198,5 @@ function renderExploreLinks(sources, counts) {
   });
 }
 
-window.addEventListener('resize', () => {
-  // keep mascot matched to cloud height on resize
-  syncTallHeights();
-});
-
+window.addEventListener('resize', syncTallHeights);
 loadTrends().catch(console.error);
