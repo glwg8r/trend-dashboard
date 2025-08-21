@@ -3,8 +3,9 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>CTA – Cognitive Trend Analysis</title>
+  <title>Cognitive Trend Analysis — GNN</title>
   <link rel="stylesheet" href="assets/styles.css" />
+  <!-- libs -->
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
   <script src="https://d3js.org/d3.v7.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/d3-cloud/build/d3.layout.cloud.min.js"></script>
@@ -12,20 +13,26 @@
 <body>
   <!-- HEADER -->
   <header class="cta-header">
-  <div class="brand">
-    <img src="assets/GNN-logo.png" alt="Gator News Network" class="logo xl" />
-    <div class="titles">
-      <h1>Cognitive Trend Analysis</h1>
-      <small>Last updated: <span id="lastUpdated">—</span></small>
+    <div class="brand">
+      <img src="assets/GNN-logo.png" alt="Gator News Network" class="logo xl" />
+      <div class="titles">
+        <h1>Cognitive Trend Analysis</h1>
+        <small>Last updated: <span id="lastUpdated">—</span></small>
+      </div>
     </div>
-  </div>
-  <!-- Scrolling Ticker -->
-  <section class="ticker" aria-label="Trending keywords ticker">
-    <div class="ticker-glow"></div>
-    <div class="ticker-track" id="tickerTrack" role="marquee" aria-live="polite"></div>
-  </section>
-</header>
 
+    <!-- Scrolling Ticker -->
+    <section class="ticker" aria-label="Trending keywords ticker">
+      <div class="ticker-glow"></div>
+      <div class="ticker-track" id="tickerTrack" role="marquee" aria-live="polite"></div>
+    </section>
+  </header>
+
+  <!-- Glowgator (top-right mascot) -->
+  <aside class="mascot">
+    <img src="assets/glow-gator.png" alt="Glowgator" class="mascot-img" />
+    <div class="mascot-caption">Glowgator, GNN mascot</div>
+  </aside>
 
   <!-- MAIN GRID -->
   <main class="grid">
@@ -46,16 +53,9 @@
 
     <section class="card span5">
       <h2>Explore Sources</h2>
-      <!-- LIVE LINKS PER CATEGORY -->
       <div id="exploreGrid" class="explore-grid"></div>
       <small class="muted">Jump out to read more across feeds.</small>
     </section>
-
-    <!-- GLOW GATOR: brand guide (right side) -->
-    <aside class="mascot-card span4">
-      <img src="assets/glow-gator.png" alt="Glow Gator" class="mascot-img" />
-      <div class="mascot-caption">Glow Gator — your CTA guide</div>
-    </aside>
   </main>
 
   <footer>
