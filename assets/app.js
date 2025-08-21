@@ -155,8 +155,7 @@ function renderExploreLinks(sources, counts) {
     { key: 'major_outlets', label: 'Major Outlets',      max: 6, fallback: 'https://news.google.com/topstories?hl=en-US&gl=US&ceid=US:en' },
     { key: 'reddit',        label: 'Reddit (r/news·worldnews·politics)', max: 6, fallback: 'https://www.reddit.com/r/news/' },
     { key: 'tech',          label: 'Tech (HN · Techmeme)', max: 6, fallback: 'https://news.ycombinator.com/' },
-    { key: 'wikipedia',     label: 'Wikipedia Top Reads', max: 6, fallback: 'https://en.wikipedia.org/wiki/Wikipedia:Top_25_Report' },
-    { key: 'youtube',       label: 'YouTube Trending',   max: 6, fallback: 'https://www.youtube.com/feed/trending' }
+    { key: 'wikipedia',     label: 'Wikipedia Top Reads', max: 6, fallback: 'https://en.wikipedia.org/wiki/Wikipedia:Top_25_Report' }
   ];
 
   categories.forEach(cat => {
