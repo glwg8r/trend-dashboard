@@ -1,8 +1,8 @@
-// GNN Trend Dashboard – front-end
-// - reads data/trends.json
+// CTA / GNN Dashboard front-end
+// - reads data/trends.json (built by GitHub Actions)
 // - renders Top Keywords, Word Cloud, Velocity
-// - shows an "Explore Sources" grid (always populated)
-// - runs a magenta scrolling ticker
+// - Explore grid shows live links from RSS categories
+// - magenta scrolling ticker
 
 async function loadTrends() {
   const res = await fetch('data/trends.json', { cache: 'no-store' });
@@ -19,7 +19,7 @@ async function loadTrends() {
     topList.innerHTML = '';
     top.forEach(([word, count]) => {
       const li = document.createElement('li');
-      li.innerHTML = `<span style="color:#b87333">${escapeHtml(word)}</span> — <span style="color:#a4ff4f">${count}</span>`;
+      li.innerHTML = `<span class="kw">${escapeHtml(word)}</span> — <span class="count">${count}</span>`;
       topList.appendChild(li);
     });
   }
@@ -34,8 +34,8 @@ async function loadTrends() {
   const velocity = (data.keyword_velocity || []).slice(0, 16);
   renderVelocity(velocity);
 
-  // ----- Explore Sources tiles -----
-  renderExplore(data.source_counts || {});
+  // ----- Explore (live links) -----
+  renderExploreLinks(data.sources || {}, data.source_counts || {});
 
   // ----- Ticker -----
   renderTicker(top);
@@ -44,27 +44,9 @@ async function loadTrends() {
 // -------- helpers --------
 function escapeHtml(str) {
   return String(str)
-    .replaceAll('&', '&amp;')
-    .replaceAll('<', '&lt;')
-    .replaceAll('>', '&gt;')
-    .replaceAll('"', '&quot;')
+    .replaceAll('&', '&amp;').replaceAll('<', '&lt;')
+    .replaceAll('>', '&gt;').replaceAll('"', '&quot;')
     .replaceAll("'", '&#039;');
-}
-
-function renderList(id, items) {
-  const el = document.getElementById(id);
-  if (!el) return;
-  el.innerHTML = '';
-  (items || []).forEach(item => {
-    const li = document.createElement('li');
-    const a = document.createElement('a');
-    a.href = item.url;
-    a.target = '_blank';
-    a.rel = 'noopener noreferrer';
-    a.textContent = item.title;
-    li.appendChild(a);
-    el.appendChild(li);
-  });
 }
 
 function renderWordCloud(words) {
@@ -73,15 +55,7 @@ function renderWordCloud(words) {
   el.innerHTML = '';
   const w = el.clientWidth, h = el.clientHeight || 360;
 
-  const palette = [
-    '#ff00a8', // magenta (brand)
-    '#a4ff4f', // lime
-    '#7f00ff', // ultraviolet
-    '#ff0050', // infrared
-    '#ff6b00', // solar orange
-    '#b87333', // copper
-    '#f2efe8'  // eggshell
-  ];
+  const palette = ['#ff00a8','#a4ff4f','#7f00ff','#ff0050','#ff6b00','#b87333','#f2efe8'];
 
   d3.layout.cloud()
     .size([w, h])
@@ -94,14 +68,9 @@ function renderWordCloud(words) {
     .start();
 
   function draw(words) {
-    const svg = d3.select(el).append('svg')
-      .attr('width', w).attr('height', h);
+    const svg = d3.select(el).append('svg').attr('width', w).attr('height', h);
     const g = svg.append('g').attr('transform', `translate(${w/2},${h/2})`);
-
-    g.selectAll('text')
-      .data(words)
-      .enter()
-      .append('text')
+    g.selectAll('text').data(words).enter().append('text')
       .style('font-family', 'Inter, system-ui, sans-serif')
       .style('fill', () => palette[Math.floor(Math.random() * palette.length)])
       .style('opacity', 0.95)
@@ -119,10 +88,7 @@ function renderVelocity(velocity) {
   const labels = velocity.map(v => v.keyword);
   const values = velocity.map(v => v.delta);
 
-  // destroy old chart if re-rendering
-  if (canvas._chart) {
-    canvas._chart.destroy();
-  }
+  if (canvas._chart) canvas._chart.destroy();
 
   canvas._chart = new Chart(ctx, {
     type: 'bar',
@@ -164,7 +130,6 @@ function renderTicker(topKeywords) {
       span.className = 'ticker-item';
       span.innerHTML = `${escapeHtml(word)}<span class="badge">${count}</span>`;
       frag.appendChild(span);
-
       const sep = document.createElement('span');
       sep.className = 'ticker-sep';
       sep.textContent = '•';
@@ -178,41 +143,55 @@ function renderTicker(topKeywords) {
   track.appendChild(makeRow());
 }
 
-// ----- Explore Sources (always visible) -----
-function renderExplore(counts) {
+// ----- Explore: live links per category -----
+function renderExploreLinks(sources, counts) {
   const grid = document.getElementById('exploreGrid');
   if (!grid) return;
   grid.innerHTML = '';
 
-  const tiles = [
-    { key: 'google_trends', label: 'Google Trends (US)', url: 'https://trends.google.com/trends/trendingsearches/daily?geo=US' },
-    { key: 'google_news',   label: 'Google News – Top', url: 'https://news.google.com/topstories?hl=en-US&gl=US&ceid=US:en' },
-    { key: 'reddit',        label: 'Reddit r/news',      url: 'https://www.reddit.com/r/news/' },
-    { key: 'reddit',        label: 'Reddit r/worldnews', url: 'https://www.reddit.com/r/worldnews/' },
-    { key: 'reddit',        label: 'Reddit r/politics',  url: 'https://www.reddit.com/r/politics/' },
-    { key: 'tech',          label: 'Hacker News',        url: 'https://news.ycombinator.com/' },
-    { key: 'tech',          label: 'Techmeme',           url: 'https://www.techmeme.com/' },
-    { key: 'major_outlets', label: 'BBC World',          url: 'https://www.bbc.co.uk/news/world' },
-    { key: 'major_outlets', label: 'Reuters World',      url: 'https://www.reuters.com/world/' },
-    { key: 'major_outlets', label: 'NPR Top',            url: 'https://www.npr.org/sections/news/' },
-    { key: 'major_outlets', label: 'The Guardian World', url: 'https://www.theguardian.com/world' },
-    { key: 'major_outlets', label: 'AP Top News',        url: 'https://apnews.com/hub/ap-top-news' },
-    { key: 'wikipedia',     label: 'Wikipedia Top Reads', url: 'https://en.wikipedia.org/wiki/Wikipedia:Top_25_Report' }
+  // Which categories to show and how many links each
+  const categories = [
+    { key: 'google_trends', label: 'Google Trends (US)', max: 6, fallback: 'https://trends.google.com/trends/trendingsearches/daily?geo=US' },
+    { key: 'major_outlets', label: 'Major Outlets',      max: 6, fallback: 'https://news.google.com/topstories?hl=en-US&gl=US&ceid=US:en' },
+    { key: 'reddit',        label: 'Reddit (r/news·worldnews·politics)', max: 6, fallback: 'https://www.reddit.com/r/news/' },
+    { key: 'tech',          label: 'Tech (HN · Techmeme)', max: 6, fallback: 'https://news.ycombinator.com/' },
+    { key: 'wikipedia',     label: 'Wikipedia Top Reads', max: 6, fallback: 'https://en.wikipedia.org/wiki/Wikipedia:Top_25_Report' },
+    { key: 'youtube',       label: 'YouTube Trending',   max: 6, fallback: 'https://www.youtube.com/feed/trending' }
   ];
 
-  tiles.forEach(t => {
-    const a = document.createElement('a');
-    a.href = t.url;
-    a.target = '_blank';
-    a.rel = 'noopener noreferrer';
-    a.className = 'explore-tile';
+  categories.forEach(cat => {
+    const list = Array.isArray(sources[cat.key]) ? sources[cat.key].slice(0, cat.max) : [];
+    const tile = document.createElement('div');
+    tile.className = 'explore-tile';
 
-    const count = counts[t.key];
-    a.innerHTML = `
-      <div class="explore-title">${t.label}</div>
-      ${typeof count === 'number' ? `<div class="explore-count">${count} items</div>` : ''}
+    // Header row with label + count
+    const count = typeof counts[cat.key] === 'number' ? counts[cat.key] : (list.length || 0);
+    tile.innerHTML = `
+      <div class="explore-title">${cat.label}</div>
+      <div class="explore-count">${count} items</div>
+      <ul class="explore-list"></ul>
+      <a class="explore-more" href="${cat.fallback}" target="_blank" rel="noopener noreferrer">Open source</a>
     `;
-    grid.appendChild(a);
+
+    const ul = tile.querySelector('.explore-list');
+    if (list.length) {
+      list.forEach(item => {
+        const li = document.createElement('li');
+        const a = document.createElement('a');
+        a.href = item.url;
+        a.target = '_blank';
+        a.rel = 'noopener noreferrer';
+        a.textContent = item.title;
+        li.appendChild(a);
+        ul.appendChild(li);
+      });
+    } else {
+      const li = document.createElement('li');
+      li.innerHTML = `<span class="muted">No recent items</span>`;
+      ul.appendChild(li);
+    }
+
+    grid.appendChild(tile);
   });
 }
 
