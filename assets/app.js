@@ -88,7 +88,7 @@ function renderVelocity(velocity) {
   const labels = velocity.map(v => v.keyword);
   const values = velocity.map(v => v.delta);
 
-  if (canvas._chart) canvas._chart.destroy();
+  if (canvas._chart) canvas.__chart.destroy?.();
 
   canvas._chart = new Chart(ctx, {
     type: 'bar',
