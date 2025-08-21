@@ -1,13 +1,17 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Cognitive Trend Analysis</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cognitive Trend Analysis — GNN</title>
   <link rel="stylesheet" href="assets/styles.css" />
+  <!-- libs -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/d3-cloud/build/d3.layout.cloud.min.js"></script>
 </head>
 <body>
-  <!-- Header -->
+  <!-- HEADER -->
   <header class="cta-header">
     <div class="brand">
       <img src="assets/GNN-logo.png" alt="Gator News Network" class="logo xl" />
@@ -16,6 +20,7 @@
         <small>Last updated: <span id="lastUpdated">—</span></small>
       </div>
     </div>
+
     <!-- Scrolling Ticker -->
     <section class="ticker" aria-label="Trending keywords ticker">
       <div class="ticker-glow"></div>
@@ -23,39 +28,41 @@
     </section>
   </header>
 
-  <!-- Main Content Row: Keywords | Word Cloud | Glowgator -->
+  <!-- Row 1: Top Keywords | Word Cloud | Glowgator -->
   <main class="dashboard">
-    <section class="card span4" id="keywords">
+    <section class="card" id="keywordsCard">
       <h2>Top Keywords (24h)</h2>
-      <ul id="keywordList"></ul>
+      <ol id="topKeywords" class="list"></ol>
     </section>
 
-    <section class="card span4" id="wordcloud">
+    <section class="card tall" id="cloudCard">
       <h2>Word Cloud</h2>
-      <div id="wordCloud"></div>
+      <div id="wordCloud" class="wordcloud"></div>
     </section>
 
-    <aside class="card mascot-card">
+    <aside class="card tall mascot-card" id="mascotCard">
       <img src="assets/glow-gator.png" alt="Glowgator" class="mascot-img" />
     </aside>
   </main>
 
-  <!-- Velocity + Sources row -->
+  <!-- Row 2: Velocity | Explore Sources -->
   <section class="grid">
-    <section class="card span6" id="velocity">
+    <section class="card span6">
       <h2>Velocity (since last run)</h2>
       <canvas id="velocityChart"></canvas>
     </section>
 
-    <section class="card span6" id="sources">
+    <section class="card span6">
       <h2>Explore Sources</h2>
-      <div id="sourceLinks"></div>
+      <div id="exploreGrid" class="explore-grid"></div>
+      <small class="muted">Jump out to read more across feeds.</small>
     </section>
   </section>
 
-  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/d3-cloud/build/d3.layout.cloud.js"></script>
-  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <footer>
+    <small>© Gator News Network — CTA dashboard</small>
+  </footer>
+
   <script src="assets/app.js"></script>
 </body>
 </html>
