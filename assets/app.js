@@ -1,37 +1,61 @@
+// GNN Trend Dashboard – front-end
+// - reads data/trends.json
+// - renders Top Keywords, Word Cloud, Velocity
+// - shows an "Explore Sources" grid (always populated)
+// - runs a magenta scrolling ticker
+
 async function loadTrends() {
   const res = await fetch('data/trends.json', { cache: 'no-store' });
   const data = await res.json();
 
-  document.getElementById('lastUpdated').textContent =
-    new Date(data.generated_at).toLocaleString();
+  // Last updated
+  const ts = document.getElementById('lastUpdated');
+  if (ts) ts.textContent = new Date(data.generated_at).toLocaleString();
 
+  // ----- Top keywords -----
   const top = (data.keyword_frequencies || []).slice(0, 20);
-
-  // Top Keywords
   const topList = document.getElementById('topKeywords');
-  topList.innerHTML = '';
-  top.forEach(([word, count]) => {
-    const li = document.createElement('li');
-    li.innerHTML = `<span style="color:#b87333">${word}</span> — <span style="color:#a4ff4f">${count}</span>`;
-    topList.appendChild(li);
-  });
+  if (topList) {
+    topList.innerHTML = '';
+    top.forEach(([word, count]) => {
+      const li = document.createElement('li');
+      li.innerHTML = `<span style="color:#b87333">${escapeHtml(word)}</span> — <span style="color:#a4ff4f">${count}</span>`;
+      topList.appendChild(li);
+    });
+  }
 
-  renderWordCloud(top.map(([text, size]) => ({ text, size: 10 + Math.sqrt(size) * 12 })));
-  renderVelocity((data.keyword_velocity || []).slice(0, 16));
+  // ----- Word cloud -----
+  renderWordCloud(top.map(([text, size]) => ({
+    text,
+    size: 10 + Math.sqrt(size) * 12
+  })));
 
-  renderList('googleTrends', (data.sources?.google_trends || []).slice(0, 10));
-  renderList('wikiTrends', (data.sources?.wikipedia || []).slice(0, 10));
-  renderList('redditTrends', (data.sources?.reddit || []).slice(0, 12));
-  renderList('ytTrends', (data.sources?.youtube || []).slice(0, 10));
+  // ----- Velocity -----
+  const velocity = (data.keyword_velocity || []).slice(0, 16);
+  renderVelocity(velocity);
 
-  // Build the ticker
+  // ----- Explore Sources tiles -----
+  renderExplore(data.source_counts || {});
+
+  // ----- Ticker -----
   renderTicker(top);
+}
+
+// -------- helpers --------
+function escapeHtml(str) {
+  return String(str)
+    .replaceAll('&', '&amp;')
+    .replaceAll('<', '&lt;')
+    .replaceAll('>', '&gt;')
+    .replaceAll('"', '&quot;')
+    .replaceAll("'", '&#039;');
 }
 
 function renderList(id, items) {
   const el = document.getElementById(id);
+  if (!el) return;
   el.innerHTML = '';
-  items.forEach(item => {
+  (items || []).forEach(item => {
     const li = document.createElement('li');
     const a = document.createElement('a');
     a.href = item.url;
@@ -45,11 +69,12 @@ function renderList(id, items) {
 
 function renderWordCloud(words) {
   const el = document.getElementById('wordCloud');
+  if (!el) return;
   el.innerHTML = '';
-  const w = el.clientWidth, h = el.clientHeight;
+  const w = el.clientWidth, h = el.clientHeight || 360;
 
   const palette = [
-    '#ff00a8', // magenta
+    '#ff00a8', // magenta (brand)
     '#a4ff4f', // lime
     '#7f00ff', // ultraviolet
     '#ff0050', // infrared
@@ -88,11 +113,18 @@ function renderWordCloud(words) {
 }
 
 function renderVelocity(velocity) {
-  const ctx = document.getElementById('velocityChart').getContext('2d');
+  const canvas = document.getElementById('velocityChart');
+  if (!canvas) return;
+  const ctx = canvas.getContext('2d');
   const labels = velocity.map(v => v.keyword);
   const values = velocity.map(v => v.delta);
 
-  new Chart(ctx, {
+  // destroy old chart if re-rendering
+  if (canvas._chart) {
+    canvas._chart.destroy();
+  }
+
+  canvas._chart = new Chart(ctx, {
     type: 'bar',
     data: {
       labels,
@@ -119,6 +151,7 @@ function renderVelocity(velocity) {
   });
 }
 
+// ----- Ticker -----
 function renderTicker(topKeywords) {
   const track = document.getElementById('tickerTrack');
   if (!track) return;
@@ -129,7 +162,7 @@ function renderTicker(topKeywords) {
     items.forEach(([word, count]) => {
       const span = document.createElement('span');
       span.className = 'ticker-item';
-      span.innerHTML = `${word}<span class="badge">${count}</span>`;
+      span.innerHTML = `${escapeHtml(word)}<span class="badge">${count}</span>`;
       frag.appendChild(span);
 
       const sep = document.createElement('span');
@@ -143,6 +176,44 @@ function renderTicker(topKeywords) {
   track.innerHTML = '';
   track.appendChild(makeRow());
   track.appendChild(makeRow());
+}
+
+// ----- Explore Sources (always visible) -----
+function renderExplore(counts) {
+  const grid = document.getElementById('exploreGrid');
+  if (!grid) return;
+  grid.innerHTML = '';
+
+  const tiles = [
+    { key: 'google_trends', label: 'Google Trends (US)', url: 'https://trends.google.com/trends/trendingsearches/daily?geo=US' },
+    { key: 'google_news',   label: 'Google News – Top', url: 'https://news.google.com/topstories?hl=en-US&gl=US&ceid=US:en' },
+    { key: 'reddit',        label: 'Reddit r/news',      url: 'https://www.reddit.com/r/news/' },
+    { key: 'reddit',        label: 'Reddit r/worldnews', url: 'https://www.reddit.com/r/worldnews/' },
+    { key: 'reddit',        label: 'Reddit r/politics',  url: 'https://www.reddit.com/r/politics/' },
+    { key: 'tech',          label: 'Hacker News',        url: 'https://news.ycombinator.com/' },
+    { key: 'tech',          label: 'Techmeme',           url: 'https://www.techmeme.com/' },
+    { key: 'major_outlets', label: 'BBC World',          url: 'https://www.bbc.co.uk/news/world' },
+    { key: 'major_outlets', label: 'Reuters World',      url: 'https://www.reuters.com/world/' },
+    { key: 'major_outlets', label: 'NPR Top',            url: 'https://www.npr.org/sections/news/' },
+    { key: 'major_outlets', label: 'The Guardian World', url: 'https://www.theguardian.com/world' },
+    { key: 'major_outlets', label: 'AP Top News',        url: 'https://apnews.com/hub/ap-top-news' },
+    { key: 'wikipedia',     label: 'Wikipedia Top Reads', url: 'https://en.wikipedia.org/wiki/Wikipedia:Top_25_Report' }
+  ];
+
+  tiles.forEach(t => {
+    const a = document.createElement('a');
+    a.href = t.url;
+    a.target = '_blank';
+    a.rel = 'noopener noreferrer';
+    a.className = 'explore-tile';
+
+    const count = counts[t.key];
+    a.innerHTML = `
+      <div class="explore-title">${t.label}</div>
+      ${typeof count === 'number' ? `<div class="explore-count">${count} items</div>` : ''}
+    `;
+    grid.appendChild(a);
+  });
 }
 
 loadTrends().catch(console.error);
