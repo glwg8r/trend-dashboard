@@ -1,12 +1,17 @@
 // CTA / GNN Dashboard front-end
+// - renders Top Keywords, Word Cloud, Velocity
+// - Explore grid shows live links from RSS categories
+// - Ticker styled + pauses on hover
 
 async function loadTrends() {
   const res = await fetch('data/trends.json', { cache: 'no-store' });
   const data = await res.json();
 
+  // Last updated
   const ts = document.getElementById('lastUpdated');
   if (ts) ts.textContent = new Date(data.generated_at).toLocaleString();
 
+  // ----- Top keywords -----
   const top = (data.keyword_frequencies || []).slice(0, 20);
   const topList = document.getElementById('topKeywords');
   if (topList) {
@@ -18,17 +23,26 @@ async function loadTrends() {
     });
   }
 
-  syncTallHeights();
-  renderWordCloud(top.map(([text, size]) => ({ text, size: 10 + Math.sqrt(size) * 12 })));
+  // ----- Word cloud -----
+  syncTallHeights(); // size mascot vs cloud
+  renderWordCloud(top.map(([text, size]) => ({
+    text,
+    size: 10 + Math.sqrt(size) * 12
+  })));
 
+  // ----- Velocity -----
   const velocity = (data.keyword_velocity || []).slice(0, 16);
   renderVelocity(velocity);
 
+  // ----- Explore (live links) -----
   renderExploreLinks(data.sources || {}, data.source_counts || {});
+
+  // ----- Ticker -----
   renderTicker(top);
 }
 
 function syncTallHeights() {
+  // Make mascot card height match word cloud card
   const cloud = document.getElementById('cloudCard');
   const mascot = document.getElementById('mascotCard');
   if (!cloud || !mascot) return;
@@ -36,11 +50,12 @@ function syncTallHeights() {
   mascot.style.height = `${h}px`;
   const img = mascot.querySelector('.mascot-img');
   if (img) {
-    img.style.height = `calc(${h}px - 48px)`;
+    img.style.height = `calc(${h}px - 48px)`;  // allow for padding
     img.style.objectFit = 'contain';
   }
 }
 
+// -------- helpers --------
 function escapeHtml(str) {
   return String(str)
     .replaceAll('&', '&amp;').replaceAll('<', '&lt;')
@@ -80,14 +95,12 @@ function renderWordCloud(words) {
   }
 }
 
-// —— FIX: no animation, no responsive resize loops
 function renderVelocity(velocity) {
   const canvas = document.getElementById('velocityChart');
   if (!canvas) return;
   const ctx = canvas.getContext('2d');
 
-  // Set explicit size; prevent resize observer churn
-  canvas.width = canvas.clientWidth;
+  // Scaled down
   canvas.height = 220;
 
   const labels = velocity.map(v => v.keyword);
@@ -108,8 +121,9 @@ function renderVelocity(velocity) {
       }]
     },
     options: {
-      responsive: false,           // <— stop auto-resize loop
-      animation: false,            // <— no repeat animations
+      responsive: true,
+      maintainAspectRatio: false,
+      animation: { duration: 350 },
       scales: {
         x: { ticks: { color: '#f2efe8' }, grid: { color: '#202433' } },
         y: { beginAtZero: true, ticks: { color: '#f2efe8' }, grid: { color: '#202433' } }
@@ -122,35 +136,36 @@ function renderVelocity(velocity) {
   });
 }
 
-// —— Ticker (magenta words; half speed; pause on hover via CSS)
+// ----- Ticker (magenta words + pause on hover) -----
 function renderTicker(topKeywords) {
   const track = document.getElementById('tickerTrack');
   if (!track) return;
   const items = (topKeywords || []).slice(0, 24);
 
-  const frag = document.createDocumentFragment();
-  const build = () => {
-    const f = document.createDocumentFragment();
+  const makeRow = () => {
+    const frag = document.createDocumentFragment();
     items.forEach(([word, count], i) => {
       const span = document.createElement('span');
       span.className = 'ticker-item';
-      span.innerHTML = `<span class="ticker-word">${escapeHtml(word)}</span><span class="badge">${count}</span>`;
-      f.appendChild(span);
+      span.innerHTML =
+        `<span class="ticker-word">${escapeHtml(word)}</span><span class="badge">${count}</span>`;
+      frag.appendChild(span);
       if (i !== items.length - 1) {
         const sep = document.createElement('span');
         sep.className = 'ticker-sep';
         sep.textContent = '•';
-        f.appendChild(sep);
+        frag.appendChild(sep);
       }
     });
-    return f;
+    return frag;
   };
+
   track.innerHTML = '';
-  track.appendChild(build());
-  track.appendChild(build());
+  track.appendChild(makeRow());
+  track.appendChild(makeRow());
 }
 
-// —— Explore: live links (Google Trends removed)
+// ----- Explore: live links per category (no Google Trends) -----
 function renderExploreLinks(sources, counts) {
   const grid = document.getElementById('exploreGrid');
   if (!grid) return;
