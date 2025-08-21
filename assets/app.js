@@ -1,7 +1,4 @@
 // CTA / GNN Dashboard front-end
-// - renders Top Keywords, Word Cloud, Velocity
-// - Explore grid shows live links from RSS categories
-// - Ticker styled + pauses on hover
 
 async function loadTrends() {
   const res = await fetch('data/trends.json', { cache: 'no-store' });
@@ -24,17 +21,14 @@ async function loadTrends() {
   }
 
   // ----- Word cloud -----
-  syncTallHeights(); // size mascot vs cloud
-  renderWordCloud(top.map(([text, size]) => ({
-    text,
-    size: 10 + Math.sqrt(size) * 12
-  })));
+  syncTallHeights();
+  renderWordCloud(top.map(([text, size]) => ({ text, size: 10 + Math.sqrt(size) * 12 })));
 
-  // ----- Velocity -----
-  const velocity = (data.keyword_velocity || []).slice(0, 16);
+  // ----- Velocity (stable, capped, no animation) -----
+  const velocity = (data.keyword_velocity || []).slice(0, 10); // cap to 10 bars
   renderVelocity(velocity);
 
-  // ----- Explore (live links) -----
+  // ----- Explore (live links; no Google Trends; add Finance) -----
   renderExploreLinks(data.sources || {}, data.source_counts || {});
 
   // ----- Ticker -----
@@ -42,7 +36,6 @@ async function loadTrends() {
 }
 
 function syncTallHeights() {
-  // Make mascot card height match word cloud card
   const cloud = document.getElementById('cloudCard');
   const mascot = document.getElementById('mascotCard');
   if (!cloud || !mascot) return;
@@ -50,12 +43,11 @@ function syncTallHeights() {
   mascot.style.height = `${h}px`;
   const img = mascot.querySelector('.mascot-img');
   if (img) {
-    img.style.height = `calc(${h}px - 48px)`;  // allow for padding
+    img.style.height = `calc(${h}px - 48px)`;
     img.style.objectFit = 'contain';
   }
 }
 
-// -------- helpers --------
 function escapeHtml(str) {
   return String(str)
     .replaceAll('&', '&amp;').replaceAll('<', '&lt;')
@@ -95,18 +87,20 @@ function renderWordCloud(words) {
   }
 }
 
+// ——— Velocity: FIXED LENGTH, NO ANIMATION, NO RESIZE-LOOP ———
 function renderVelocity(velocity) {
   const canvas = document.getElementById('velocityChart');
   if (!canvas) return;
-  const ctx = canvas.getContext('2d');
 
-  // Scaled down
+  // Hard-set size and kill any previous chart
+  canvas.width = canvas.clientWidth;
   canvas.height = 220;
+
+  const ctx = canvas.getContext('2d');
+  if (canvas._chart) { canvas._chart.destroy(); canvas._chart = null; }
 
   const labels = velocity.map(v => v.keyword);
   const values = velocity.map(v => v.delta);
-
-  if (canvas._chart) canvas._chart.destroy();
 
   canvas._chart = new Chart(ctx, {
     type: 'bar',
@@ -121,9 +115,10 @@ function renderVelocity(velocity) {
       }]
     },
     options: {
-      responsive: true,
-      maintainAspectRatio: false,
-      animation: { duration: 350 },
+      responsive: false,       // stop ResizeObserver churn
+      animation: false,        // no bar animation
+      parsing: false,          // tiny perf win
+      normalized: true,
       scales: {
         x: { ticks: { color: '#f2efe8' }, grid: { color: '#202433' } },
         y: { beginAtZero: true, ticks: { color: '#f2efe8' }, grid: { color: '#202433' } }
@@ -136,47 +131,60 @@ function renderVelocity(velocity) {
   });
 }
 
-// ----- Ticker (magenta words + pause on hover) -----
+// ——— Ticker (half speed; pauses on hover) ———
 function renderTicker(topKeywords) {
   const track = document.getElementById('tickerTrack');
   if (!track) return;
   const items = (topKeywords || []).slice(0, 24);
 
-  const makeRow = () => {
-    const frag = document.createDocumentFragment();
+  const build = () => {
+    const f = document.createDocumentFragment();
     items.forEach(([word, count], i) => {
       const span = document.createElement('span');
       span.className = 'ticker-item';
-      span.innerHTML =
-        `<span class="ticker-word">${escapeHtml(word)}</span><span class="badge">${count}</span>`;
-      frag.appendChild(span);
+      span.innerHTML = `<span class="ticker-word">${escapeHtml(word)}</span><span class="badge">${count}</span>`;
+      f.appendChild(span);
       if (i !== items.length - 1) {
         const sep = document.createElement('span');
         sep.className = 'ticker-sep';
         sep.textContent = '•';
-        frag.appendChild(sep);
+        f.appendChild(sep);
       }
     });
-    return frag;
+    return f;
   };
 
   track.innerHTML = '';
-  track.appendChild(makeRow());
-  track.appendChild(makeRow());
+  track.appendChild(build());
+  track.appendChild(build());
 }
 
-// ----- Explore: live links per category (no Google Trends) -----
+// ——— Explore: Major Outlets, Reddit, Wikipedia, Tech, Finance ———
 function renderExploreLinks(sources, counts) {
   const grid = document.getElementById('exploreGrid');
   if (!grid) return;
   grid.innerHTML = '';
 
   const categories = [
-    { key: 'major_outlets', label: 'Major Outlets',      max: 6, fallback: 'https://news.google.com/topstories?hl=en-US&gl=US&ceid=US:en' },
-    { key: 'reddit',        label: 'Reddit (r/news · worldnews · politics)', max: 6, fallback: 'https://www.reddit.com/r/news/' },
-    { key: 'tech',          label: 'Tech (HN · Techmeme)', max: 6, fallback: 'https://news.ycombinator.com/' },
-    { key: 'wikipedia',     label: 'Wikipedia Top Reads', max: 6, fallback: 'https://en.wikipedia.org/wiki/Wikipedia:Top_25_Report' }
+    { key: 'major_outlets', label: 'Major Outlets', max: 8, fallback: 'https://news.google.com/topstories?hl=en-US&gl=US&ceid=US:en' },
+    { key: 'reddit',        label: 'Reddit (r/news · worldnews · politics)', max: 8, fallback: 'https://www.reddit.com/r/news/' },
+    { key: 'wikipedia',     label: 'Wikipedia Top Reads', max: 8, fallback: 'https://en.wikipedia.org/wiki/Wikipedia:Top_25_Report' },
+    { key: 'tech',          label: 'Tech (HN · Techmeme)', max: 8, fallback: 'https://news.ycombinator.com/' },
+    // Finance (uses sources.finance if present; otherwise static fallbacks)
+    { key: 'finance',       label: 'Finance & Markets', max: 8, fallback: 'https://finance.yahoo.com/trending-tickers' }
   ];
+
+  // if finance missing, seed with useful links
+  if (!Array.isArray(sources.finance)) {
+    sources.finance = [
+      { title: 'Yahoo Finance – Trending Tickers', url: 'https://finance.yahoo.com/trending-tickers' },
+      { title: 'CNBC Markets',                     url: 'https://www.cnbc.com/markets/' },
+      { title: 'Bloomberg Markets',                url: 'https://www.bloomberg.com/markets' },
+      { title: 'WSJ Markets',                      url: 'https://www.wsj.com/news/markets' },
+      { title: 'Reuters Markets',                  url: 'https://www.reuters.com/markets/' }
+    ];
+    counts.finance = sources.finance.length;
+  }
 
   categories.forEach(cat => {
     const list = Array.isArray(sources[cat.key]) ? sources[cat.key].slice(0, cat.max) : [];
