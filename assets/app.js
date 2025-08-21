@@ -4,11 +4,9 @@ async function loadTrends() {
   const res = await fetch('data/trends.json', { cache: 'no-store' });
   const data = await res.json();
 
-  // Last updated
   const ts = document.getElementById('lastUpdated');
   if (ts) ts.textContent = new Date(data.generated_at).toLocaleString();
 
-  // ----- Top keywords -----
   const top = (data.keyword_frequencies || []).slice(0, 20);
   const topList = document.getElementById('topKeywords');
   if (topList) {
@@ -20,18 +18,13 @@ async function loadTrends() {
     });
   }
 
-  // ----- Word cloud -----
   syncTallHeights();
   renderWordCloud(top.map(([text, size]) => ({ text, size: 10 + Math.sqrt(size) * 12 })));
 
-  // ----- Velocity (stable, capped, no animation) -----
-  const velocity = (data.keyword_velocity || []).slice(0, 10); // cap to 10 bars
+  const velocity = (data.keyword_velocity || []).slice(0, 16);
   renderVelocity(velocity);
 
-  // ----- Explore (live links; no Google Trends; add Finance) -----
   renderExploreLinks(data.sources || {}, data.source_counts || {});
-
-  // ----- Ticker -----
   renderTicker(top);
 }
 
@@ -87,20 +80,20 @@ function renderWordCloud(words) {
   }
 }
 
-// ——— Velocity: FIXED LENGTH, NO ANIMATION, NO RESIZE-LOOP ———
+// —— FIX: no animation, no responsive resize loops
 function renderVelocity(velocity) {
   const canvas = document.getElementById('velocityChart');
   if (!canvas) return;
+  const ctx = canvas.getContext('2d');
 
-  // Hard-set size and kill any previous chart
+  // Set explicit size; prevent resize observer churn
   canvas.width = canvas.clientWidth;
   canvas.height = 220;
 
-  const ctx = canvas.getContext('2d');
-  if (canvas._chart) { canvas._chart.destroy(); canvas._chart = null; }
-
   const labels = velocity.map(v => v.keyword);
   const values = velocity.map(v => v.delta);
+
+  if (canvas._chart) canvas._chart.destroy();
 
   canvas._chart = new Chart(ctx, {
     type: 'bar',
@@ -115,10 +108,8 @@ function renderVelocity(velocity) {
       }]
     },
     options: {
-      responsive: false,       // stop ResizeObserver churn
-      animation: false,        // no bar animation
-      parsing: false,          // tiny perf win
-      normalized: true,
+      responsive: false,           // <— stop auto-resize loop
+      animation: false,            // <— no repeat animations
       scales: {
         x: { ticks: { color: '#f2efe8' }, grid: { color: '#202433' } },
         y: { beginAtZero: true, ticks: { color: '#f2efe8' }, grid: { color: '#202433' } }
@@ -131,12 +122,13 @@ function renderVelocity(velocity) {
   });
 }
 
-// ——— Ticker (half speed; pauses on hover) ———
+// —— Ticker (magenta words; half speed; pause on hover via CSS)
 function renderTicker(topKeywords) {
   const track = document.getElementById('tickerTrack');
   if (!track) return;
   const items = (topKeywords || []).slice(0, 24);
 
+  const frag = document.createDocumentFragment();
   const build = () => {
     const f = document.createDocumentFragment();
     items.forEach(([word, count], i) => {
@@ -153,38 +145,23 @@ function renderTicker(topKeywords) {
     });
     return f;
   };
-
   track.innerHTML = '';
   track.appendChild(build());
   track.appendChild(build());
 }
 
-// ——— Explore: Major Outlets, Reddit, Wikipedia, Tech, Finance ———
+// —— Explore: live links (Google Trends removed)
 function renderExploreLinks(sources, counts) {
   const grid = document.getElementById('exploreGrid');
   if (!grid) return;
   grid.innerHTML = '';
 
   const categories = [
-    { key: 'major_outlets', label: 'Major Outlets', max: 8, fallback: 'https://news.google.com/topstories?hl=en-US&gl=US&ceid=US:en' },
-    { key: 'reddit',        label: 'Reddit (r/news · worldnews · politics)', max: 8, fallback: 'https://www.reddit.com/r/news/' },
-    { key: 'wikipedia',     label: 'Wikipedia Top Reads', max: 8, fallback: 'https://en.wikipedia.org/wiki/Wikipedia:Top_25_Report' },
-    { key: 'tech',          label: 'Tech (HN · Techmeme)', max: 8, fallback: 'https://news.ycombinator.com/' },
-    // Finance (uses sources.finance if present; otherwise static fallbacks)
-    { key: 'finance',       label: 'Finance & Markets', max: 8, fallback: 'https://finance.yahoo.com/trending-tickers' }
+    { key: 'major_outlets', label: 'Major Outlets',      max: 6, fallback: 'https://news.google.com/topstories?hl=en-US&gl=US&ceid=US:en' },
+    { key: 'reddit',        label: 'Reddit (r/news · worldnews · politics)', max: 6, fallback: 'https://www.reddit.com/r/news/' },
+    { key: 'tech',          label: 'Tech (HN · Techmeme)', max: 6, fallback: 'https://news.ycombinator.com/' },
+    { key: 'wikipedia',     label: 'Wikipedia Top Reads', max: 6, fallback: 'https://en.wikipedia.org/wiki/Wikipedia:Top_25_Report' }
   ];
-
-  // if finance missing, seed with useful links
-  if (!Array.isArray(sources.finance)) {
-    sources.finance = [
-      { title: 'Yahoo Finance – Trending Tickers', url: 'https://finance.yahoo.com/trending-tickers' },
-      { title: 'CNBC Markets',                     url: 'https://www.cnbc.com/markets/' },
-      { title: 'Bloomberg Markets',                url: 'https://www.bloomberg.com/markets' },
-      { title: 'WSJ Markets',                      url: 'https://www.wsj.com/news/markets' },
-      { title: 'Reuters Markets',                  url: 'https://www.reuters.com/markets/' }
-    ];
-    counts.finance = sources.finance.length;
-  }
 
   categories.forEach(cat => {
     const list = Array.isArray(sources[cat.key]) ? sources[cat.key].slice(0, cat.max) : [];
