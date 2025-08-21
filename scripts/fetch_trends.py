@@ -3,7 +3,7 @@ from urllib.parse import quote
 import requests
 import feedparser
 
-# ----- logging -----
+# ---------- logging ----------
 def log(*args):
     print("[trends]", *args); sys.stdout.flush()
 
@@ -13,9 +13,10 @@ YT_API_KEY = os.getenv("YT_API_KEY")  # optional
 STOPWORDS = set("""
 a an the and or of to in for on with by from at as is are was were be been being this that these those
 i you he she it we they them us our your their not but if then than so such about into over under out up down
-how what when where which who whom why will would can could should may might just more most many much rt amp
+how what when where which who whom why will would can could should may might just more most many much rt amp via
 """.split())
 
+# ---------- tokenization ----------
 def tokenize(text: str):
     text = text.lower()
     text = re.sub(r"http\S+|www\.\S+", "", text)
@@ -26,25 +27,9 @@ def tokenize(text: str):
 def bigrams(tokens):
     return [" ".join(pair) for pair in zip(tokens, tokens[1:])]
 
-# ----- SOURCES -----
-def fetch_google_trends_rss(geo="US"):
-    """Google Trends daily via RSS (no keys; reliable)."""
-    url = f"https://trends.google.com/trends/trendingsearches/daily/rss?geo={geo}"
-    items = []
-    try:
-        feed = feedparser.parse(url)
-        for e in feed.entries[:50]:
-            title = (e.get("title") or "").strip()
-            if not title: continue
-            link = f"https://trends.google.com/trends/explore?q={quote(title)}"
-            items.append({"title": title, "url": link})
-        log("GoogleTrends (RSS):", len(items), "items")
-    except Exception as e:
-        log("GoogleTrends (RSS) error:", repr(e))
-    return items
-
+# ---------- source fetchers ----------
 def fetch_wikipedia_top():
-    """Try yesterday; if empty, go back up to 3 days."""
+    """Top enwiki most-read (yesterday fallback back to 3d)."""
     for delta in range(1, 4):
         try:
             dt = datetime.datetime.utcnow() - datetime.timedelta(days=delta)
@@ -67,33 +52,64 @@ def fetch_wikipedia_top():
             log("Wikipedia error:", repr(e)); time.sleep(1)
     return []
 
-def fetch_reddit_rss(subs=("news","worldnews","politics")):
-    """Reddit via RSS to avoid 429s."""
+def fetch_rss(url, per_feed_limit=30):
     items = []
-    for sub in subs:
-        url = f"https://www.reddit.com/r/{sub}/hot/.rss"
-        try:
-            feed = feedparser.parse(url)
-            for e in feed.entries[:50]:
-                title = (e.get("title") or "").strip()
-                link = e.get("link") or ""
-                if title and link:
-                    items.append({"title": title, "url": link})
-        except Exception as e:
-            log(f"Reddit RSS /r/{sub} error:", repr(e))
-            continue
-    log("Reddit (RSS):", len(items), "items")
+    try:
+        feed = feedparser.parse(url)
+        for e in feed.entries[:per_feed_limit]:
+            title = (e.get("title") or "").strip()
+            link = e.get("link") or ""
+            if title and link:
+                items.append({"title": title, "url": link})
+    except Exception as e:
+        log("RSS error:", url, "->", repr(e))
     return items
 
+def dedupe_by_title(items):
+    seen, out = set(), []
+    for it in items:
+        key = it["title"].lower()
+        if key in seen: 
+            continue
+        seen.add(key)
+        out.append(it)
+    return out
+
+# ---------- feed sets (US; tweak to taste) ----------
+FEEDS = {
+    "google_trends": [  # Trends daily RSS -> link back to explore
+        "https://trends.google.com/trends/trendingsearches/daily/rss?geo=US"
+    ],
+    "reddit": [
+        "https://www.reddit.com/r/news/hot/.rss",
+        "https://www.reddit.com/r/worldnews/hot/.rss",
+        "https://www.reddit.com/r/politics/hot/.rss"
+    ],
+    "tech": [
+        "https://hnrss.org/frontpage",
+        "https://www.techmeme.com/feed.xml"
+    ],
+    "major_outlets": [
+        "https://news.google.com/rss?hl=en-US&gl=US&ceid=US:en",
+        "http://feeds.bbci.co.uk/news/world/rss.xml",
+        "https://www.reuters.com/world/rss",
+        "https://feeds.npr.org/1001/rss.xml",
+        "https://www.theguardian.com/world/rss",
+        "https://apnews.com/hub/ap-top-news?utm_source=apnews.com&utm_medium=referral&utm_campaign=rss"
+    ]
+    # YouTube trending has no reliable RSS; keep optional API in UI if desired.
+}
+
+# Optional YouTube (kept for completeness; fine if empty)
 def fetch_youtube_trending(region="US"):
     if not YT_API_KEY:
-        log("YouTube: no API key; skipping."); return []
+        return []
     try:
         url = ("https://www.googleapis.com/youtube/v3/videos"
                f"?part=snippet,statistics&chart=mostPopular&regionCode={region}&maxResults=50&key={YT_API_KEY}")
         r = requests.get(url, timeout=25)
         if r.status_code != 200:
-            log("YouTube status:", r.status_code, r.text[:200]); return []
+            log("YouTube status:", r.status_code); return []
         data = r.json()
         items = []
         for v in data.get("items", []):
@@ -107,7 +123,7 @@ def fetch_youtube_trending(region="US"):
     except Exception as e:
         log("YouTube error:", repr(e)); return []
 
-# ----- PROCESSING -----
+# ---------- processing ----------
 def frequency_from_titles(items):
     counter = collections.Counter()
     bigram_counter = collections.Counter()
@@ -126,46 +142,48 @@ def load_previous(path="data/trends.json"):
 
 def main():
     log("Starting fetch…")
-    sources = {
-        "google_trends": fetch_google_trends_rss("US"),
-        "wikipedia": fetch_wikipedia_top(),
-        "reddit": fetch_reddit_rss(),
-        "youtube": fetch_youtube_trending()
-    }
 
-    corpus = [it for arr in sources.values() for it in arr]
+    # Pull each category of feeds
+    collected = {}
+    for cat, urls in FEEDS.items():
+        bucket = []
+        for u in urls:
+            bucket.extend(fetch_rss(u, per_feed_limit=30))
+        collected[cat] = dedupe_by_title(bucket)
+        log(f"{cat}:", len(collected[cat]), "items")
+
+    # Add Wikipedia + optional YouTube as separate categories
+    collected["wikipedia"] = fetch_wikipedia_top()
+    collected["youtube"]   = fetch_youtube_trending()
+
+    # Build corpus for keywords
+    corpus = [it for arr in collected.values() for it in arr]
     log("Total titles:", len(corpus))
 
     kw_counter, bg_counter = frequency_from_titles(corpus)
     kw_list = sorted(kw_counter.items(), key=lambda x: x[1], reverse=True)
     bg_list = sorted(bg_counter.items(), key=lambda x: x[1], reverse=True)
-    log("Unique keywords:", len(kw_list))
 
+    # Velocity vs previous run
     prev = load_previous()
     prev_map = {w: c for w, c in (prev.get("keyword_frequencies", []) if prev else [])}
     velocity = [{"keyword": w, "delta": c - prev_map.get(w, 0)} for w, c in kw_list]
     velocity = [v for v in velocity if v["delta"] != 0]
     velocity_sorted = sorted(velocity, key=lambda x: x["delta"], reverse=True)
 
+    # Simple counts per category for the UI Explore section
+    source_counts = {k: len(v) for k, v in collected.items()}
+
     out = {
         "generated_at": datetime.datetime.utcnow().isoformat() + "Z",
-        "sources": sources,
+        "sources": collected,             # each category: [{title,url},...]
+        "source_counts": source_counts,   # just the tallies
         "keyword_frequencies": kw_list,
         "bigram_frequencies": bg_list,
         "keyword_velocity": velocity_sorted
     }
 
-    # If still nothing, write a small demo so UI shows data
-    if not corpus:
-        log("No data fetched; writing demo placeholder.")
-        out["sources"] = {
-            "google_trends": [{"title":"Example Topic One","url":"https://example.com"}],
-            "wikipedia": [{"title":"Example Topic Two","url":"https://example.com"}],
-            "reddit": [{"title":"Example Topic Three","url":"https://example.com"}],
-            "youtube": []
-        }
-        out["keyword_frequencies"] = [["example",3],["topic",3],["one",1],["two",1],["three",1]]
-
+    # Write
     os.makedirs("data", exist_ok=True)
     with open("data/trends.json", "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=2)
