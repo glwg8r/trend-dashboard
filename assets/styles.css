@@ -41,11 +41,7 @@ body{
   color: var(--magenta);
   text-shadow: 0 0 22px rgba(255,0,168,0.35);
 }
-.cta-kicker{
-  padding: 2px 8px; border-radius: 999px; margin-right: 6px;
-  background: rgba(255,0,168,0.18); color: var(--magenta);
-  border: 1px solid rgba(255,0,168,0.35); font-size: .9rem;
-}
+
 .titles small{ color: var(--muted); }
 
 /* ===== Ticker ===== */
