@@ -1,12 +1,32 @@
 {
-  "generated_at": "2025-09-17T15:30:55.029273Z",
+  "generated_at": "2025-09-17T16:36:02.576384Z",
   "sources": {
     "google_trends": [],
     "reddit": [],
     "tech": [
       {
+        "title": "Launch HN: RunRL (YC X25) – Reinforcement learning as a service",
+        "url": "https://runrl.com"
+      },
+      {
+        "title": "Not Buying American Anymore",
+        "url": "https://xd1.dev/2025/09/not-buying-american-anymore"
+      },
+      {
+        "title": "Microsoft Python Driver for SQL Server",
+        "url": "https://github.com/microsoft/mssql-python"
+      },
+      {
+        "title": "How to motivate yourself to do a thing you don't want to do",
+        "url": "https://ashleyjanssen.com/how-to-motivate-yourself-to-do-a-thing-you-dont-want-to-do/"
+      },
+      {
         "title": "YouTube addresses lower view counts which seem to be caused by ad blockers",
         "url": "https://9to5google.com/2025/09/16/youtube-lower-view-counts-ad-blockers/"
+      },
+      {
+        "title": "UUIDv47: Store UUIDv7 in DB, emit UUIDv4 outside (SipHash-masked timestamp)",
+        "url": "https://github.com/stateless-me/uuidv47"
       },
       {
         "title": "SQLiteData: A fast, lightweight replacement for SwiftData using SQL and CloudKit",
@@ -41,15 +61,19 @@
         "url": "https://anagogistis.com/posts/purevpn-ipv6-leak/"
       },
       {
+        "title": "EU Chat Control: Germany's position has been reverted to undecided",
+        "url": "https://mastodon.social/@chatcontrol/115215006562371435"
+      },
+      {
         "title": "Oh no, not again a meditation on NPM supply chain attacks",
         "url": "https://tane.dev/2025/09/oh-no-not-again...-a-meditation-on-npm-supply-chain-attacks/"
       },
       {
-        "title": "Alibaba's New AI Chip Unveiled: Key Specifications Comparable to H20",
+        "title": "Alibaba's new AI chip: Key specifications comparable to H20",
         "url": "https://news.futunn.com/en/post/62202518/alibaba-s-new-ai-chip-unveiled-key-specifications-comparable-to"
       },
       {
-        "title": "Why We're Building Stategraph: Terraform State as a Distributed Systems Problem",
+        "title": "Stategraph: Terraform state as a distributed systems problem",
         "url": "https://stategraph.dev/blog/why-stategraph/"
       },
       {
@@ -61,28 +85,16 @@
         "url": "https://github.com/obsidianmd/obsidian-importer/issues/421"
       },
       {
-        "title": "The Asus Gaming Laptop ACPI Firmware Bug: A Deep Technical Investigation",
-        "url": "https://github.com/Zephkek/Asus-ROG-Aml-Deep-Dive"
+        "title": "Macroscope, founded by Kayvon Beykpour to let developers find bugs and help product managers track engineering work, raised $40M from GV, Lightspeed, and others (Jordan Novet/CNBC)",
+        "url": "http://www.techmeme.com/250917/p32#a250917p32"
       },
       {
-        "title": "GNU Midnight Commander",
-        "url": "https://midnight-commander.org/"
+        "title": "Sources: Reddit is in early talks with Google to deepen integration of its content into Google's AI products, beyond its $60M data-sharing deal signed in 2024 (Bloomberg)",
+        "url": "http://www.techmeme.com/250917/p31#a250917p31"
       },
       {
-        "title": "I got the highest score on ARC-AGI again swapping Python for English",
-        "url": "https://jeremyberman.substack.com/p/how-i-got-the-highest-score-on-arc-agi-again"
-      },
-      {
-        "title": "AMD Open Source Driver for Vulkan project is discontinued",
-        "url": "https://github.com/GPUOpen-Drivers/AMDVLK/discussions/416"
-      },
-      {
-        "title": "Doom crash after 2.5 years of real-world runtime confirmed on real hardware",
-        "url": "https://lenowo.org/viewtopic.php?t=31"
-      },
-      {
-        "title": "DataTables CDN Outage – post incident review",
-        "url": "https://datatables.net/blog/2025/july-29-outage"
+        "title": "Irregular, which helps AI labs test their models' for misuse, raised $80M across seed and Series A rounds led by Sequoia and Redpoint at a $450M valuation (Thomas Brewster/Forbes)",
+        "url": "http://www.techmeme.com/250917/p30#a250917p30"
       },
       {
         "title": "How xAI is building Colossus 2, which is on track to be the world's first gigawatt-scale AI datacenter after reaching 200MW in six months (Jeremie Eliahou Ontiveros/SemiAnalysis)",
@@ -133,114 +145,106 @@
         "url": "http://www.techmeme.com/250917/p18#a250917p18"
       },
       {
-        "title": "Groq, which sells AI chips and data-center compute powered by those chips, raised $750M led by Disruptive at a $6.9B post-money valuation to expand its capacity (Dina Bass/Bloomberg)",
-        "url": "http://www.techmeme.com/250917/p17#a250917p17"
-      },
-      {
-        "title": "Bengaluru-based FinBox, which provides B2B digital lending infrastructure, risk intelligence, and orchestration tools, raised a $40M Series B led by WestBridge (The Economic Times)",
-        "url": "http://www.techmeme.com/250917/p16#a250917p16"
-      },
-      {
-        "title": "Airia, which is building a governance and orchestration layer for AI agents, raised $50M from its co-founder John Marshall, who made a further $50M commitment (Mike Wheatley/SiliconANGLE)",
-        "url": "http://www.techmeme.com/250917/p15#a250917p15"
-      },
-      {
         "title": "SITE NEWS: Explaining, at some length, Techmeme's 20 years of consistency",
         "url": "https://news.techmeme.com/250912/20-years"
       }
     ],
     "major_outlets": [
       {
-        "title": "Trump arrives for UK state visit, welcomed by king, prince at Windsor Castle - ABC News",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNVEdwcTVuZGU1Nm1kdWRxcE1xMXVYVjBtOFBYME1EZlkxR0lBY0VZVlR4RHgzNllSMFpTeGdGU3JCUl9ZbHc3RlZXeENZdW9JdEhCZlgwX1otdWNmbTZQOGdlVmgyb2JQcUNxUXVCajdMRF9ZeUFCUkFjWXVTanhVUmZDQjRnWWxJcnM3TzNhRFpLN2hLcWo5NzFDZFRrTUFsWW9jc9IBqgFBVV95cUxPMEpBRmRMdndieUxTdTV1N2ZJZ3hJcGwtcThOaHJiamRBSzk0YUFIMmlRc2hzNy1mREpKV0Npa2tIUVpET1IwbDRyb2J4cnd1Sm9CaWZSZ1lTZ0Z2Qi10MFZnRVpYZy1FdFA0SWZiTVF4WWdkZFZCMmZkT0JNNk81TEF5NFMwWXhMSGl6WnJHb0xDRHVNdmp3UXlUUEgwSXpvSHliTkEtVkpHZw?oc=5"
+        "title": "Susan Monarez, former CDC director, tells Senate committee 'true reason' she was fired - ABC News",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbmw4NWRoei1HR1NnRlpUWTl1Qy0yWjFFRHBlaVFpb1Nwc0w3dERHR185MldSYzQxUG5ZQ3YtVXh3RTZXOTA0cjE2WFZfSUhfTEQ5aDhwbkZRXzZ3a3pydVBRdmdmYlFTUmdiSFJyWlhQMWUwZ1lyMjRyMkhVQ1ZhcFVmVmxNM3kwZHg5X3hqMXFfWFMxLWNIeks4cFpVR1dKNndaS0I3cnpOZ9IBrwFBVV95cUxNRVpaS255enhORXYzcmZhTFRRQ3pXMVBKdm5tbGx4UWpkMXhQal85LXpCSVdKSWxXcmFMVGdoVlNrYWRXN3RKWk9Eb0NiMUV1aWVQWjFjZFZaRS02Ym1BdzFMMzJfQTRHUzhyMVJ1QjdsVURxR3VORG9GcThOUTJ4VUhUa3VESkYtbWcwQVpDUVZIMmdGaXhLd2dIbTA3aDZ4QlNfeVIxQzUxNS1GNXkw?oc=5"
       },
       {
-        "title": "Cassidy asks ‘what happened’ with CDC director’s ouster - Politico",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQMURVaUJQUVdzUjFyLVJWU0RyMDVBeGRQaEgzOVNMUVJEbnhaeGVIRjAzRi1tMHlHWVV1b0x1Q1B2OVpBMGxMRFF3OWQ1WGhqS0szck1KRzRScF9rbTVlS1IwT1g3bElaMzM0LURzTlZ5ZVhtdVFJWkpwVFNiLUdIa0VDVEhqLW1JMTRXTkxKWEliQUVISkVnMFg1TU55Y3BpTktEWUs5b0prOUNnRk94VGlra0VXRnVpY1Zz?oc=5"
+        "title": "Thousands protest against Trump's second UK state visit - BBC",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE95YVJYQ3NKTThoVXhZd05OU2s5cGU3VEM3MzUtQm9MTm8xejNZYUNDaWVsMzdhZEtVZFFTd3QteW5vRE9PcW5xbnQteTZMa2J4elpwYkwxUTlBQdIBX0FVX3lxTE42WEtzQnBxU1lXZzY2bVNYR1R2LTM2elVsMUd3S2w0LU5ZWEgwaUlKOVVyQzVLZXhweWlwanRCQzQ1OXRvSWFRVG1SV01ZY08wbUlNamNhTmNRYUJGQk5V?oc=5"
       },
       {
-        "title": "Obama says Charlie Kirk assassination was ‘horrific’ and praises Utah Gov. Cox’s response - CNN",
-        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPbzVMUUphVVpyR1lYeGl5Tjd1X0NGekl2VlJCRjlYQ3d6WXU1UW45dHlKQlAyeG5sbTlyZGVvY2tSM1pyWDB6cGtDbzl6WXlKQ2hfRjBIOWw3QTNCYmxWeHNYb1JVSDFpRloyS2dXaWdOZHdRbjE4c1Y0ODZqNmM3a2VqOA?oc=5"
+        "title": "At Home and on the Seas, Trump Expands Use of American Force - The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUmppcUcxbkQ4NDVxVWQ5Zk96MnZXb0hzWEpsb19YeWVQTHAzT2FLWXM1V1lXLWcxYU5VVFdnS1BIYTRQZnRxZzd5NkxuZ05yTEV3MjhQU0EwQ1RhTlhWRXZ0ZXE5cE1UZlhYMUhBOGxUNVNUMnVBVTI3THFpTzk4d2s2aHJFQThXNXNjZE1Cano?oc=5"
       },
       {
-        "title": "Photos: Activists beam Trump, Epstein images onto U.K. castle during president's visit - Axios",
-        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNM1RCTVg2WUtuUzlBejl6cGI1Ty1seDU1RXY3V2NEUXdfUk80MjFGR2JvbmF5M2JNYjhMbmxFTUJyMHowVGVmZVhjbzFUQ3lSRjZBOUVwN1pUNnlfVWJuWUdvZG9QbnRtcUpac3V5S01NSF9sd2ZmS0NMR1ZOOVhOM2ptUGQ5OEFTa3lzWWhUUjI?oc=5"
-      },
-      {
-        "title": "Democrats Oppose Stopgap Bill, Raising Odds of a Shutdown - The New York Times",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNRkZsMjhVQ2RzNC1HeUZuTXlqWEIwalIwcURhdHVoWjhKaks1dEVKaVB2bHVfbHlJLTMtSkk4U1hkZEItYk5GOHJPV0V4UVpPUS1MVVFvQ3Nvd2ViZXpvX0U1RVpLQlRoQW1VWGFfSlFtQ0U5Y0N4RFhoR1ZncFFsZk1vQlFRODRtbHFZ?oc=5"
-      },
-      {
-        "title": "Spirit Airlines flight repeatedly warned to turn away from Air Force One - NBC News",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQeWlCeVhvMzhscG5nSXBvdV9WV2tDU0FDN09La08wZVZWeFppanBfRzQyekdfSkxwc2hiVVU5TlhJZE5OUERqcDlVazNWYlQ3T2IyR3UwTllrRkdXTGVEeWQwSDYzN0k4V3R4LVo0ZGpRU1g2bHo5azJuQkpUME1PaHNBNTdIdGVDYkZZZGZJZDdERWxOUTFoLWExZE9tMzBTTXZYNDlZWHZoU2dMZkM4Ympn0gFWQVVfeXFMUENuMzlWOWNoME5xVnRJSVNONHdsOEhNdU9oaHJKZmdUd1hwdVJGOVE3a3FzVF9ETFJmLUQ3T3RSOVM1SnlmQUFQaFhHRHA0R2VVb3piT3c?oc=5"
-      },
-      {
-        "title": "Democrat wins special election for seat held by slain Minnesota lawmaker Melissa Hortman - NBC News",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOdW1MdGppQ0R3d3BFMkhfUU5UMmtLRVdDSXIxaWVfVExxQmtOb0x5dnFzcWdhaHowakFPbkQwYndnOGJzLVY1LUZPaXZ2NVBxZTE3TGl2THNrVUlBWE5DeUxlRmNyRnNzaGZiS2o1X0ZiWFpPbHFEbHZ1eTRyMGtma05BTEs1NTczdU0waDAtazRuZTlrMlVRdEdVQjFINEptdW5CS0ZPNlZuRjRMdnlIX1RqdW15WEVQSFNF0gFWQVVfeXFMUEZFM3BoaFQ1RkVqb3V1bjZYZEpPU1U4MDlZMHRDRVh4U28wZmhUN2tOWGcyNFhwSE5NYjBRZVNKN09NRDd4R0Z1bTBtRlVXbkQtRXgzZVE?oc=5"
-      },
-      {
-        "title": "Abigail Spanberger gets show of support from 2 former GOP lawmakers in bid to be Virginia governor - CBS News",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPMnY0dDVGWEVsc0pDUUFkLWJabV8zMGxaejVyZnJqQ1ZtVzFtd1NWX2xhN0I4WDJUQm43Rm9Jc0xTajVtbDdRN0Fjd3JKZ3N0REFITExpUUJvSzR0al9kWDU0dWRaVDBITEJ0YkNCdEtlSGJicERDTF8xcS1fU0plSXllUk5rUGxZdHZlNzdyY0JHRDhFemREMnZ3bWVfQdIBowFBVV95cUxPTGpEdWxJenZ6aWV4NmRVekt5d1NiMWhFblhkUzlhWk82MlBoMnR5dlRqWTZCMFozM1k4d2x4UVNNM2ptdGxQUzFaYXU2dWJFV0ZDQ2R1N3B4UFdySUtHU2RKM2tIQUp5T0M4QWJ3NkR1OVRJRzc0Nk1xOXhfVnBCSGkyVUpSTUlZT0JlenVtWURPMmVMbDBYQWh3UlU5YWNJd2pB?oc=5"
-      },
-      {
-        "title": "ICE officers in fatal Chicago shooting were not wearing body cameras - NBC News",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONUtvZkg2SmV2MEgzR0Nrek9WX1BQZXNrVU1pUTJxT2pvWmgxNU5wdFUtMHJNYUNjMFBtX29DMGpSSTkycHhzMzNKTTRPY3c3OXV2c2lHOUtuSkp5SzNScmlQcXR1X3dHWWt5bF9kcHR4dEpHRU1UVVFJU1g3dWhmdGxYZ3pBY0Z5ZDRVQllDNEtmYXU5cHA2b1ZmeTU3c0dZa21CdTJ4eUNTNldu0gFWQVVfeXFMTVV5U2dTZUlLc1lveFJac3l4cUZKbWp4dXpBR0x1S1pKajZTR2ZBbEY4a3hMcmVaaVJFMWVGSGVOZ2NqMmlNZkxNQ1V4ZlRiT1ZRTDluaHc?oc=5"
-      },
-      {
-        "title": "San Francisco Politician Recalled Over the Great Highway’s Closure - The New York Times",
-        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1NVUphV2ZPamhXUzN1UERWYmRFd1hQYzZCOEpyblpEZnpRNzdlTkxSdkZTYlZ4Y0JieFJ2MndZNUlENlg0RDh2eDdaYW14TnZ0WEhaUklxQWZfQ3dvcVhYbzhlUUZndEhkekMtbFUxNDNUTWc1aDlZQmZR?oc=5"
-      },
-      {
-        "title": "Navalny’s widow says new lab evidence proves he was poisoned in prison - The Washington Post",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNZU9VeU54RGxQcGJYbzVBUzl4bE9LSU5kUVBRYWZWcHhJU0s3d3FnR0JmRG93VTdRYlBYZm9oU0pCZi12QjVSM2NuTlQyaDRHSlloZ015VElSbTFuQk1pT1RhRWlIWVh4eVBKY1VEbHNsbFg1MkRTVF91V0dhaHhtbVcydmF4dUJtVW5CUnBYakhUUQ?oc=5"
+        "title": "Republicans are honoring Charlie Kirk’s memory by declaring war on the First Amendment - The Verge",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPblFIQkk2a0l0Qm55MWdESDdXdGpCZ0dBb0R1WkRBVjZ2SDNrTFl5V1lpWVNCNUtBMVFpeDVGR29ZSnpiNngxTFRVV1hCRWJ6UWlscnpBcW9ZZi1RajZpOG1qbzg2VzBCVzJmTnNQQzZoMHFaYnNVSklTZDF2SGFFaUZQQzdESWpRRTZtSnVtVjJyOGNVSDdQSUd6eUJlUFU?oc=5"
       },
       {
         "title": "Thousands of Palestinians flee Gaza City as Israeli troops advance - BBC",
         "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB3Sk52V05lX09WOTQ4ekREZXhVRjFXcDc0RkF4Q3Rhd0gyYkQ3OUUtMmc4MmJWSGhvRWZMRFhWWWFiS0h5R08zamtqYVlMNTdxRVRaLVhGTVU4d9IBX0FVX3lxTE9OSlhFLVA0Tk8yNHRweThnR2hhX0hwa1d2T1FzVU1GYTE2ODlRZE8yX3lJU1Q2b19iS3BYT0gzSm1wVzNfQWRYQlpUSm5OanJDZzZRUVgteGFxeE5zMnow?oc=5"
       },
       {
+        "title": "Kash Patel says court orders bar him from releasing the Epstein files. Judges have said otherwise. - Politico",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOeUxkMXZvLUVTQi1pZnVoWUVlLXg1UUFqbXZhVUhkVElKMGRTWlFnUlNNWWhNMkVSRGhnVXFiYzIzSV8tejFXSnR6ajBwcFUxR2RCQlNna2V6RHRGZWpyT183ZUZUazNCV3drd3hBZWQzWjdkUFBxQ0N1WEFPWWJ1ejNnRlNpY2hsTnlaREZ0TW1RRWp5V1l6MXpZZFZsRUFp?oc=5"
+      },
+      {
+        "title": "Obama says Charlie Kirk assassination was ‘horrific’ and praises Utah Gov. Cox’s response - CNN",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPbzVMUUphVVpyR1lYeGl5Tjd1X0NGekl2VlJCRjlYQ3d6WXU1UW45dHlKQlAyeG5sbTlyZGVvY2tSM1pyWDB6cGtDbzl6WXlKQ2hfRjBIOWw3QTNCYmxWeHNYb1JVSDFpRloyS2dXaWdOZHdRbjE4c1Y0ODZqNmM3a2VqOA?oc=5"
+      },
+      {
+        "title": "Democrat wins special election for seat held by slain Minnesota lawmaker Melissa Hortman - NBC News",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOdW1MdGppQ0R3d3BFMkhfUU5UMmtLRVdDSXIxaWVfVExxQmtOb0x5dnFzcWdhaHowakFPbkQwYndnOGJzLVY1LUZPaXZ2NVBxZTE3TGl2THNrVUlBWE5DeUxlRmNyRnNzaGZiS2o1X0ZiWFpPbHFEbHZ1eTRyMGtma05BTEs1NTczdU0waDAtazRuZTlrMlVRdEdVQjFINEptdW5CS0ZPNlZuRjRMdnlIX1RqdW15WEVQSFNF0gFWQVVfeXFMUEZFM3BoaFQ1RkVqb3V1bjZYZEpPU1U4MDlZMHRDRVh4U28wZmhUN2tOWGcyNFhwSE5NYjBRZVNKN09NRDd4R0Z1bTBtRlVXbkQtRXgzZVE?oc=5"
+      },
+      {
+        "title": "Wreck of ship that sank nearly a century ago found 200 feet underwater - CBS News",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZHlUX3VGVmltUDBkOFhCc281UHgzaXZ0SjNMNjYwMG42Z0ZOa2prdUJZRWZlTmt1bUsyaVJpSlF2MW82RWZyUzB5X3JXN19iZWk0ejZiNVpYVjZPUVhLUG5xLWdnc19rWl9XQmp4LWVJYWRsUWpqcWhkdW1ObS1KMDlCazl4N2VieHVNWnpEZENPQlRiOXNCNjJYWmhRV2ItWHJv0gGoAUFVX3lxTE5QVVdFWV9NR2FyemFXUVNidFpjV3hSOC1HekJydFgyNmNXR3lkeThKbGVQVjJSTGxtQU5rQWZtRVdEUDh0aUdESGVndWEzY1lfcHVUVXY4UDVDX0dhSWluWEpGZFJ4SFdVeVhfdGw5RmFBeHdqQmhEUHhHTHFlUFBHdGFBTWhWUHJ1bzNmS0dEQmE5MVIwRkZSbWROSTJqSUVaZ1E4NV9Jaw?oc=5"
+      },
+      {
+        "title": "Photos: Activists beam Trump, Epstein images onto U.K. castle during president's visit - Axios",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNM1RCTVg2WUtuUzlBejl6cGI1Ty1seDU1RXY3V2NEUXdfUk80MjFGR2JvbmF5M2JNYjhMbmxFTUJyMHowVGVmZVhjbzFUQ3lSRjZBOUVwN1pUNnlfVWJuWUdvZG9QbnRtcUpac3V5S01NSF9sd2ZmS0NMR1ZOOVhOM2ptUGQ5OEFTa3lzWWhUUjI?oc=5"
+      },
+      {
+        "title": "Navalny’s widow says new lab evidence proves he was poisoned in prison - The Washington Post",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNZU9VeU54RGxQcGJYbzVBUzl4bE9LSU5kUVBRYWZWcHhJU0s3d3FnR0JmRG93VTdRYlBYZm9oU0pCZi12QjVSM2NuTlQyaDRHSlloZ015VElSbTFuQk1pT1RhRWlIWVh4eVBKY1VEbHNsbFg1MkRTVF91V0dhaHhtbVcydmF4dUJtVW5CUnBYakhUUQ?oc=5"
+      },
+      {
         "title": "Main suspect in British toddler Madeleine McCann's disappearance released - Reuters",
         "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOeGZYa0dfbXoyakdSWmtZalRHa3dZY3dhelpxMk54elM2LXVGaFZIa0Ribk1Oa19pY0NqVnd6R1ExUlM1UmhlVE0xMnRRTFhpQ01pblp2NWF2Vy1OOVhEbGtvOWpaY0dXdDR0NTlTV3lvS2NHWDRMVUZmeVRqZFhWalVQM01jcEZLSUtudXJFRXk4T3FnTmpNMDRBTk04UnUwU3ZhLW1uWGpGd1NWV255Rw?oc=5"
       },
       {
-        "title": "Greetings from American University of Beirut, where more than 1,000 cats roam - NPR",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQT2dvNlh5VDl4aVdQQ1YtYlhLWVBwSWx5WWJPQmRDNnZQV3VYMzh5cnoxT2twb0RYdEI1Zi1fYVR3ejc3ZVFPNXVoN0xKTGY2MWttWDZoekRJbTV6d1NLT1BNOVB1Q3ZjUG5pUURGWTFHNF9ESjZQS2stNHJKWHRVcndvTUplRE83?oc=5"
+        "title": "Pharaoh's 3,000-year-old gold bracelet missing from Egypt museum - NBC News",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQbW8xcDl6X0dtYWxIVUV2dGlhTmVsS2pGU2g0Y3VZVERHREVpMndyZFlXazFCWllOUXhmX2R0Y1N2SUhtOVU0MkRzOHlfbmR1MUVnc0M5REJxUG1ZOW9XcXhDU0ZtMFJuV2cwUkJIUk9fYmFiaUNiTGx3VnZ3M242cWtkd1VZYVFoOWdYamRaaE1HWkVtYll1Q2s0NEzSAVZBVV95cUxNX3N3OVVDRmgyZEN6MWZzUEJ3ZE5PZUN0RmxiVVhKckNsREQyblUwRC1UemVMb2czMWRSMUJMaXl5VHlRS0J4WEVJd1kxQVcyYUdtdUR5QQ?oc=5"
+      },
+      {
+        "title": "EU unveils plan to hit Israel with tariffs, sanctions amid Gaza war outcry - politico.eu",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQOG1xZ0VFQXQ0UXhGYmVkNHo5M3VsZFYyV3pIUXBob1h6MFhfdVExbVFRVjFJY2UtMTVZU01uUDRBa29senhwNGFMTE90UnRySjFZaVM0akVQU1kxMm5na1NwMHhWN1gxRDlRMkhJeHRLS0Vxc216MHlOUEhrUDJzX1NhZkpKa1lGVWhqMkM4bGItWS1lMHZiSmNOU3ptYjVSeDVqRU91dw?oc=5"
       },
       {
         "title": "Fed expected to cut rates, update views of Trump economic plan with new projections - Reuters",
         "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNMGtxSmZTM3R0eVN4c1dqR010bjA5OEZTd0wwM1RUX2tFV1Bha19EX0I5TE1CRkVFMmM5ZmFvZHBvek1rd0hMejdBYTl4WGExTFA1WU1IYVM2alVQS2t0bjdpQ3NBcXpOUXJPRmxWc05jMVlvaGtGQzlKd002a3VJeGdHZmVZSUtYUFh6cVdfaUhXRjNsanBodHpoblhxUkRFYzA5dVZiT0gxcTFHaURlZFJxb2FfbG5tV1FPNGtB?oc=5"
       },
       {
-        "title": "Nvidia Stock Drops on Report China Has Banned Its Chips. Alibaba, TikTok Parent Affected. - Barron's",
-        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE95dURYNmd6OHZXeHR6cG5YOGRnWGtRMDJ1MHNHTU1iQWRTaVZpZVAwU0FpcHlaRE1zd0dDUHdUNmIzWkNoX2dKSC1GcGFYUmJ4WGk3a0h6Ym9WeHJjcFNieVczb183Y3hhWFd0OE5qV1Eybi1FUTNIdXBFOG1NZw?oc=5"
+        "title": "China Orders Firms to Stop Buying Nvidia AI Chip, FT Says - Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQTNZMHdBb3hNbHdTZ0Vqcmw5ZktIWWg0SFh0b2Y3YWNfUHJrYk1CTkI2OThkNjRld2pNWWp5NWR1bDl5MXREVWRIWVBNdnJZejRRN0RXUGdvUHBnazZmaWJyNHdGemVkNDZEX2FYdXVyNmlJM2FuY1dHWnUtVU1feEFqYXhXZzFQZHY2d0FoamtZbTdrWkpyNWRhSHRFeC1uekg5X3NSTUEyX01CdmFUc1hqdVc?oc=5"
       },
       {
-        "title": "Morning Bid: Ailing dollar gets toehold as Fed awaited - Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOSnU4djFMb2JBRlVWa0JVNW5pcng5R3ZERG4tZmU1amdzRW9faWU3SzhxaWtxenRTWGFpbXhzNHREdmF3YW1GbnRNalY0UjJsam82eGpoWDNKTHJWVDYwUUE3VFNEUEFEWjhhNjZBRUIxdUxjYnZTNTlNSThocVZQRFBR?oc=5"
+        "title": "Stock Market Today: Dow Jumps 300 Points As Fed Looms; Nvidia Breaks Key Level (Live Coverage) - Investor's Business Daily",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNWi1jMkpGQ19DUTRGcThnejdoNGFqeGp0RTJZQloxdkt3NWNrMDV1SHVxYU5wcWNDeW1lYVVjaEVQU0daTVUwR05CN1loRG1mUXowQlYyVnE1eUtkRVA5d2gzem10OXdYa1Z2ZnFFR05GX3d2blB1UUd1cXJPNm9JVExxYXg4Um9kZGlCOGR4T29xTklXSl9ORDQweXpMZ0c3RjVQRXk1SDUtcmFrZllaRm5HS2VsWUQ1VE9RUDY2OA?oc=5"
       },
       {
-        "title": "U.S. wins release of Wells Fargo banker placed under exit ban in China - The Washington Post",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOdnBneW9GejYtX0g3c2lVSWtsUmlpdGlTSGdpQWdDZk5OdGp6cnB0Y1VXQzZDQjZWd0RmejFmdlN6X09qSE5HNnZ1eF9qT2JWSV9ZNjI5N295VW12akRDeEFrdEhaS0ZfQW1NYXdSRklTQkNDS2pLcXhpUEpLYUlUWGZhcnpqM2Ywb3ZlR1N6eU5vWmQ4RXZMT3F6Yw?oc=5"
+        "title": "Times Square Casino Proposal, Backed By Caesars and Jay-Z, Denied By Advisory Committee - The Hollywood Reporter",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOSkY1WF9hbkRhMzJjSHRhMXEta0pxd1dVZ1NHdDY4cjAxS200SXN3ZlFWWlEtbUx0ZE03aU5PWl80V3ZTbVRKTGxmWFlkSjNTMU5sek5ERll4T2p4V2g2SkE3cFk4d3h2d0JvZ2ZHdzQ1RTBhU3lKUWRRS2ZQWnY3Zml3NFQ4eV9NSjVFN0paTlplS3VyWjFzM2lLSGlDdjRLUktRU3pB?oc=5"
       },
       {
-        "title": "T-Mobile is giving away a free iPhone 17 Pro with trade-in — here's how to get yours - Mashable",
-        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBYbnROMXMtXzNhcDBBR2pzaUI0N1hKZFp6bmE5WVVuNlRCSnpxMVFtUnlUVXBqSmJxUlkwUzZzNDNvYXpCRXRaX0laaW52SmJBSVhVZEt0T3dnX1lKSllzUHc3VWVPdFI4N2l1Sg?oc=5"
+        "title": "Apple’s iPhone 17 Pro Models Give You Exactly What You Want - WIRED",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1rQVZJeWw0bkZFdkFCTDBsRmpvMlZpcWRVTXVxLXNTUzRGZGgxb1VreE5SVUg1eW5CaEQ2ZXVmTDk1ZnUxc3diWmtiQlBIUUk1cXJ1MEVhdDJydEVnLWdoTm94LUdBSUdQd3FDbjl1SWVyWkR6RThNUDlsMA?oc=5"
       },
       {
         "title": "iOS 26 Liquid Glass Design Makes App Icons Look Crooked, Report Users - MacRumors",
         "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPaDQ3bmtxcnlsNjJpdHJ2T2o1c0NWZzNjNm1LcTR5LXQzcTI0VFlFRzdWanNxZDZSQVd2Y2NxREtsS19hdWlKWTdYSjJlSWpJVmN6SkNwUGdtUjctN1BiOGhxQzdhRzJ5UFJ3MHFJMWNzaUt2czhnZ0lBc3M2RkExWDQ4TnUydXhmYmhNLTZmOA?oc=5"
       },
       {
-        "title": "Meta Connect 2025 LIVE — Ray-Ban Meta Display smart glasses, new Oakley glasses and all the news as it happens - Tom's Guide",
-        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE54T2RnNmlETEtya0tCWlVuMnBXWnlQeHUwSFc5azIxT2Vicmo0UlV6SHIyT2hiUVdVSWtDbHgtVXgtd0FVcHEycWFIQXlTQmczcGVwNUFhMENwclRfckw2YWp5anNWWVd5XzdCUmgyTC1RQlU1?oc=5"
+        "title": "Meta to unveil $800 smart glasses at Connect event - report - Seeking Alpha",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPM3ZSZllQUWN4TDNEeE5nTHZ5cUlpZVQ2RkNQc2E4ZFIzbjdWRXdYZjV5a05kTTJBVWI3V005LWxLcEx5WGFVVEJaZ1dDbTZuQ0JTdXVyZGFtajJMdE1vd1RPS29SOGkyc3JrS2NDMEdkOUZDQmxJcTFxQ2NzbkJHaWlSQ1pxbVQzY3A5YnptOHh1c0NWbDR3OElfME4?oc=5"
       },
       {
-        "title": "Google's new app shows Microsoft how desktop search should work - Android Authority",
-        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBfVG44VldsYjI3MUloc1BMbm9KS0dINmNGWlljVUNuSjc1SzhrTkRoN2ZEUFhJQnpPZzR5ZWRDXzRUNWNxRFVLd2pXVWYyYWhuN1A0UGdTRHJwZVM2TnFzT1ltcERrRnhUTmpSU1R6bHBWQQ?oc=5"
+        "title": "Apple made a strap, now Google has a rope to dangle your Pixel from your wrist - Android Authority",
+        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5jMTlzeFpRaW9TUkJiU1R5MGlrM2N3WlNaTnNPSkR2cE9FUGFMcUhPVjFBWjdxb3pFQV9UQ01LTlVRNllUdjBOcWFFbHFFaF9IUDRKN1lPTjd4OTJIWVlfSTlhX205Q2N6Zjk1eXItaw?oc=5"
       },
       {
         "title": "‘A dolphin among sharks’: readers pay tribute to Robert Redford, a great movie star and decent human being - The Guardian",
         "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPX0RoWUJmcHdpSkROUXJYVmM2NThBaXg1X1c3ZDMxR0MtVmVNclIzamV2YlJtdmdyWmtrdzl4TElvRi1GR21ZUnpIbXo1TDM5bm5WMThvUE1taEtYY0NtM0JOTnZ2V254SENWRW05T0RpNDFPOUdYX0w4RGROa1FFVFNKcjY2NUVJU25ROEZMRTRiLUFwdk0tTTdFNGZqTUNSWE01T2Rn?oc=5"
+      },
+      {
+        "title": "'One Battle After Another' Review: P.T. Anderson's Mesmerizing Vision - Variety",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOejF4OFlUUnhCYTBNVjFiUVpfWTE5MlNHZ0NISHc1VU0wVlJTRXVRTTZTMXEzWFVoTEhRbUt3TDNDNkNreS1kcVRiYWM1WlVULU9vWEJlZHJHYXJPZzd5N21ITzRjcmtERENPWHl6NGNrYU1XcTVINXA5Z25na3UybDNLRWltS2Vnbm9aTFVudU0tdU9uMEFsRktYb2oydkcxLThYa292bGNlTC1hWEE?oc=5"
       },
       {
         "title": "Cardi B reveals she's expecting baby with Stefon Diggs, reflects on falling in love again in \"CBS Mornings\" interview - CBS News",
@@ -251,24 +255,20 @@
         "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPYjBNZy1iYU1DMkFlcGdsZnlJUEhwd1RoSWNEUU55T0tyMzBSZENIUEpqcV9xenQ1X2xRd1dfd2Y2RGVPRjBGcmFkVFZETXphaXZrSDU3NXpGLThOMi15NTY4N3BnV1JzVGlFeGNtZnZYSmdzcXpNU3JfMGhqMjhtdl81VmVlbGxhVFBBN2RRN2RiWWdLUHc?oc=5"
       },
       {
-        "title": "Hilaria Baldwin Reacts to Alec Baldwin's Appearance on DWTS - yahoo.com",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNTTBsM0tnV3Y3dHJCOU5zczFpNHlzWFhMeUJ3U25xZnk5QmJicEQ5Q2k1Y2xiWDZrVDFYb0FvV3VZRWlQbmhnbFBoN0JDbkZyZDlVZ1NSNE9EOXdub2gzcnVhaTVjQjdyMHgyenU4YkpFQmwtRmxRZTBMaWZLNWdDV2FHQWw3RlhRbFpKWUxJWVd1aTY3bUs5Z1FjcEJLZkFN?oc=5"
-      },
-      {
         "title": "Tom Brady was seen sitting with Raiders coaches at an NFL game. But as a TV analyst and part team owner, some aren’t happy - CNN",
         "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPYmdNc3BaLUtoNUNMSU9YOXZJTWtHQmJIM25qWVQ2dEJUblZJWXV5Y2RpVm9wa1hNQy1wemhrVTFOUVpuNUtWd0VldENVd1ZYbF92bEZFc0lFWjZUSlRSdFRDaTFsbHRyNER5VDVWSlpuOXRBWTdYd3VRdDlPNGFFTVg5TmF4SE5la3RYd0JaSU91cjg?oc=5"
       },
       {
-        "title": "NFL Week 3 survivor pool guide: Picks, analysis, strategy - New York Post",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxONmZsQUJqZTNSRTNYbDRjVDJuMVRzYmFlb2U1bkNyOE1rLWxHS0VPb1pmbUZmMzJqanEzWWpMbnpnX0w4MmVCS3ZHdnBhckJaczRDYnJicm1KOEZRcGdkWGdRUWlEb0hlaXpWdm9NYUNLSTVlMmo1T0RuV25tOWktVElYajNON3hJdjJjTFFjYnJiUnZnWHpVRw?oc=5"
+        "title": "Wide Receiver Start 'Em, Sit 'Em For Fantasy Football Week 3 - Sports Illustrated",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOQmFlLTlUWkZFdk84QnczbU5oREZKT0daSTRuWW03VmxqSXJyVXg3WEhJaWNkdWVCQ2RwT21Sb2N3WVNqSkFhMFlZMW9wbWZLUlZsZmNtUERzazRDLVM2aDRaenBXWlF1cWRHRW8xRU1Xak1rSjlJS1NFM2JickdHdGtsUTFwN3hLVnZsQng3dXdUX2FDS1I0QTFtY1RNZw?oc=5"
       },
       {
-        "title": "How the Browns are impacted by injuries to the Bengals’ Joe Burrow and Vikings’ J.J. McCarthy: Mary Kay Cabot - Cleveland.com",
-        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQMjQ5a3N3SHMzbXhCaUsweG0ydjRRajFGX18wNjBVa2lNZXRvazJxeEdKcXpVbC16ZElxMFlqdTRfdzkwdWZKdGtoRGRNZmRIRXI0SnpvZmRLb1JGVEhybVprV1N4cVVhcWx5cUVXV1N0M2pwR0ZhcHFFTlBKU3JjZGM3NFZuYkZhQi1fNFdlMFI0NWlfMVVNR2tRUkdld0x6T0M5SGotdHpuNlJjSGRZZGREY3U1a1NMNWE5Mkw5eEpoTEIzaFRucGxJQ0lPcWNfY0VaNlZ6U3NKQzJjNUctZ2Y2WUHSAfgBQVVfeXFMTmswR2drUG1RUmhndXNEd0FlWVNtN2VKX1hrbWNNaThvMHdnVEhuQmluQUlIZ1M3MUpObVpTOURCLVBoSzZGbjlZLTNaOFpvRjk4WE5tZ0ZrWlIyMjFQR1BXY2c1MDZhOVF5VWVyWVJtd0d0dWNSamxKaTdJRERrTmpwNmhvSGh2MXF3LTJHQUVqdnNQVGdvbzNhdmtjU3BqVEUzTXhIdkROcHdwSjZxUUFUMmlVUkdjTTlKMzZMS050Rll6RVRpallqZ0IySDNfLTRVckJUWExJR3lnLXpOZ1hFeUV4TEotUzJ2aWxIZW1pNVBfX1FHa0c?oc=5"
+        "title": "Shohei Ohtani is removed after five no-hit innings, then Dodgers’ bullpen collapses in loss - Los Angeles Times",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSTdjUUhuT1FPTjFPNmwzd0FSMC16N3plaGpIN0xDb1pQbWNKcjRscmtDbHZUeGw2WDlRY2lFOTFzc3Jmc2hGUjNaWmpUcHVGWHJIeEtxbHpXajgtQS1LRFNkRUJzeGh1dFg3LWh5ODZWaV9wdE5DTVhiSW5jek9rX0NNVkc2VzA?oc=5"
       },
       {
-        "title": "NFL 0-2 Teams Ranked: Playoff Chances for Chiefs, Bears, Texans, More - Action Network",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQdWR1bDJqSXQzMXhjeWx0OXZRSHduNGl0X2Jpa2ZhSGxVU0ZVOVVqR3pnWjRxaDRubUlpaDFwODdUZ0ttS2Ftc3llYlZGNFl1V2kxUkhrMjVrb2hXZWJWaWR5VkxmY0E4ZVd4VXh3ZHBNTmlKNi1UeGlBMVQyVXFlQ1dxckx6M3RVcFI0aV84NVpWMGtEbnh6MS1aYw?oc=5"
+        "title": "NFL Week 3 score predictions: Expert reveals game picks for the 16 NFL matchups - SportsLine",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQdUkzaW41M0RjalRCZTR0TDU3cE9JYVI0MVF4a21CRUdXNHctNmdNZ1dQWURKd1F4RzFMUnlQTHZIRDd1MmF6YmNwUU9qRS1OZlVIRUZfNEpMSmU4ZVlMZUh1M2lfcUc1Zk51bFJqcnplTkRVNUxUS041bG9SbFk0emhNX3poNmNnVzN0RTA4UHAyZGFUTk9KODJjZGYwenVyWHNfZk9MdlRoc3hVMElLc2ZIVUFZZw?oc=5"
       },
       {
         "title": "Tests show Navalny was poisoned in jail, his widow says",
@@ -291,6 +291,10 @@
         "url": "https://www.bbc.com/news/articles/cn4l1w98nj1o?at_medium=RSS&at_campaign=rss"
       },
       {
+        "title": "AI can forecast your future health – just like the weather",
+        "url": "https://www.bbc.com/news/articles/cx2pj502ev6o?at_medium=RSS&at_campaign=rss"
+      },
+      {
         "title": "EU proposes curbs on trade with Israel over Gaza war",
         "url": "https://www.bbc.com/news/articles/cvgr4nj7405o?at_medium=RSS&at_campaign=rss"
       },
@@ -299,28 +303,24 @@
         "url": "https://www.bbc.com/news/articles/cy4ry7vpkdeo?at_medium=RSS&at_campaign=rss"
       },
       {
-        "title": "US tennis star sorry for 'offensive' comments on Chinese food",
-        "url": "https://www.bbc.com/news/articles/cx270m57zm7o?at_medium=RSS&at_campaign=rss"
-      },
-      {
         "title": "Gunmen kill 22 after shooting at baptism ceremony in Niger - reports",
         "url": "https://www.bbc.com/news/articles/ce863x3g7jko?at_medium=RSS&at_campaign=rss"
-      },
-      {
-        "title": "Ex-Arsenal star Thomas Partey denies rape charges",
-        "url": "https://www.bbc.com/news/articles/c2lxe9800dko?at_medium=RSS&at_campaign=rss"
       },
       {
         "title": "Flying cars crash into each other at Chinese air show",
         "url": "https://www.bbc.com/news/articles/cn5qk4de997o?at_medium=RSS&at_campaign=rss"
       },
       {
+        "title": "US tennis star sorry for 'offensive' comments on Chinese food",
+        "url": "https://www.bbc.com/news/articles/cx270m57zm7o?at_medium=RSS&at_campaign=rss"
+      },
+      {
         "title": "Trucks set ablaze as militants block key Senegal-Mali trade route",
         "url": "https://www.bbc.com/news/articles/c708n1ry8k4o?at_medium=RSS&at_campaign=rss"
       },
       {
-        "title": "Canadian writer Robert Munsch approved for assisted dying",
-        "url": "https://www.bbc.com/news/articles/c931y04jg1vo?at_medium=RSS&at_campaign=rss"
+        "title": "Ex-Arsenal star Thomas Partey denies rape charges",
+        "url": "https://www.bbc.com/news/articles/c2lxe9800dko?at_medium=RSS&at_campaign=rss"
       },
       {
         "title": "In pictures: US President Donald Trump on second state to UK",
@@ -379,6 +379,18 @@
         "url": "https://www.bbc.com/news/videos/c8641vd73jxo?at_medium=RSS&at_campaign=rss"
       },
       {
+        "title": "How Charlie Kirk became a leader of the conservative youth movement",
+        "url": "https://www.npr.org/2025/09/17/nx-s1-5544168/how-charlie-kirk-became-a-leader-of-the-conservative-youth-movement"
+      },
+      {
+        "title": "Ousted CDC director testifies she was fired for resisting pressure from RFK Jr.",
+        "url": "https://www.npr.org/sections/shots-health-news/2025/09/17/nx-s1-5544143/cdc-director-susan-monarez-testimony-rfk"
+      },
+      {
+        "title": "Tennessee's governor welcomed the National Guard. Illinois' JB Pritzker is a hard no.",
+        "url": "https://www.npr.org/2025/09/17/g-s1-89190/jb-pritzker-tenessee-memphis-national-guard"
+      },
+      {
         "title": "Greetings from American University of Beirut, where more than 1,000 cats roam",
         "url": "https://www.npr.org/2025/09/17/g-s1-89071/cats-american-university-beirut-lebanon"
       },
@@ -395,10 +407,6 @@
         "url": "https://www.npr.org/2025/09/17/nx-s1-5544096/madeleine-mccann-suspect-germany"
       },
       {
-        "title": "When her car ran out of gas, help came from a homeless encampment",
-        "url": "https://www.npr.org/2025/09/17/nx-s1-5542002/when-her-car-ran-out-of-gas-help-came-from-a-homeless-encampment"
-      },
-      {
         "title": "After a wave of horrific shootings, gun violence trends put recent attacks in context",
         "url": "https://www.npr.org/2025/09/17/nx-s1-5542241/political-violence-mass-shootings-charlie-kirk"
       },
@@ -409,14 +417,6 @@
       {
         "title": "Facing Trump's pressure, the Fed is likely to cut rates for the first time this year",
         "url": "https://www.npr.org/2025/09/17/nx-s1-5539555/federal-reserve-interest-rates-inflation-jobs"
-      },
-      {
-        "title": "Beyond 'draining the swamp': How Trump is knocking down checks on presidential power",
-        "url": "https://www.npr.org/2025/09/17/nx-s1-5475191/trump-executive-power-supreme-court-whistleblower"
-      },
-      {
-        "title": "Pomp and protests for Trump's unprecedented second U.K. state visit",
-        "url": "https://www.npr.org/2025/09/17/nx-s1-5543349/trump-king-uk-state-visit"
       },
       {
         "title": "Who was Agnes Wanjiru, Kenyan woman killed near army base in 2012?",
@@ -499,6 +499,10 @@
         "url": "https://www.theguardian.com/australia-news/live/2025/sep/17/australia-news-live-liberal-sussan-ley-net-zero-target-climate-crisis-anthony-albanese-donald-trump-trade-tariffs-politics-ntwnfb"
       },
       {
+        "title": "Israeli minister attacks EU’s proposed ‘morally, politically distorted’ sanctions – as it happened",
+        "url": "https://www.theguardian.com/world/live/2025/sep/17/germany-friedrich-merz-bundestag-afd-ukraine-russia-finland-latvia-europe-news-live-updates"
+      },
+      {
         "title": "How the EU’s far right has seized on Charlie Kirk’s killing",
         "url": "https://www.theguardian.com/world/2025/sep/17/how-the-eus-far-right-has-seized-on-charlie-kirks-killing"
       },
@@ -507,16 +511,16 @@
         "url": "https://www.theguardian.com/science/2025/sep/17/new-ai-tool-can-predict-a-persons-risk-of-more-than-1000-diseases-say-experts"
       },
       {
-        "title": "Israeli minister attacks EU’s proposed ‘morally, politically distorted’ sanctions – Europe live",
-        "url": "https://www.theguardian.com/world/live/2025/sep/17/germany-friedrich-merz-bundestag-afd-ukraine-russia-finland-latvia-europe-news-live-updates"
-      },
-      {
         "title": "Irish MP will not be expelled for wearing blackface, say Social Democrats",
         "url": "https://www.theguardian.com/world/2025/sep/17/irish-td-will-not-be-expelled-for-wearing-blackface-say-social-democrats"
       },
       {
         "title": "European Commission calls for freezing of free trade with Israel over Gaza",
         "url": "https://www.theguardian.com/world/2025/sep/17/european-commission-calls-for-freezing-of-free-trade-with-israel-over-gaza"
+      },
+      {
+        "title": "Israel’s culture minister threatens national film awards after Palestinian story takes top prize",
+        "url": "https://www.theguardian.com/film/2025/sep/17/israels-culture-minister-threatens-national-film-awards-after-palestinian-story-takes-top-prize"
       },
       {
         "title": "UN warns of ‘grave’ concerns for fuel and food in famine-hit northern Gaza – Middle East crisis live",
@@ -533,10 +537,6 @@
       {
         "title": "Israel’s war in Gaza ‘morally, politically and legally intolerable’ says UN secretary general - as it happened",
         "url": "https://www.theguardian.com/world/live/2025/sep/16/israel-gaza-war-israels-defence-minister-says-gaza-is-burning-amid-escalation-in-bombardment-latest-updates"
-      },
-      {
-        "title": "Israel launches ground offensive deep inside Gaza City",
-        "url": "https://www.theguardian.com/world/2025/sep/16/israel-launches-ground-offensive-deep-inside-gaza-city"
       }
     ],
     "wikipedia": [
@@ -949,67 +949,67 @@
   },
   "keyword_frequencies": [
     [
+      "after",
+      13
+    ],
+    [
       "gaza",
       13
     ],
     [
       "trump",
-      12
-    ],
-    [
-      "new",
-      11
-    ],
-    [
-      "after",
       11
     ],
     [
       "kirk",
-      9
+      11
     ],
     [
       "says",
-      8
-    ],
-    [
-      "news",
-      8
+      10
     ],
     [
       "charlie",
-      8
+      10
     ],
     [
       "israel",
+      9
+    ],
+    [
+      "film",
       8
+    ],
+    [
+      "new",
+      7
     ],
     [
       "series",
       7
     ],
     [
-      "film",
-      7
-    ],
-    [
-      "its",
-      6
-    ],
-    [
       "times",
       6
     ],
     [
-      "city",
+      "news",
       6
     ],
     [
-      "state",
+      "war",
+      6
+    ],
+    [
+      "has",
       5
     ],
     [
-      "raised",
+      "its",
+      5
+    ],
+    [
+      "first",
       5
     ],
     [
@@ -1017,7 +1017,7 @@
       5
     ],
     [
-      "robert",
+      "city",
       5
     ],
     [
@@ -1025,23 +1025,27 @@
       5
     ],
     [
+      "american",
+      4
+    ],
+    [
       "attacks",
       4
     ],
     [
-      "post",
+      "key",
       4
     ],
     [
-      "review",
+      "state",
       4
     ],
     [
-      "first",
+      "raised",
       4
     ],
     [
-      "led",
+      "google",
       4
     ],
     [
@@ -1049,15 +1053,7 @@
       4
     ],
     [
-      "reuters",
-      4
-    ],
-    [
-      "china",
-      4
-    ],
-    [
-      "has",
+      "nvidia",
       4
     ],
     [
@@ -1069,11 +1065,7 @@
       4
     ],
     [
-      "york",
-      4
-    ],
-    [
-      "show",
+      "review",
       4
     ],
     [
@@ -1085,7 +1077,7 @@
       4
     ],
     [
-      "free",
+      "robert",
       4
     ],
     [
@@ -1094,18 +1086,6 @@
     ],
     [
       "trade",
-      4
-    ],
-    [
-      "war",
-      4
-    ],
-    [
-      "protests",
-      4
-    ],
-    [
-      "offensive",
       4
     ],
     [
@@ -1125,27 +1105,23 @@
       3
     ],
     [
+      "apple",
+      3
+    ],
+    [
       "photos",
       3
     ],
     [
-      "app",
+      "bloomberg",
       3
     ],
     [
-      "again",
+      "models",
       3
     ],
     [
-      "key",
-      3
-    ],
-    [
-      "building",
-      3
-    ],
-    [
-      "years",
+      "led",
       3
     ],
     [
@@ -1157,11 +1133,19 @@
       3
     ],
     [
+      "reuters",
+      3
+    ],
+    [
+      "use",
+      3
+    ],
+    [
       "some",
       3
     ],
     [
-      "nvidia",
+      "china",
       3
     ],
     [
@@ -1169,47 +1153,15 @@
       3
     ],
     [
-      "get",
+      "verge",
       3
     ],
     [
-      "air",
+      "thousands",
       3
     ],
     [
-      "chips",
-      3
-    ],
-    [
-      "economic",
-      3
-    ],
-    [
-      "visit",
-      3
-    ],
-    [
-      "castle",
-      3
-    ],
-    [
-      "happened",
-      3
-    ],
-    [
-      "president",
-      3
-    ],
-    [
-      "away",
-      3
-    ],
-    [
-      "nbc",
-      3
-    ],
-    [
-      "cbs",
+      "bbc",
       3
     ],
     [
@@ -1221,7 +1173,27 @@
       3
     ],
     [
-      "american",
+      "epstein",
+      3
+    ],
+    [
+      "cbs",
+      3
+    ],
+    [
+      "president",
+      3
+    ],
+    [
+      "missing",
+      3
+    ],
+    [
+      "plan",
+      3
+    ],
+    [
+      "amid",
       3
     ],
     [
@@ -1233,15 +1205,11 @@
       3
     ],
     [
-      "live",
-      3
-    ],
-    [
-      "search",
-      3
-    ],
-    [
       "star",
+      3
+    ],
+    [
+      "another",
       3
     ],
     [
@@ -1249,11 +1217,31 @@
       3
     ],
     [
+      "show",
+      3
+    ],
+    [
       "crisis",
       3
     ],
     [
+      "future",
+      3
+    ],
+    [
+      "free",
+      3
+    ],
+    [
       "cars",
+      3
+    ],
+    [
+      "protests",
+      3
+    ],
+    [
+      "offensive",
       3
     ],
     [
@@ -1289,11 +1277,35 @@
       3
     ],
     [
+      "happened",
+      3
+    ],
+    [
+      "launch",
+      2
+    ],
+    [
+      "buying",
+      2
+    ],
+    [
+      "sql",
+      2
+    ],
+    [
+      "want",
+      2
+    ],
+    [
       "youtube",
       2
     ],
     [
       "android",
+      2
+    ],
+    [
+      "app",
       2
     ],
     [
@@ -1305,19 +1317,59 @@
       2
     ],
     [
-      "alibaba",
+      "again",
       2
     ],
     [
-      "deep",
+      "chip",
       2
     ],
     [
-      "project",
+      "content",
       2
     ],
     [
-      "crash",
+      "help",
+      2
+    ],
+    [
+      "track",
+      2
+    ],
+    [
+      "cnbc",
+      2
+    ],
+    [
+      "irregular",
+      2
+    ],
+    [
+      "labs",
+      2
+    ],
+    [
+      "80m",
+      2
+    ],
+    [
+      "across",
+      2
+    ],
+    [
+      "sequoia",
+      2
+    ],
+    [
+      "redpoint",
+      2
+    ],
+    [
+      "thomas",
+      2
+    ],
+    [
+      "like",
       2
     ],
     [
@@ -1337,15 +1389,11 @@
       2
     ],
     [
-      "bloomberg",
+      "jumps",
       2
     ],
     [
-      "help",
-      2
-    ],
-    [
-      "use",
+      "have",
       2
     ],
     [
@@ -1361,10 +1409,6 @@
       2
     ],
     [
-      "banned",
-      2
-    ],
-    [
       "companies",
       2
     ],
@@ -1373,7 +1417,7 @@
       2
     ],
     [
-      "display",
+      "takes",
       2
     ],
     [
@@ -1385,7 +1429,11 @@
       2
     ],
     [
-      "verge",
+      "get",
+      2
+    ],
+    [
+      "air",
       2
     ],
     [
@@ -1397,23 +1445,75 @@
       2
     ],
     [
-      "risk",
+      "business",
       2
     ],
     [
-      "orchestration",
+      "years",
       2
     ],
     [
-      "50m",
+      "former",
       2
     ],
     [
-      "prince",
+      "cdc",
       2
     ],
     [
-      "cassidy",
+      "director",
+      2
+    ],
+    [
+      "committee",
+      2
+    ],
+    [
+      "fired",
+      2
+    ],
+    [
+      "protest",
+      2
+    ],
+    [
+      "second",
+      2
+    ],
+    [
+      "visit",
+      2
+    ],
+    [
+      "force",
+      2
+    ],
+    [
+      "york",
+      2
+    ],
+    [
+      "troops",
+      2
+    ],
+    [
+      "kash",
+      2
+    ],
+    [
+      "patel",
+      2
+    ],
+    [
+      "court",
+      2
+    ],
+    [
+      "orders",
+      2
+    ],
+    [
+      "politico",
       2
     ],
     [
@@ -1426,34 +1526,6 @@
     ],
     [
       "cnn",
-      2
-    ],
-    [
-      "epstein",
-      2
-    ],
-    [
-      "during",
-      2
-    ],
-    [
-      "democrats",
-      2
-    ],
-    [
-      "bill",
-      2
-    ],
-    [
-      "force",
-      2
-    ],
-    [
-      "one",
-      2
-    ],
-    [
-      "wins",
       2
     ],
     [
@@ -1477,27 +1549,19 @@
       2
     ],
     [
-      "gets",
+      "nbc",
       2
     ],
     [
-      "former",
+      "found",
       2
     ],
     [
-      "bid",
+      "castle",
       2
     ],
     [
-      "shooting",
-      2
-    ],
-    [
-      "wearing",
-      2
-    ],
-    [
-      "great",
+      "during",
       2
     ],
     [
@@ -1514,22 +1578,6 @@
     ],
     [
       "prison",
-      2
-    ],
-    [
-      "washington",
-      2
-    ],
-    [
-      "thousands",
-      2
-    ],
-    [
-      "troops",
-      2
-    ],
-    [
-      "bbc",
       2
     ],
     [
@@ -1557,23 +1605,19 @@
       2
     ],
     [
-      "greetings",
+      "gold",
       2
     ],
     [
-      "university",
+      "bracelet",
       2
     ],
     [
-      "beirut",
+      "museum",
       2
     ],
     [
-      "cats",
-      2
-    ],
-    [
-      "roam",
+      "sanctions",
       2
     ],
     [
@@ -1585,7 +1629,23 @@
       2
     ],
     [
-      "plan",
+      "economic",
+      2
+    ],
+    [
+      "live",
+      2
+    ],
+    [
+      "daily",
+      2
+    ],
+    [
+      "square",
+      2
+    ],
+    [
+      "backed",
       2
     ],
     [
@@ -1593,43 +1653,31 @@
       2
     ],
     [
-      "meta",
-      2
-    ],
-    [
-      "glasses",
-      2
-    ],
-    [
-      "tom",
-      2
-    ],
-    [
-      "guide",
-      2
-    ],
-    [
-      "google",
-      2
-    ],
-    [
       "movie",
       2
     ],
     [
-      "baldwin",
+      "one",
       2
     ],
     [
-      "appearance",
+      "battle",
       2
     ],
     [
-      "com",
+      "vision",
       2
     ],
     [
-      "strategy",
+      "reveals",
+      2
+    ],
+    [
+      "game",
+      2
+    ],
+    [
+      "week",
       2
     ],
     [
@@ -1641,7 +1689,7 @@
       2
     ],
     [
-      "missing",
+      "search",
       2
     ],
     [
@@ -1661,19 +1709,11 @@
       2
     ],
     [
-      "munsch",
-      2
-    ],
-    [
       "pictures",
       2
     ],
     [
       "donald",
-      2
-    ],
-    [
-      "second",
       2
     ],
     [
@@ -1698,6 +1738,18 @@
     ],
     [
       "indian",
+      2
+    ],
+    [
+      "pressure",
+      2
+    ],
+    [
+      "national",
+      2
+    ],
+    [
+      "pritzker",
       2
     ],
     [
@@ -1737,10 +1789,6 @@
       2
     ],
     [
-      "amid",
-      2
-    ],
-    [
       "land",
       2
     ],
@@ -1750,10 +1798,6 @@
     ],
     [
       "tries",
-      2
-    ],
-    [
-      "another",
       2
     ],
     [
@@ -1773,11 +1817,11 @@
       2
     ],
     [
-      "future",
+      "ben",
       2
     ],
     [
-      "ben",
+      "minister",
       2
     ],
     [
@@ -1789,7 +1833,7 @@
       2
     ],
     [
-      "ground",
+      "awards",
       2
     ],
     [
@@ -1829,6 +1873,62 @@
       2
     ],
     [
+      "runrl",
+      1
+    ],
+    [
+      "x25",
+      1
+    ],
+    [
+      "reinforcement",
+      1
+    ],
+    [
+      "learning",
+      1
+    ],
+    [
+      "service",
+      1
+    ],
+    [
+      "anymore",
+      1
+    ],
+    [
+      "microsoft",
+      1
+    ],
+    [
+      "python",
+      1
+    ],
+    [
+      "driver",
+      1
+    ],
+    [
+      "server",
+      1
+    ],
+    [
+      "motivate",
+      1
+    ],
+    [
+      "yourself",
+      1
+    ],
+    [
+      "thing",
+      1
+    ],
+    [
+      "don",
+      1
+    ],
+    [
       "addresses",
       1
     ],
@@ -1857,6 +1957,38 @@
       1
     ],
     [
+      "uuidv47",
+      1
+    ],
+    [
+      "store",
+      1
+    ],
+    [
+      "uuidv7",
+      1
+    ],
+    [
+      "emit",
+      1
+    ],
+    [
+      "uuidv4",
+      1
+    ],
+    [
+      "outside",
+      1
+    ],
+    [
+      "siphash-masked",
+      1
+    ],
+    [
+      "timestamp",
+      1
+    ],
+    [
       "sqlitedata",
       1
     ],
@@ -1874,10 +2006,6 @@
     ],
     [
       "swiftdata",
-      1
-    ],
-    [
-      "sql",
       1
     ],
     [
@@ -1957,10 +2085,6 @@
       1
     ],
     [
-      "apple",
-      1
-    ],
-    [
       "corrupts",
       1
     ],
@@ -1993,6 +2117,30 @@
       1
     ],
     [
+      "chat",
+      1
+    ],
+    [
+      "control",
+      1
+    ],
+    [
+      "germany",
+      1
+    ],
+    [
+      "position",
+      1
+    ],
+    [
+      "reverted",
+      1
+    ],
+    [
+      "undecided",
+      1
+    ],
+    [
       "meditation",
       1
     ],
@@ -2009,11 +2157,7 @@
       1
     ],
     [
-      "chip",
-      1
-    ],
-    [
-      "unveiled",
+      "alibaba",
       1
     ],
     [
@@ -2054,10 +2198,6 @@
     ],
     [
       "intuitive",
-      1
-    ],
-    [
-      "content",
       1
     ],
     [
@@ -2109,139 +2249,155 @@
       1
     ],
     [
-      "asus",
+      "macroscope",
       1
     ],
     [
-      "gaming",
+      "founded",
       1
     ],
     [
-      "laptop",
+      "kayvon",
       1
     ],
     [
-      "acpi",
+      "beykpour",
       1
     ],
     [
-      "firmware",
+      "let",
       1
     ],
     [
-      "bug",
+      "developers",
       1
     ],
     [
-      "technical",
+      "find",
       1
     ],
     [
-      "investigation",
+      "bugs",
       1
     ],
     [
-      "gnu",
+      "product",
       1
     ],
     [
-      "midnight",
+      "managers",
       1
     ],
     [
-      "commander",
+      "engineering",
       1
     ],
     [
-      "got",
+      "work",
       1
     ],
     [
-      "highest",
+      "40m",
       1
     ],
     [
-      "score",
+      "lightspeed",
       1
     ],
     [
-      "arc-agi",
+      "others",
       1
     ],
     [
-      "swapping",
+      "jordan",
       1
     ],
     [
-      "python",
+      "novet",
       1
     ],
     [
-      "english",
+      "sources",
       1
     ],
     [
-      "amd",
+      "reddit",
       1
     ],
     [
-      "open",
+      "early",
       1
     ],
     [
-      "source",
+      "talks",
       1
     ],
     [
-      "driver",
+      "deepen",
       1
     ],
     [
-      "vulkan",
+      "integration",
       1
     ],
     [
-      "discontinued",
+      "products",
       1
     ],
     [
-      "doom",
+      "beyond",
       1
     ],
     [
-      "real-world",
+      "60m",
       1
     ],
     [
-      "runtime",
+      "data-sharing",
       1
     ],
     [
-      "confirmed",
+      "deal",
       1
     ],
     [
-      "real",
+      "signed",
       1
     ],
     [
-      "hardware",
+      "helps",
       1
     ],
     [
-      "datatables",
+      "test",
       1
     ],
     [
-      "cdn",
+      "misuse",
       1
     ],
     [
-      "outage",
+      "seed",
       1
     ],
     [
-      "incident",
+      "rounds",
+      1
+    ],
+    [
+      "450m",
+      1
+    ],
+    [
+      "valuation",
+      1
+    ],
+    [
+      "brewster",
+      1
+    ],
+    [
+      "forbes",
       1
     ],
     [
@@ -2249,11 +2405,11 @@
       1
     ],
     [
-      "colossus",
+      "building",
       1
     ],
     [
-      "track",
+      "colossus",
       1
     ],
     [
@@ -2301,23 +2457,11 @@
       1
     ],
     [
-      "irregular",
-      1
-    ],
-    [
       "works",
       1
     ],
     [
       "leading",
-      1
-    ],
-    [
-      "labs",
-      1
-    ],
-    [
-      "like",
       1
     ],
     [
@@ -2334,18 +2478,6 @@
     ],
     [
       "risks",
-      1
-    ],
-    [
-      "80m",
-      1
-    ],
-    [
-      "sequoia",
-      1
-    ],
-    [
-      "redpoint",
       1
     ],
     [
@@ -2449,10 +2581,6 @@
       1
     ],
     [
-      "launch",
-      1
-    ],
-    [
       "robotaxis",
       1
     ],
@@ -2470,10 +2598,6 @@
     ],
     [
       "march",
-      1
-    ],
-    [
-      "jumps",
       1
     ],
     [
@@ -2513,19 +2637,11 @@
       1
     ],
     [
-      "across",
-      1
-    ],
-    [
       "inventory",
       1
     ],
     [
       "platforms",
-      1
-    ],
-    [
-      "have",
       1
     ],
     [
@@ -2621,6 +2737,10 @@
       1
     ],
     [
+      "banned",
+      1
+    ],
+    [
       "rtx",
       1
     ],
@@ -2637,15 +2757,7 @@
       1
     ],
     [
-      "cnbc",
-      1
-    ],
-    [
       "best",
-      1
-    ],
-    [
-      "models",
       1
     ],
     [
@@ -2657,15 +2769,15 @@
       1
     ],
     [
+      "display",
+      1
+    ],
+    [
       "center",
       1
     ],
     [
       "stage",
-      1
-    ],
-    [
-      "takes",
       1
     ],
     [
@@ -2801,10 +2913,6 @@
       1
     ],
     [
-      "business",
-      1
-    ],
-    [
       "processes",
       1
     ],
@@ -2829,154 +2937,6 @@
       1
     ],
     [
-      "groq",
-      1
-    ],
-    [
-      "sells",
-      1
-    ],
-    [
-      "data-center",
-      1
-    ],
-    [
-      "compute",
-      1
-    ],
-    [
-      "powered",
-      1
-    ],
-    [
-      "750m",
-      1
-    ],
-    [
-      "disruptive",
-      1
-    ],
-    [
-      "post-money",
-      1
-    ],
-    [
-      "valuation",
-      1
-    ],
-    [
-      "expand",
-      1
-    ],
-    [
-      "capacity",
-      1
-    ],
-    [
-      "dina",
-      1
-    ],
-    [
-      "bass",
-      1
-    ],
-    [
-      "bengaluru-based",
-      1
-    ],
-    [
-      "finbox",
-      1
-    ],
-    [
-      "provides",
-      1
-    ],
-    [
-      "b2b",
-      1
-    ],
-    [
-      "digital",
-      1
-    ],
-    [
-      "lending",
-      1
-    ],
-    [
-      "infrastructure",
-      1
-    ],
-    [
-      "intelligence",
-      1
-    ],
-    [
-      "tools",
-      1
-    ],
-    [
-      "40m",
-      1
-    ],
-    [
-      "westbridge",
-      1
-    ],
-    [
-      "airia",
-      1
-    ],
-    [
-      "governance",
-      1
-    ],
-    [
-      "layer",
-      1
-    ],
-    [
-      "agents",
-      1
-    ],
-    [
-      "co-founder",
-      1
-    ],
-    [
-      "john",
-      1
-    ],
-    [
-      "marshall",
-      1
-    ],
-    [
-      "made",
-      1
-    ],
-    [
-      "further",
-      1
-    ],
-    [
-      "commitment",
-      1
-    ],
-    [
-      "mike",
-      1
-    ],
-    [
-      "wheatley",
-      1
-    ],
-    [
-      "siliconangle",
-      1
-    ],
-    [
       "site",
       1
     ],
@@ -2997,19 +2957,27 @@
       1
     ],
     [
-      "arrives",
+      "susan",
       1
     ],
     [
-      "welcomed",
+      "monarez",
       1
     ],
     [
-      "king",
+      "tells",
       1
     ],
     [
-      "windsor",
+      "senate",
+      1
+    ],
+    [
+      "true",
+      1
+    ],
+    [
+      "reason",
       1
     ],
     [
@@ -3017,23 +2985,71 @@
       1
     ],
     [
-      "asks",
+      "against",
       1
     ],
     [
-      "cdc",
+      "home",
       1
     ],
     [
-      "director",
+      "seas",
       1
     ],
     [
-      "ouster",
+      "expands",
       1
     ],
     [
-      "politico",
+      "republicans",
+      1
+    ],
+    [
+      "honoring",
+      1
+    ],
+    [
+      "memory",
+      1
+    ],
+    [
+      "declaring",
+      1
+    ],
+    [
+      "amendment",
+      1
+    ],
+    [
+      "advance",
+      1
+    ],
+    [
+      "bar",
+      1
+    ],
+    [
+      "him",
+      1
+    ],
+    [
+      "releasing",
+      1
+    ],
+    [
+      "files",
+      1
+    ],
+    [
+      "judges",
+      1
+    ],
+    [
+      "said",
+      1
+    ],
+    [
+      "otherwise",
       1
     ],
     [
@@ -3061,67 +3077,11 @@
       1
     ],
     [
-      "activists",
-      1
-    ],
-    [
-      "beam",
-      1
-    ],
-    [
-      "onto",
-      1
-    ],
-    [
-      "axios",
-      1
-    ],
-    [
-      "oppose",
-      1
-    ],
-    [
-      "stopgap",
-      1
-    ],
-    [
-      "raising",
-      1
-    ],
-    [
-      "odds",
-      1
-    ],
-    [
-      "shutdown",
-      1
-    ],
-    [
-      "spirit",
-      1
-    ],
-    [
-      "airlines",
-      1
-    ],
-    [
-      "flight",
-      1
-    ],
-    [
-      "repeatedly",
-      1
-    ],
-    [
-      "warned",
-      1
-    ],
-    [
-      "turn",
-      1
-    ],
-    [
       "democrat",
+      1
+    ],
+    [
+      "wins",
       1
     ],
     [
@@ -3141,79 +3101,51 @@
       1
     ],
     [
-      "abigail",
+      "wreck",
       1
     ],
     [
-      "spanberger",
+      "ship",
       1
     ],
     [
-      "support",
+      "sank",
       1
     ],
     [
-      "gop",
+      "nearly",
       1
     ],
     [
-      "lawmakers",
+      "century",
       1
     ],
     [
-      "virginia",
+      "ago",
       1
     ],
     [
-      "governor",
+      "feet",
       1
     ],
     [
-      "ice",
+      "underwater",
       1
     ],
     [
-      "officers",
+      "activists",
       1
     ],
     [
-      "fatal",
+      "beam",
       1
     ],
     [
-      "chicago",
+      "onto",
       1
     ],
     [
-      "body",
-      1
-    ],
-    [
-      "cameras",
-      1
-    ],
-    [
-      "san",
-      1
-    ],
-    [
-      "francisco",
-      1
-    ],
-    [
-      "politician",
-      1
-    ],
-    [
-      "recalled",
-      1
-    ],
-    [
-      "highway",
-      1
-    ],
-    [
-      "closure",
+      "axios",
       1
     ],
     [
@@ -3229,7 +3161,11 @@
       1
     ],
     [
-      "advance",
+      "washington",
+      1
+    ],
+    [
+      "post",
       1
     ],
     [
@@ -3237,7 +3173,31 @@
       1
     ],
     [
-      "npr",
+      "pharaoh",
+      1
+    ],
+    [
+      "000-year-old",
+      1
+    ],
+    [
+      "egypt",
+      1
+    ],
+    [
+      "unveils",
+      1
+    ],
+    [
+      "hit",
+      1
+    ],
+    [
+      "tariffs",
+      1
+    ],
+    [
+      "outcry",
       1
     ],
     [
@@ -3257,99 +3217,99 @@
       1
     ],
     [
+      "firms",
+      1
+    ],
+    [
+      "stop",
+      1
+    ],
+    [
+      "com",
+      1
+    ],
+    [
       "stock",
       1
     ],
     [
-      "drops",
+      "market",
       1
     ],
     [
-      "tiktok",
+      "today",
       1
     ],
     [
-      "parent",
+      "dow",
       1
     ],
     [
-      "affected",
+      "points",
       1
     ],
     [
-      "barron",
+      "looms",
       1
     ],
     [
-      "morning",
+      "breaks",
       1
     ],
     [
-      "ailing",
+      "level",
       1
     ],
     [
-      "dollar",
+      "coverage",
       1
     ],
     [
-      "toehold",
+      "investor",
       1
     ],
     [
-      "awaited",
+      "casino",
       1
     ],
     [
-      "release",
+      "proposal",
       1
     ],
     [
-      "wells",
+      "caesars",
       1
     ],
     [
-      "fargo",
+      "jay-z",
       1
     ],
     [
-      "banker",
+      "denied",
       1
     ],
     [
-      "placed",
+      "advisory",
       1
     ],
     [
-      "exit",
+      "hollywood",
       1
     ],
     [
-      "ban",
+      "reporter",
       1
     ],
     [
-      "t-mobile",
+      "give",
       1
     ],
     [
-      "giving",
+      "exactly",
       1
     ],
     [
-      "trade-in",
-      1
-    ],
-    [
-      "here",
-      1
-    ],
-    [
-      "yours",
-      1
-    ],
-    [
-      "mashable",
+      "wired",
       1
     ],
     [
@@ -3385,11 +3345,11 @@
       1
     ],
     [
-      "connect",
+      "meta",
       1
     ],
     [
-      "ray-ban",
+      "unveil",
       1
     ],
     [
@@ -3397,31 +3357,51 @@
       1
     ],
     [
-      "oakley",
+      "glasses",
       1
     ],
     [
-      "all",
+      "connect",
       1
     ],
     [
-      "happens",
+      "event",
       1
     ],
     [
-      "shows",
+      "seeking",
       1
     ],
     [
-      "microsoft",
+      "alpha",
       1
     ],
     [
-      "desktop",
+      "made",
       1
     ],
     [
-      "work",
+      "strap",
+      1
+    ],
+    [
+      "now",
+      1
+    ],
+    [
+      "rope",
+      1
+    ],
+    [
+      "dangle",
+      1
+    ],
+    [
+      "pixel",
+      1
+    ],
+    [
+      "wrist",
       1
     ],
     [
@@ -3445,6 +3425,10 @@
       1
     ],
     [
+      "great",
+      1
+    ],
+    [
       "decent",
       1
     ],
@@ -3457,11 +3441,19 @@
       1
     ],
     [
-      "cardi",
+      "anderson",
       1
     ],
     [
-      "reveals",
+      "mesmerizing",
+      1
+    ],
+    [
+      "variety",
+      1
+    ],
+    [
+      "cardi",
       1
     ],
     [
@@ -3537,23 +3529,7 @@
       1
     ],
     [
-      "hilaria",
-      1
-    ],
-    [
-      "reacts",
-      1
-    ],
-    [
-      "alec",
-      1
-    ],
-    [
-      "dwts",
-      1
-    ],
-    [
-      "yahoo",
+      "tom",
       1
     ],
     [
@@ -3574,10 +3550,6 @@
     ],
     [
       "coaches",
-      1
-    ],
-    [
-      "game",
       1
     ],
     [
@@ -3605,15 +3577,95 @@
       1
     ],
     [
-      "week",
+      "wide",
       1
     ],
     [
-      "survivor",
+      "receiver",
       1
     ],
     [
-      "pool",
+      "start",
+      1
+    ],
+    [
+      "sit",
+      1
+    ],
+    [
+      "fantasy",
+      1
+    ],
+    [
+      "football",
+      1
+    ],
+    [
+      "sports",
+      1
+    ],
+    [
+      "illustrated",
+      1
+    ],
+    [
+      "shohei",
+      1
+    ],
+    [
+      "ohtani",
+      1
+    ],
+    [
+      "removed",
+      1
+    ],
+    [
+      "five",
+      1
+    ],
+    [
+      "no-hit",
+      1
+    ],
+    [
+      "innings",
+      1
+    ],
+    [
+      "dodgers",
+      1
+    ],
+    [
+      "bullpen",
+      1
+    ],
+    [
+      "collapses",
+      1
+    ],
+    [
+      "loss",
+      1
+    ],
+    [
+      "los",
+      1
+    ],
+    [
+      "angeles",
+      1
+    ],
+    [
+      "score",
+      1
+    ],
+    [
+      "predictions",
+      1
+    ],
+    [
+      "expert",
       1
     ],
     [
@@ -3621,95 +3673,11 @@
       1
     ],
     [
-      "analysis",
+      "matchups",
       1
     ],
     [
-      "browns",
-      1
-    ],
-    [
-      "impacted",
-      1
-    ],
-    [
-      "injuries",
-      1
-    ],
-    [
-      "bengals",
-      1
-    ],
-    [
-      "joe",
-      1
-    ],
-    [
-      "burrow",
-      1
-    ],
-    [
-      "vikings",
-      1
-    ],
-    [
-      "mccarthy",
-      1
-    ],
-    [
-      "mary",
-      1
-    ],
-    [
-      "kay",
-      1
-    ],
-    [
-      "cabot",
-      1
-    ],
-    [
-      "cleveland",
-      1
-    ],
-    [
-      "0-2",
-      1
-    ],
-    [
-      "teams",
-      1
-    ],
-    [
-      "ranked",
-      1
-    ],
-    [
-      "playoff",
-      1
-    ],
-    [
-      "chances",
-      1
-    ],
-    [
-      "chiefs",
-      1
-    ],
-    [
-      "bears",
-      1
-    ],
-    [
-      "texans",
-      1
-    ],
-    [
-      "action",
-      1
-    ],
-    [
-      "network",
+      "sportsline",
       1
     ],
     [
@@ -3741,19 +3709,19 @@
       1
     ],
     [
-      "gold",
-      1
-    ],
-    [
-      "bracelet",
-      1
-    ],
-    [
       "cairo",
       1
     ],
     [
-      "museum",
+      "forecast",
+      1
+    ],
+    [
+      "health",
+      1
+    ],
+    [
+      "weather",
       1
     ],
     [
@@ -3777,19 +3745,11 @@
       1
     ],
     [
-      "tennis",
-      1
-    ],
-    [
-      "sorry",
-      1
-    ],
-    [
-      "comments",
-      1
-    ],
-    [
       "gunmen",
+      1
+    ],
+    [
+      "shooting",
       1
     ],
     [
@@ -3809,31 +3769,23 @@
       1
     ],
     [
-      "ex-arsenal",
-      1
-    ],
-    [
-      "thomas",
-      1
-    ],
-    [
-      "partey",
-      1
-    ],
-    [
-      "denies",
-      1
-    ],
-    [
-      "rape",
-      1
-    ],
-    [
-      "charges",
-      1
-    ],
-    [
       "flying",
+      1
+    ],
+    [
+      "crash",
+      1
+    ],
+    [
+      "tennis",
+      1
+    ],
+    [
+      "sorry",
+      1
+    ],
+    [
+      "comments",
       1
     ],
     [
@@ -3865,23 +3817,23 @@
       1
     ],
     [
-      "canadian",
+      "ex-arsenal",
       1
     ],
     [
-      "writer",
+      "partey",
       1
     ],
     [
-      "approved",
+      "denies",
       1
     ],
     [
-      "assisted",
+      "rape",
       1
     ],
     [
-      "dying",
+      "charges",
       1
     ],
     [
@@ -4013,7 +3965,7 @@
       1
     ],
     [
-      "court",
+      "appearance",
       1
     ],
     [
@@ -4073,10 +4025,6 @@
       1
     ],
     [
-      "daily",
-      1
-    ],
-    [
       "talk",
       1
     ],
@@ -4113,6 +4061,10 @@
       1
     ],
     [
+      "away",
+      1
+    ],
+    [
       "rains",
       1
     ],
@@ -4129,6 +4081,86 @@
       1
     ],
     [
+      "became",
+      1
+    ],
+    [
+      "leader",
+      1
+    ],
+    [
+      "conservative",
+      1
+    ],
+    [
+      "youth",
+      1
+    ],
+    [
+      "movement",
+      1
+    ],
+    [
+      "ousted",
+      1
+    ],
+    [
+      "testifies",
+      1
+    ],
+    [
+      "resisting",
+      1
+    ],
+    [
+      "rfk",
+      1
+    ],
+    [
+      "tennessee",
+      1
+    ],
+    [
+      "governor",
+      1
+    ],
+    [
+      "welcomed",
+      1
+    ],
+    [
+      "guard",
+      1
+    ],
+    [
+      "illinois",
+      1
+    ],
+    [
+      "hard",
+      1
+    ],
+    [
+      "greetings",
+      1
+    ],
+    [
+      "university",
+      1
+    ],
+    [
+      "beirut",
+      1
+    ],
+    [
+      "cats",
+      1
+    ],
+    [
+      "roam",
+      1
+    ],
+    [
       "shooter",
       1
     ],
@@ -4138,10 +4170,6 @@
     ],
     [
       "penalty",
-      1
-    ],
-    [
-      "pritzker",
       1
     ],
     [
@@ -4182,34 +4210,6 @@
     ],
     [
       "case",
-      1
-    ],
-    [
-      "her",
-      1
-    ],
-    [
-      "car",
-      1
-    ],
-    [
-      "ran",
-      1
-    ],
-    [
-      "gas",
-      1
-    ],
-    [
-      "came",
-      1
-    ],
-    [
-      "homeless",
-      1
-    ],
-    [
-      "encampment",
       1
     ],
     [
@@ -4261,51 +4261,11 @@
       1
     ],
     [
-      "pressure",
-      1
-    ],
-    [
       "likely",
       1
     ],
     [
       "year",
-      1
-    ],
-    [
-      "beyond",
-      1
-    ],
-    [
-      "draining",
-      1
-    ],
-    [
-      "swamp",
-      1
-    ],
-    [
-      "knocking",
-      1
-    ],
-    [
-      "checks",
-      1
-    ],
-    [
-      "presidential",
-      1
-    ],
-    [
-      "power",
-      1
-    ],
-    [
-      "pomp",
-      1
-    ],
-    [
-      "unprecedented",
       1
     ],
     [
@@ -4373,7 +4333,7 @@
       1
     ],
     [
-      "backed",
+      "project",
       1
     ],
     [
@@ -4390,10 +4350,6 @@
     ],
     [
       "two",
-      1
-    ],
-    [
-      "found",
       1
     ],
     [
@@ -4462,10 +4418,6 @@
     ],
     [
       "tourists",
-      1
-    ],
-    [
-      "protest",
       1
     ],
     [
@@ -4574,6 +4526,10 @@
     ],
     [
       "blow",
+      1
+    ],
+    [
+      "strategy",
       1
     ],
     [
@@ -4817,6 +4773,14 @@
       1
     ],
     [
+      "proposed",
+      1
+    ],
+    [
+      "distorted",
+      1
+    ],
+    [
       "far",
       1
     ],
@@ -4841,31 +4805,15 @@
       1
     ],
     [
+      "risk",
+      1
+    ],
+    [
       "diseases",
       1
     ],
     [
       "experts",
-      1
-    ],
-    [
-      "minister",
-      1
-    ],
-    [
-      "proposed",
-      1
-    ],
-    [
-      "distorted",
-      1
-    ],
-    [
-      "sanctions",
-      1
-    ],
-    [
-      "europe",
       1
     ],
     [
@@ -4877,11 +4825,19 @@
       1
     ],
     [
+      "wearing",
+      1
+    ],
+    [
       "blackface",
       1
     ],
     [
       "social",
+      1
+    ],
+    [
+      "democrats",
       1
     ],
     [
@@ -4894,6 +4850,30 @@
     ],
     [
       "freezing",
+      1
+    ],
+    [
+      "culture",
+      1
+    ],
+    [
+      "threatens",
+      1
+    ],
+    [
+      "palestinian",
+      1
+    ],
+    [
+      "story",
+      1
+    ],
+    [
+      "top",
+      1
+    ],
+    [
+      "prize",
       1
     ],
     [
@@ -4937,6 +4917,10 @@
       1
     ],
     [
+      "ground",
+      1
+    ],
+    [
       "continues",
       1
     ],
@@ -4946,10 +4930,6 @@
     ],
     [
       "super-sparta",
-      1
-    ],
-    [
-      "vision",
       1
     ],
     [
@@ -4974,14 +4954,6 @@
     ],
     [
       "general",
-      1
-    ],
-    [
-      "launches",
-      1
-    ],
-    [
-      "inside",
       1
     ],
     [
@@ -5030,14 +5002,6 @@
     ],
     [
       "graham",
-      1
-    ],
-    [
-      "kash",
-      1
-    ],
-    [
-      "patel",
       1
     ],
     [
@@ -5094,6 +5058,10 @@
     ],
     [
       "duchess",
+      1
+    ],
+    [
+      "bill",
       1
     ],
     [
@@ -5161,6 +5129,10 @@
       1
     ],
     [
+      "prince",
+      1
+    ],
+    [
       "edward",
       1
     ],
@@ -5173,15 +5145,15 @@
       1
     ],
     [
-      "square",
-      1
-    ],
-    [
       "massacre",
       1
     ],
     [
       "butch",
+      1
+    ],
+    [
+      "cassidy",
       1
     ],
     [
@@ -5246,10 +5218,6 @@
     ],
     [
       "emmy",
-      1
-    ],
-    [
-      "awards",
       1
     ],
     [
@@ -5377,6 +5345,10 @@
       1
     ],
     [
+      "munsch",
+      1
+    ],
+    [
       "saiyaara",
       1
     ],
@@ -5438,10 +5410,6 @@
     ],
     [
       "walters",
-      1
-    ],
-    [
-      "battle",
       1
     ],
     [
@@ -5532,22 +5500,14 @@
   "bigram_frequencies": [
     [
       "charlie kirk",
-      7
+      9
     ],
     [
       "gaza city",
-      6
+      5
     ],
     [
-      "new york",
-      4
-    ],
-    [
-      "york times",
-      3
-    ],
-    [
-      "nbc news",
+      "gaza war",
       3
     ],
     [
@@ -5555,15 +5515,15 @@
       3
     ],
     [
+      "raised 80m",
+      2
+    ],
+    [
+      "led sequoia",
+      2
+    ],
+    [
       "financial times",
-      2
-    ],
-    [
-      "china has",
-      2
-    ],
-    [
-      "has banned",
       2
     ],
     [
@@ -5571,27 +5531,23 @@
       2
     ],
     [
-      "state visit",
+      "cdc director",
       2
     ],
     [
-      "obama says",
+      "trump second",
       2
     ],
     [
-      "melissa hortman",
+      "second state",
       2
     ],
     [
-      "cbs news",
+      "new york",
       2
     ],
     [
-      "widow says",
-      2
-    ],
-    [
-      "washington post",
+      "york times",
       2
     ],
     [
@@ -5607,6 +5563,30 @@
       2
     ],
     [
+      "kash patel",
+      2
+    ],
+    [
+      "obama says",
+      2
+    ],
+    [
+      "melissa hortman",
+      2
+    ],
+    [
+      "nbc news",
+      2
+    ],
+    [
+      "cbs news",
+      2
+    ],
+    [
+      "widow says",
+      2
+    ],
+    [
       "madeleine mccann",
       2
     ],
@@ -5615,27 +5595,27 @@
       2
     ],
     [
-      "greetings american",
+      "gold bracelet",
       2
     ],
     [
-      "american university",
-      2
-    ],
-    [
-      "university beirut",
-      2
-    ],
-    [
-      "beirut cats",
-      2
-    ],
-    [
-      "cats roam",
+      "bracelet missing",
       2
     ],
     [
       "cut rates",
+      2
+    ],
+    [
+      "one battle",
+      2
+    ],
+    [
+      "battle after",
+      2
+    ],
+    [
+      "after another",
       2
     ],
     [
@@ -5655,23 +5635,11 @@
       2
     ],
     [
-      "gaza war",
-      2
-    ],
-    [
       "each other",
       2
     ],
     [
-      "robert munsch",
-      2
-    ],
-    [
       "donald trump",
-      2
-    ],
-    [
-      "second state",
       2
     ],
     [
@@ -5695,16 +5663,72 @@
       2
     ],
     [
-      "ground offensive",
-      2
-    ],
-    [
       "xxx film",
       2
     ],
     [
       "candace owens",
       2
+    ],
+    [
+      "launch runrl",
+      1
+    ],
+    [
+      "runrl x25",
+      1
+    ],
+    [
+      "x25 reinforcement",
+      1
+    ],
+    [
+      "reinforcement learning",
+      1
+    ],
+    [
+      "learning service",
+      1
+    ],
+    [
+      "buying american",
+      1
+    ],
+    [
+      "american anymore",
+      1
+    ],
+    [
+      "microsoft python",
+      1
+    ],
+    [
+      "python driver",
+      1
+    ],
+    [
+      "driver sql",
+      1
+    ],
+    [
+      "sql server",
+      1
+    ],
+    [
+      "motivate yourself",
+      1
+    ],
+    [
+      "yourself thing",
+      1
+    ],
+    [
+      "thing don",
+      1
+    ],
+    [
+      "don want",
+      1
     ],
     [
       "youtube addresses",
@@ -5732,6 +5756,34 @@
     ],
     [
       "caused blockers",
+      1
+    ],
+    [
+      "uuidv47 store",
+      1
+    ],
+    [
+      "store uuidv7",
+      1
+    ],
+    [
+      "uuidv7 emit",
+      1
+    ],
+    [
+      "emit uuidv4",
+      1
+    ],
+    [
+      "uuidv4 outside",
+      1
+    ],
+    [
+      "outside siphash-masked",
+      1
+    ],
+    [
+      "siphash-masked timestamp",
       1
     ],
     [
@@ -5871,6 +5923,30 @@
       1
     ],
     [
+      "chat control",
+      1
+    ],
+    [
+      "control germany",
+      1
+    ],
+    [
+      "germany position",
+      1
+    ],
+    [
+      "position has",
+      1
+    ],
+    [
+      "has reverted",
+      1
+    ],
+    [
+      "reverted undecided",
+      1
+    ],
+    [
       "again meditation",
       1
     ],
@@ -5899,11 +5975,7 @@
       1
     ],
     [
-      "chip unveiled",
-      1
-    ],
-    [
-      "unveiled key",
+      "chip key",
       1
     ],
     [
@@ -5916,10 +5988,6 @@
     ],
     [
       "comparable h20",
-      1
-    ],
-    [
-      "building stategraph",
       1
     ],
     [
@@ -5995,147 +6063,219 @@
       1
     ],
     [
-      "asus gaming",
+      "macroscope founded",
       1
     ],
     [
-      "gaming laptop",
+      "founded kayvon",
       1
     ],
     [
-      "laptop acpi",
+      "kayvon beykpour",
       1
     ],
     [
-      "acpi firmware",
+      "beykpour let",
       1
     ],
     [
-      "firmware bug",
+      "let developers",
       1
     ],
     [
-      "bug deep",
+      "developers find",
       1
     ],
     [
-      "deep technical",
+      "find bugs",
       1
     ],
     [
-      "technical investigation",
+      "bugs help",
       1
     ],
     [
-      "gnu midnight",
+      "help product",
       1
     ],
     [
-      "midnight commander",
+      "product managers",
       1
     ],
     [
-      "got highest",
+      "managers track",
       1
     ],
     [
-      "highest score",
+      "track engineering",
       1
     ],
     [
-      "score arc-agi",
+      "engineering work",
       1
     ],
     [
-      "arc-agi again",
+      "work raised",
       1
     ],
     [
-      "again swapping",
+      "raised 40m",
       1
     ],
     [
-      "swapping python",
+      "40m lightspeed",
       1
     ],
     [
-      "python english",
+      "lightspeed others",
       1
     ],
     [
-      "amd open",
+      "others jordan",
       1
     ],
     [
-      "open source",
+      "jordan novet",
       1
     ],
     [
-      "source driver",
+      "novet cnbc",
       1
     ],
     [
-      "driver vulkan",
+      "sources reddit",
       1
     ],
     [
-      "vulkan project",
+      "reddit early",
       1
     ],
     [
-      "project discontinued",
+      "early talks",
       1
     ],
     [
-      "doom crash",
+      "talks google",
       1
     ],
     [
-      "crash after",
+      "google deepen",
       1
     ],
     [
-      "after years",
+      "deepen integration",
       1
     ],
     [
-      "years real-world",
+      "integration its",
       1
     ],
     [
-      "real-world runtime",
+      "its content",
       1
     ],
     [
-      "runtime confirmed",
+      "content google",
       1
     ],
     [
-      "confirmed real",
+      "google products",
       1
     ],
     [
-      "real hardware",
+      "products beyond",
       1
     ],
     [
-      "datatables cdn",
+      "beyond its",
       1
     ],
     [
-      "cdn outage",
+      "its 60m",
       1
     ],
     [
-      "outage post",
+      "60m data-sharing",
       1
     ],
     [
-      "post incident",
+      "data-sharing deal",
       1
     ],
     [
-      "incident review",
+      "deal signed",
+      1
+    ],
+    [
+      "signed bloomberg",
+      1
+    ],
+    [
+      "irregular helps",
+      1
+    ],
+    [
+      "helps labs",
+      1
+    ],
+    [
+      "labs test",
+      1
+    ],
+    [
+      "test models",
+      1
+    ],
+    [
+      "models misuse",
+      1
+    ],
+    [
+      "misuse raised",
+      1
+    ],
+    [
+      "80m across",
+      1
+    ],
+    [
+      "across seed",
+      1
+    ],
+    [
+      "seed series",
+      1
+    ],
+    [
+      "series rounds",
+      1
+    ],
+    [
+      "rounds led",
+      1
+    ],
+    [
+      "sequoia redpoint",
+      1
+    ],
+    [
+      "redpoint 450m",
+      1
+    ],
+    [
+      "450m valuation",
+      1
+    ],
+    [
+      "valuation thomas",
+      1
+    ],
+    [
+      "thomas brewster",
+      1
+    ],
+    [
+      "brewster forbes",
       1
     ],
     [
@@ -6243,15 +6383,7 @@
       1
     ],
     [
-      "raised 80m",
-      1
-    ],
-    [
       "80m led",
-      1
-    ],
-    [
-      "led sequoia",
       1
     ],
     [
@@ -6639,6 +6771,14 @@
       1
     ],
     [
+      "china has",
+      1
+    ],
+    [
+      "has banned",
+      1
+    ],
+    [
       "banned chinese",
       1
     ],
@@ -6967,218 +7107,6 @@
       1
     ],
     [
-      "groq sells",
-      1
-    ],
-    [
-      "sells chips",
-      1
-    ],
-    [
-      "chips data-center",
-      1
-    ],
-    [
-      "data-center compute",
-      1
-    ],
-    [
-      "compute powered",
-      1
-    ],
-    [
-      "powered chips",
-      1
-    ],
-    [
-      "chips raised",
-      1
-    ],
-    [
-      "raised 750m",
-      1
-    ],
-    [
-      "750m led",
-      1
-    ],
-    [
-      "led disruptive",
-      1
-    ],
-    [
-      "disruptive post-money",
-      1
-    ],
-    [
-      "post-money valuation",
-      1
-    ],
-    [
-      "valuation expand",
-      1
-    ],
-    [
-      "expand its",
-      1
-    ],
-    [
-      "its capacity",
-      1
-    ],
-    [
-      "capacity dina",
-      1
-    ],
-    [
-      "dina bass",
-      1
-    ],
-    [
-      "bass bloomberg",
-      1
-    ],
-    [
-      "bengaluru-based finbox",
-      1
-    ],
-    [
-      "finbox provides",
-      1
-    ],
-    [
-      "provides b2b",
-      1
-    ],
-    [
-      "b2b digital",
-      1
-    ],
-    [
-      "digital lending",
-      1
-    ],
-    [
-      "lending infrastructure",
-      1
-    ],
-    [
-      "infrastructure risk",
-      1
-    ],
-    [
-      "risk intelligence",
-      1
-    ],
-    [
-      "intelligence orchestration",
-      1
-    ],
-    [
-      "orchestration tools",
-      1
-    ],
-    [
-      "tools raised",
-      1
-    ],
-    [
-      "raised 40m",
-      1
-    ],
-    [
-      "40m series",
-      1
-    ],
-    [
-      "series led",
-      1
-    ],
-    [
-      "led westbridge",
-      1
-    ],
-    [
-      "westbridge economic",
-      1
-    ],
-    [
-      "economic times",
-      1
-    ],
-    [
-      "airia building",
-      1
-    ],
-    [
-      "building governance",
-      1
-    ],
-    [
-      "governance orchestration",
-      1
-    ],
-    [
-      "orchestration layer",
-      1
-    ],
-    [
-      "layer agents",
-      1
-    ],
-    [
-      "agents raised",
-      1
-    ],
-    [
-      "raised 50m",
-      1
-    ],
-    [
-      "50m its",
-      1
-    ],
-    [
-      "its co-founder",
-      1
-    ],
-    [
-      "co-founder john",
-      1
-    ],
-    [
-      "john marshall",
-      1
-    ],
-    [
-      "marshall made",
-      1
-    ],
-    [
-      "made further",
-      1
-    ],
-    [
-      "further 50m",
-      1
-    ],
-    [
-      "50m commitment",
-      1
-    ],
-    [
-      "commitment mike",
-      1
-    ],
-    [
-      "mike wheatley",
-      1
-    ],
-    [
-      "wheatley siliconangle",
-      1
-    ],
-    [
       "site news",
       1
     ],
@@ -7207,35 +7135,43 @@
       1
     ],
     [
-      "trump arrives",
+      "susan monarez",
       1
     ],
     [
-      "arrives state",
+      "monarez former",
       1
     ],
     [
-      "visit welcomed",
+      "former cdc",
       1
     ],
     [
-      "welcomed king",
+      "director tells",
       1
     ],
     [
-      "king prince",
+      "tells senate",
       1
     ],
     [
-      "prince windsor",
+      "senate committee",
       1
     ],
     [
-      "windsor castle",
+      "committee true",
       1
     ],
     [
-      "castle abc",
+      "true reason",
+      1
+    ],
+    [
+      "reason fired",
+      1
+    ],
+    [
+      "fired abc",
       1
     ],
     [
@@ -7243,27 +7179,151 @@
       1
     ],
     [
-      "cassidy asks",
+      "thousands protest",
       1
     ],
     [
-      "asks happened",
+      "protest against",
       1
     ],
     [
-      "happened cdc",
+      "against trump",
       1
     ],
     [
-      "cdc director",
+      "state visit",
       1
     ],
     [
-      "director ouster",
+      "visit bbc",
       1
     ],
     [
-      "ouster politico",
+      "home seas",
+      1
+    ],
+    [
+      "seas trump",
+      1
+    ],
+    [
+      "trump expands",
+      1
+    ],
+    [
+      "expands use",
+      1
+    ],
+    [
+      "use american",
+      1
+    ],
+    [
+      "american force",
+      1
+    ],
+    [
+      "force new",
+      1
+    ],
+    [
+      "republicans honoring",
+      1
+    ],
+    [
+      "honoring charlie",
+      1
+    ],
+    [
+      "kirk memory",
+      1
+    ],
+    [
+      "memory declaring",
+      1
+    ],
+    [
+      "declaring war",
+      1
+    ],
+    [
+      "war first",
+      1
+    ],
+    [
+      "first amendment",
+      1
+    ],
+    [
+      "amendment verge",
+      1
+    ],
+    [
+      "flee gaza",
+      1
+    ],
+    [
+      "city israeli",
+      1
+    ],
+    [
+      "troops advance",
+      1
+    ],
+    [
+      "advance bbc",
+      1
+    ],
+    [
+      "patel says",
+      1
+    ],
+    [
+      "says court",
+      1
+    ],
+    [
+      "court orders",
+      1
+    ],
+    [
+      "orders bar",
+      1
+    ],
+    [
+      "bar him",
+      1
+    ],
+    [
+      "him releasing",
+      1
+    ],
+    [
+      "releasing epstein",
+      1
+    ],
+    [
+      "epstein files",
+      1
+    ],
+    [
+      "files judges",
+      1
+    ],
+    [
+      "judges have",
+      1
+    ],
+    [
+      "have said",
+      1
+    ],
+    [
+      "said otherwise",
+      1
+    ],
+    [
+      "otherwise politico",
       1
     ],
     [
@@ -7300,6 +7360,82 @@
     ],
     [
       "response cnn",
+      1
+    ],
+    [
+      "democrat wins",
+      1
+    ],
+    [
+      "wins special",
+      1
+    ],
+    [
+      "special election",
+      1
+    ],
+    [
+      "election seat",
+      1
+    ],
+    [
+      "seat held",
+      1
+    ],
+    [
+      "held slain",
+      1
+    ],
+    [
+      "slain minnesota",
+      1
+    ],
+    [
+      "minnesota lawmaker",
+      1
+    ],
+    [
+      "lawmaker melissa",
+      1
+    ],
+    [
+      "hortman nbc",
+      1
+    ],
+    [
+      "wreck ship",
+      1
+    ],
+    [
+      "ship sank",
+      1
+    ],
+    [
+      "sank nearly",
+      1
+    ],
+    [
+      "nearly century",
+      1
+    ],
+    [
+      "century ago",
+      1
+    ],
+    [
+      "ago found",
+      1
+    ],
+    [
+      "found feet",
+      1
+    ],
+    [
+      "feet underwater",
+      1
+    ],
+    [
+      "underwater cbs",
       1
     ],
     [
@@ -7347,218 +7483,6 @@
       1
     ],
     [
-      "democrats oppose",
-      1
-    ],
-    [
-      "oppose stopgap",
-      1
-    ],
-    [
-      "stopgap bill",
-      1
-    ],
-    [
-      "bill raising",
-      1
-    ],
-    [
-      "raising odds",
-      1
-    ],
-    [
-      "odds shutdown",
-      1
-    ],
-    [
-      "shutdown new",
-      1
-    ],
-    [
-      "spirit airlines",
-      1
-    ],
-    [
-      "airlines flight",
-      1
-    ],
-    [
-      "flight repeatedly",
-      1
-    ],
-    [
-      "repeatedly warned",
-      1
-    ],
-    [
-      "warned turn",
-      1
-    ],
-    [
-      "turn away",
-      1
-    ],
-    [
-      "away air",
-      1
-    ],
-    [
-      "air force",
-      1
-    ],
-    [
-      "force one",
-      1
-    ],
-    [
-      "one nbc",
-      1
-    ],
-    [
-      "democrat wins",
-      1
-    ],
-    [
-      "wins special",
-      1
-    ],
-    [
-      "special election",
-      1
-    ],
-    [
-      "election seat",
-      1
-    ],
-    [
-      "seat held",
-      1
-    ],
-    [
-      "held slain",
-      1
-    ],
-    [
-      "slain minnesota",
-      1
-    ],
-    [
-      "minnesota lawmaker",
-      1
-    ],
-    [
-      "lawmaker melissa",
-      1
-    ],
-    [
-      "hortman nbc",
-      1
-    ],
-    [
-      "abigail spanberger",
-      1
-    ],
-    [
-      "spanberger gets",
-      1
-    ],
-    [
-      "gets show",
-      1
-    ],
-    [
-      "show support",
-      1
-    ],
-    [
-      "support former",
-      1
-    ],
-    [
-      "former gop",
-      1
-    ],
-    [
-      "gop lawmakers",
-      1
-    ],
-    [
-      "lawmakers bid",
-      1
-    ],
-    [
-      "bid virginia",
-      1
-    ],
-    [
-      "virginia governor",
-      1
-    ],
-    [
-      "governor cbs",
-      1
-    ],
-    [
-      "ice officers",
-      1
-    ],
-    [
-      "officers fatal",
-      1
-    ],
-    [
-      "fatal chicago",
-      1
-    ],
-    [
-      "chicago shooting",
-      1
-    ],
-    [
-      "shooting wearing",
-      1
-    ],
-    [
-      "wearing body",
-      1
-    ],
-    [
-      "body cameras",
-      1
-    ],
-    [
-      "cameras nbc",
-      1
-    ],
-    [
-      "san francisco",
-      1
-    ],
-    [
-      "francisco politician",
-      1
-    ],
-    [
-      "politician recalled",
-      1
-    ],
-    [
-      "recalled great",
-      1
-    ],
-    [
-      "great highway",
-      1
-    ],
-    [
-      "highway closure",
-      1
-    ],
-    [
-      "closure new",
-      1
-    ],
-    [
       "navalny widow",
       1
     ],
@@ -7591,19 +7515,7 @@
       1
     ],
     [
-      "flee gaza",
-      1
-    ],
-    [
-      "city israeli",
-      1
-    ],
-    [
-      "troops advance",
-      1
-    ],
-    [
-      "advance bbc",
+      "washington post",
       1
     ],
     [
@@ -7631,7 +7543,59 @@
       1
     ],
     [
-      "roam npr",
+      "pharaoh 000-year-old",
+      1
+    ],
+    [
+      "000-year-old gold",
+      1
+    ],
+    [
+      "missing egypt",
+      1
+    ],
+    [
+      "egypt museum",
+      1
+    ],
+    [
+      "museum nbc",
+      1
+    ],
+    [
+      "unveils plan",
+      1
+    ],
+    [
+      "plan hit",
+      1
+    ],
+    [
+      "hit israel",
+      1
+    ],
+    [
+      "israel tariffs",
+      1
+    ],
+    [
+      "tariffs sanctions",
+      1
+    ],
+    [
+      "sanctions amid",
+      1
+    ],
+    [
+      "amid gaza",
+      1
+    ],
+    [
+      "war outcry",
+      1
+    ],
+    [
+      "outcry politico",
       1
     ],
     [
@@ -7675,151 +7639,171 @@
       1
     ],
     [
-      "nvidia stock",
+      "china orders",
       1
     ],
     [
-      "stock drops",
+      "orders firms",
       1
     ],
     [
-      "drops report",
+      "firms stop",
       1
     ],
     [
-      "report china",
+      "stop buying",
       1
     ],
     [
-      "banned its",
+      "buying nvidia",
       1
     ],
     [
-      "its chips",
+      "nvidia chip",
       1
     ],
     [
-      "chips alibaba",
+      "chip says",
       1
     ],
     [
-      "alibaba tiktok",
+      "says bloomberg",
       1
     ],
     [
-      "tiktok parent",
+      "bloomberg com",
       1
     ],
     [
-      "parent affected",
+      "stock market",
       1
     ],
     [
-      "affected barron",
+      "market today",
       1
     ],
     [
-      "morning bid",
+      "today dow",
       1
     ],
     [
-      "bid ailing",
+      "dow jumps",
       1
     ],
     [
-      "ailing dollar",
+      "jumps points",
       1
     ],
     [
-      "dollar gets",
+      "points fed",
       1
     ],
     [
-      "gets toehold",
+      "fed looms",
       1
     ],
     [
-      "toehold fed",
+      "looms nvidia",
       1
     ],
     [
-      "fed awaited",
+      "nvidia breaks",
       1
     ],
     [
-      "awaited reuters",
+      "breaks key",
       1
     ],
     [
-      "wins release",
+      "key level",
       1
     ],
     [
-      "release wells",
+      "level live",
       1
     ],
     [
-      "wells fargo",
+      "live coverage",
       1
     ],
     [
-      "fargo banker",
+      "coverage investor",
       1
     ],
     [
-      "banker placed",
+      "investor business",
       1
     ],
     [
-      "placed exit",
+      "business daily",
       1
     ],
     [
-      "exit ban",
+      "times square",
       1
     ],
     [
-      "ban china",
+      "square casino",
       1
     ],
     [
-      "china washington",
+      "casino proposal",
       1
     ],
     [
-      "t-mobile giving",
+      "proposal backed",
       1
     ],
     [
-      "giving away",
+      "backed caesars",
       1
     ],
     [
-      "away free",
+      "caesars jay-z",
       1
     ],
     [
-      "free iphone",
+      "jay-z denied",
       1
     ],
     [
-      "pro trade-in",
+      "denied advisory",
       1
     ],
     [
-      "trade-in here",
+      "advisory committee",
       1
     ],
     [
-      "here get",
+      "committee hollywood",
       1
     ],
     [
-      "get yours",
+      "hollywood reporter",
       1
     ],
     [
-      "yours mashable",
+      "apple iphone",
+      1
+    ],
+    [
+      "pro models",
+      1
+    ],
+    [
+      "models give",
+      1
+    ],
+    [
+      "give exactly",
+      1
+    ],
+    [
+      "exactly want",
+      1
+    ],
+    [
+      "want wired",
       1
     ],
     [
@@ -7867,27 +7851,11 @@
       1
     ],
     [
-      "meta connect",
+      "meta unveil",
       1
     ],
     [
-      "connect live",
-      1
-    ],
-    [
-      "live ray-ban",
-      1
-    ],
-    [
-      "ray-ban meta",
-      1
-    ],
-    [
-      "meta display",
-      1
-    ],
-    [
-      "display smart",
+      "unveil smart",
       1
     ],
     [
@@ -7895,67 +7863,63 @@
       1
     ],
     [
-      "glasses new",
+      "glasses connect",
       1
     ],
     [
-      "new oakley",
+      "connect event",
       1
     ],
     [
-      "oakley glasses",
+      "event report",
       1
     ],
     [
-      "glasses all",
+      "report seeking",
       1
     ],
     [
-      "all news",
+      "seeking alpha",
       1
     ],
     [
-      "news happens",
+      "apple made",
       1
     ],
     [
-      "happens tom",
+      "made strap",
       1
     ],
     [
-      "tom guide",
+      "strap now",
       1
     ],
     [
-      "google new",
+      "now google",
       1
     ],
     [
-      "new app",
+      "google has",
       1
     ],
     [
-      "app shows",
+      "has rope",
       1
     ],
     [
-      "shows microsoft",
+      "rope dangle",
       1
     ],
     [
-      "microsoft desktop",
+      "dangle pixel",
       1
     ],
     [
-      "desktop search",
+      "pixel wrist",
       1
     ],
     [
-      "search work",
-      1
-    ],
-    [
-      "work android",
+      "wrist android",
       1
     ],
     [
@@ -8008,6 +7972,26 @@
     ],
     [
       "human guardian",
+      1
+    ],
+    [
+      "another review",
+      1
+    ],
+    [
+      "review anderson",
+      1
+    ],
+    [
+      "anderson mesmerizing",
+      1
+    ],
+    [
+      "mesmerizing vision",
+      1
+    ],
+    [
+      "vision variety",
       1
     ],
     [
@@ -8099,38 +8083,6 @@
       1
     ],
     [
-      "hilaria baldwin",
-      1
-    ],
-    [
-      "baldwin reacts",
-      1
-    ],
-    [
-      "reacts alec",
-      1
-    ],
-    [
-      "alec baldwin",
-      1
-    ],
-    [
-      "baldwin appearance",
-      1
-    ],
-    [
-      "appearance dwts",
-      1
-    ],
-    [
-      "dwts yahoo",
-      1
-    ],
-    [
-      "yahoo com",
-      1
-    ],
-    [
       "tom brady",
       1
     ],
@@ -8191,127 +8143,127 @@
       1
     ],
     [
+      "wide receiver",
+      1
+    ],
+    [
+      "receiver start",
+      1
+    ],
+    [
+      "start sit",
+      1
+    ],
+    [
+      "sit fantasy",
+      1
+    ],
+    [
+      "fantasy football",
+      1
+    ],
+    [
+      "football week",
+      1
+    ],
+    [
+      "week sports",
+      1
+    ],
+    [
+      "sports illustrated",
+      1
+    ],
+    [
+      "shohei ohtani",
+      1
+    ],
+    [
+      "ohtani removed",
+      1
+    ],
+    [
+      "removed after",
+      1
+    ],
+    [
+      "after five",
+      1
+    ],
+    [
+      "five no-hit",
+      1
+    ],
+    [
+      "no-hit innings",
+      1
+    ],
+    [
+      "innings dodgers",
+      1
+    ],
+    [
+      "dodgers bullpen",
+      1
+    ],
+    [
+      "bullpen collapses",
+      1
+    ],
+    [
+      "collapses loss",
+      1
+    ],
+    [
+      "loss los",
+      1
+    ],
+    [
+      "los angeles",
+      1
+    ],
+    [
+      "angeles times",
+      1
+    ],
+    [
       "nfl week",
       1
     ],
     [
-      "week survivor",
+      "week score",
       1
     ],
     [
-      "survivor pool",
+      "score predictions",
       1
     ],
     [
-      "pool guide",
+      "predictions expert",
       1
     ],
     [
-      "guide picks",
+      "expert reveals",
       1
     ],
     [
-      "picks analysis",
+      "reveals game",
       1
     ],
     [
-      "analysis strategy",
+      "game picks",
       1
     ],
     [
-      "strategy new",
+      "picks nfl",
       1
     ],
     [
-      "york post",
+      "nfl matchups",
       1
     ],
     [
-      "browns impacted",
-      1
-    ],
-    [
-      "impacted injuries",
-      1
-    ],
-    [
-      "injuries bengals",
-      1
-    ],
-    [
-      "bengals joe",
-      1
-    ],
-    [
-      "joe burrow",
-      1
-    ],
-    [
-      "burrow vikings",
-      1
-    ],
-    [
-      "vikings mccarthy",
-      1
-    ],
-    [
-      "mccarthy mary",
-      1
-    ],
-    [
-      "mary kay",
-      1
-    ],
-    [
-      "kay cabot",
-      1
-    ],
-    [
-      "cabot cleveland",
-      1
-    ],
-    [
-      "cleveland com",
-      1
-    ],
-    [
-      "nfl 0-2",
-      1
-    ],
-    [
-      "0-2 teams",
-      1
-    ],
-    [
-      "teams ranked",
-      1
-    ],
-    [
-      "ranked playoff",
-      1
-    ],
-    [
-      "playoff chances",
-      1
-    ],
-    [
-      "chances chiefs",
-      1
-    ],
-    [
-      "chiefs bears",
-      1
-    ],
-    [
-      "bears texans",
-      1
-    ],
-    [
-      "texans action",
-      1
-    ],
-    [
-      "action network",
+      "matchups sportsline",
       1
     ],
     [
@@ -8395,19 +8347,27 @@
       1
     ],
     [
-      "gold bracelet",
-      1
-    ],
-    [
-      "bracelet missing",
-      1
-    ],
-    [
       "missing cairo",
       1
     ],
     [
       "cairo museum",
+      1
+    ],
+    [
+      "forecast future",
+      1
+    ],
+    [
+      "future health",
+      1
+    ],
+    [
+      "health like",
+      1
+    ],
+    [
+      "like weather",
       1
     ],
     [
@@ -8451,30 +8411,6 @@
       1
     ],
     [
-      "tennis star",
-      1
-    ],
-    [
-      "star sorry",
-      1
-    ],
-    [
-      "sorry offensive",
-      1
-    ],
-    [
-      "offensive comments",
-      1
-    ],
-    [
-      "comments chinese",
-      1
-    ],
-    [
-      "chinese food",
-      1
-    ],
-    [
       "gunmen kill",
       1
     ],
@@ -8503,30 +8439,6 @@
       1
     ],
     [
-      "ex-arsenal star",
-      1
-    ],
-    [
-      "star thomas",
-      1
-    ],
-    [
-      "thomas partey",
-      1
-    ],
-    [
-      "partey denies",
-      1
-    ],
-    [
-      "denies rape",
-      1
-    ],
-    [
-      "rape charges",
-      1
-    ],
-    [
       "flying cars",
       1
     ],
@@ -8548,6 +8460,30 @@
     ],
     [
       "air show",
+      1
+    ],
+    [
+      "tennis star",
+      1
+    ],
+    [
+      "star sorry",
+      1
+    ],
+    [
+      "sorry offensive",
+      1
+    ],
+    [
+      "offensive comments",
+      1
+    ],
+    [
+      "comments chinese",
+      1
+    ],
+    [
+      "chinese food",
       1
     ],
     [
@@ -8583,23 +8519,27 @@
       1
     ],
     [
-      "canadian writer",
+      "ex-arsenal star",
       1
     ],
     [
-      "writer robert",
+      "star thomas",
       1
     ],
     [
-      "munsch approved",
+      "thomas partey",
       1
     ],
     [
-      "approved assisted",
+      "partey denies",
       1
     ],
     [
-      "assisted dying",
+      "denies rape",
+      1
+    ],
+    [
+      "rape charges",
       1
     ],
     [
@@ -8608,10 +8548,6 @@
     ],
     [
       "president donald",
-      1
-    ],
-    [
-      "trump second",
       1
     ],
     [
@@ -8955,6 +8891,98 @@
       1
     ],
     [
+      "kirk became",
+      1
+    ],
+    [
+      "became leader",
+      1
+    ],
+    [
+      "leader conservative",
+      1
+    ],
+    [
+      "conservative youth",
+      1
+    ],
+    [
+      "youth movement",
+      1
+    ],
+    [
+      "ousted cdc",
+      1
+    ],
+    [
+      "director testifies",
+      1
+    ],
+    [
+      "testifies fired",
+      1
+    ],
+    [
+      "fired resisting",
+      1
+    ],
+    [
+      "resisting pressure",
+      1
+    ],
+    [
+      "pressure rfk",
+      1
+    ],
+    [
+      "tennessee governor",
+      1
+    ],
+    [
+      "governor welcomed",
+      1
+    ],
+    [
+      "welcomed national",
+      1
+    ],
+    [
+      "national guard",
+      1
+    ],
+    [
+      "guard illinois",
+      1
+    ],
+    [
+      "illinois pritzker",
+      1
+    ],
+    [
+      "pritzker hard",
+      1
+    ],
+    [
+      "greetings american",
+      1
+    ],
+    [
+      "american university",
+      1
+    ],
+    [
+      "university beirut",
+      1
+    ],
+    [
+      "beirut cats",
+      1
+    ],
+    [
+      "cats roam",
+      1
+    ],
+    [
       "kirk alleged",
       1
     ],
@@ -9055,34 +9083,6 @@
       1
     ],
     [
-      "her car",
-      1
-    ],
-    [
-      "car ran",
-      1
-    ],
-    [
-      "ran gas",
-      1
-    ],
-    [
-      "gas help",
-      1
-    ],
-    [
-      "help came",
-      1
-    ],
-    [
-      "came homeless",
-      1
-    ],
-    [
-      "homeless encampment",
-      1
-    ],
-    [
       "after wave",
       1
     ],
@@ -9172,50 +9172,6 @@
     ],
     [
       "time year",
-      1
-    ],
-    [
-      "beyond draining",
-      1
-    ],
-    [
-      "draining swamp",
-      1
-    ],
-    [
-      "swamp trump",
-      1
-    ],
-    [
-      "trump knocking",
-      1
-    ],
-    [
-      "knocking checks",
-      1
-    ],
-    [
-      "checks presidential",
-      1
-    ],
-    [
-      "presidential power",
-      1
-    ],
-    [
-      "pomp protests",
-      1
-    ],
-    [
-      "protests trump",
-      1
-    ],
-    [
-      "trump unprecedented",
-      1
-    ],
-    [
-      "unprecedented second",
       1
     ],
     [
@@ -9903,6 +9859,34 @@
       1
     ],
     [
+      "israeli minister",
+      1
+    ],
+    [
+      "minister attacks",
+      1
+    ],
+    [
+      "attacks proposed",
+      1
+    ],
+    [
+      "proposed morally",
+      1
+    ],
+    [
+      "politically distorted",
+      1
+    ],
+    [
+      "distorted sanctions",
+      1
+    ],
+    [
+      "sanctions happened",
+      1
+    ],
+    [
       "far right",
       1
     ],
@@ -9951,38 +9935,6 @@
       1
     ],
     [
-      "israeli minister",
-      1
-    ],
-    [
-      "minister attacks",
-      1
-    ],
-    [
-      "attacks proposed",
-      1
-    ],
-    [
-      "proposed morally",
-      1
-    ],
-    [
-      "politically distorted",
-      1
-    ],
-    [
-      "distorted sanctions",
-      1
-    ],
-    [
-      "sanctions europe",
-      1
-    ],
-    [
-      "europe live",
-      1
-    ],
-    [
       "irish expelled",
       1
     ],
@@ -10024,6 +9976,54 @@
     ],
     [
       "free trade",
+      1
+    ],
+    [
+      "israel culture",
+      1
+    ],
+    [
+      "culture minister",
+      1
+    ],
+    [
+      "minister threatens",
+      1
+    ],
+    [
+      "threatens national",
+      1
+    ],
+    [
+      "national film",
+      1
+    ],
+    [
+      "film awards",
+      1
+    ],
+    [
+      "awards after",
+      1
+    ],
+    [
+      "after palestinian",
+      1
+    ],
+    [
+      "palestinian story",
+      1
+    ],
+    [
+      "story takes",
+      1
+    ],
+    [
+      "takes top",
+      1
+    ],
+    [
+      "top prize",
       1
     ],
     [
@@ -10088,6 +10088,10 @@
     ],
     [
       "city ground",
+      1
+    ],
+    [
+      "ground offensive",
       1
     ],
     [
@@ -10159,26 +10163,6 @@
       1
     ],
     [
-      "israel launches",
-      1
-    ],
-    [
-      "launches ground",
-      1
-    ],
-    [
-      "offensive deep",
-      1
-    ],
-    [
-      "deep inside",
-      1
-    ],
-    [
-      "inside gaza",
-      1
-    ],
-    [
       "special search",
       1
     ],
@@ -10220,10 +10204,6 @@
     ],
     [
       "stephen graham",
-      1
-    ],
-    [
-      "kash patel",
       1
     ],
     [
@@ -10491,6 +10471,10 @@
       1
     ],
     [
+      "robert munsch",
+      1
+    ],
+    [
       "saiyaara film",
       1
     ],
@@ -10540,18 +10524,6 @@
     ],
     [
       "hannah walters",
-      1
-    ],
-    [
-      "one battle",
-      1
-    ],
-    [
-      "battle after",
-      1
-    ],
-    [
-      "after another",
       1
     ],
     [
@@ -10613,163 +10585,111 @@
   ],
   "keyword_velocity": [
     {
-      "keyword": "app",
+      "keyword": "after",
       "delta": 2
     },
     {
-      "keyword": "away",
+      "keyword": "kirk",
       "delta": 2
     },
     {
-      "keyword": "nbc",
+      "keyword": "says",
       "delta": 2
     },
     {
-      "keyword": "search",
+      "keyword": "charlie",
       "delta": 2
-    },
-    {
-      "keyword": "democrats",
-      "delta": 2
-    },
-    {
-      "keyword": "gets",
-      "delta": 2
-    },
-    {
-      "keyword": "wearing",
-      "delta": 2
-    },
-    {
-      "keyword": "great",
-      "delta": 2
-    },
-    {
-      "keyword": "baldwin",
-      "delta": 2
-    },
-    {
-      "keyword": "raised",
-      "delta": 1
-    },
-    {
-      "keyword": "led",
-      "delta": 1
     },
     {
       "keyword": "war",
-      "delta": 1
-    },
-    {
-      "keyword": "protests",
-      "delta": 1
-    },
-    {
-      "keyword": "nashville",
-      "delta": 1
-    },
-    {
-      "keyword": "lyft",
-      "delta": 1
-    },
-    {
-      "keyword": "building",
-      "delta": 1
-    },
-    {
-      "keyword": "world",
-      "delta": 1
-    },
-    {
-      "keyword": "air",
-      "delta": 1
-    },
-    {
-      "keyword": "happened",
-      "delta": 1
-    },
-    {
-      "keyword": "star",
-      "delta": 1
-    },
-    {
-      "keyword": "crisis",
-      "delta": 1
-    },
-    {
-      "keyword": "food",
-      "delta": 1
-    },
-    {
-      "keyword": "labor",
-      "delta": 1
-    },
-    {
-      "keyword": "youtube",
-      "delta": 1
-    },
-    {
-      "keyword": "android",
-      "delta": 1
-    },
-    {
-      "keyword": "alibaba",
-      "delta": 1
-    },
-    {
-      "keyword": "capital",
-      "delta": 1
-    },
-    {
-      "keyword": "standard",
-      "delta": 1
-    },
-    {
-      "keyword": "design",
-      "delta": 1
-    },
-    {
-      "keyword": "cassidy",
-      "delta": 1
-    },
-    {
-      "keyword": "obama",
-      "delta": 1
-    },
-    {
-      "keyword": "horrific",
-      "delta": 1
-    },
-    {
-      "keyword": "bill",
-      "delta": 1
-    },
-    {
-      "keyword": "force",
-      "delta": 1
-    },
-    {
-      "keyword": "bid",
-      "delta": 1
-    },
-    {
-      "keyword": "british",
-      "delta": 1
-    },
-    {
-      "keyword": "toddler",
-      "delta": 1
+      "delta": 2
     },
     {
       "keyword": "google",
+      "delta": 2
+    },
+    {
+      "keyword": "apple",
+      "delta": 2
+    },
+    {
+      "keyword": "models",
+      "delta": 2
+    },
+    {
+      "keyword": "buying",
+      "delta": 2
+    },
+    {
+      "keyword": "want",
+      "delta": 2
+    },
+    {
+      "keyword": "committee",
+      "delta": 2
+    },
+    {
+      "keyword": "fired",
+      "delta": 2
+    },
+    {
+      "keyword": "orders",
+      "delta": 2
+    },
+    {
+      "keyword": "national",
+      "delta": 2
+    },
+    {
+      "keyword": "israel",
       "delta": 1
     },
     {
-      "keyword": "movie",
+      "keyword": "film",
       "delta": 1
     },
     {
-      "keyword": "appearance",
+      "keyword": "has",
+      "delta": 1
+    },
+    {
+      "keyword": "first",
+      "delta": 1
+    },
+    {
+      "keyword": "american",
+      "delta": 1
+    },
+    {
+      "keyword": "key",
+      "delta": 1
+    },
+    {
+      "keyword": "nvidia",
+      "delta": 1
+    },
+    {
+      "keyword": "bloomberg",
+      "delta": 1
+    },
+    {
+      "keyword": "use",
+      "delta": 1
+    },
+    {
+      "keyword": "verge",
+      "delta": 1
+    },
+    {
+      "keyword": "thousands",
+      "delta": 1
+    },
+    {
+      "keyword": "bbc",
+      "delta": 1
+    },
+    {
+      "keyword": "epstein",
       "delta": 1
     },
     {
@@ -10777,15 +10697,15 @@
       "delta": 1
     },
     {
-      "keyword": "genocide",
+      "keyword": "plan",
       "delta": 1
     },
     {
-      "keyword": "albanese",
+      "keyword": "amid",
       "delta": 1
     },
     {
-      "keyword": "sydney",
+      "keyword": "another",
       "delta": 1
     },
     {
@@ -10793,47 +10713,7 @@
       "delta": 1
     },
     {
-      "keyword": "addresses",
-      "delta": 1
-    },
-    {
-      "keyword": "lower",
-      "delta": 1
-    },
-    {
-      "keyword": "view",
-      "delta": 1
-    },
-    {
-      "keyword": "counts",
-      "delta": 1
-    },
-    {
-      "keyword": "seem",
-      "delta": 1
-    },
-    {
-      "keyword": "blockers",
-      "delta": 1
-    },
-    {
-      "keyword": "sqlitedata",
-      "delta": 1
-    },
-    {
-      "keyword": "fast",
-      "delta": 1
-    },
-    {
-      "keyword": "lightweight",
-      "delta": 1
-    },
-    {
-      "keyword": "replacement",
-      "delta": 1
-    },
-    {
-      "keyword": "swiftdata",
+      "keyword": "launch",
       "delta": 1
     },
     {
@@ -10841,31 +10721,11 @@
       "delta": 1
     },
     {
-      "keyword": "cloudkit",
+      "keyword": "chip",
       "delta": 1
     },
     {
-      "keyword": "fully",
-      "delta": 1
-    },
-    {
-      "keyword": "autonomous",
-      "delta": 1
-    },
-    {
-      "keyword": "rides",
-      "delta": 1
-    },
-    {
-      "keyword": "partnership",
-      "delta": 1
-    },
-    {
-      "keyword": "xai",
-      "delta": 1
-    },
-    {
-      "keyword": "colossus",
+      "keyword": "content",
       "delta": 1
     },
     {
@@ -10873,43 +10733,7 @@
       "delta": 1
     },
     {
-      "keyword": "gigawatt-scale",
-      "delta": 1
-    },
-    {
-      "keyword": "datacenter",
-      "delta": 1
-    },
-    {
-      "keyword": "reaching",
-      "delta": 1
-    },
-    {
-      "keyword": "200mw",
-      "delta": 1
-    },
-    {
-      "keyword": "six",
-      "delta": 1
-    },
-    {
-      "keyword": "jeremie",
-      "delta": 1
-    },
-    {
-      "keyword": "eliahou",
-      "delta": 1
-    },
-    {
-      "keyword": "ontiveros",
-      "delta": 1
-    },
-    {
-      "keyword": "semianalysis",
-      "delta": 1
-    },
-    {
-      "keyword": "israel-based",
+      "keyword": "cnbc",
       "delta": 1
     },
     {
@@ -10917,31 +10741,15 @@
       "delta": 1
     },
     {
-      "keyword": "works",
-      "delta": 1
-    },
-    {
-      "keyword": "leading",
-      "delta": 1
-    },
-    {
-      "keyword": "openai",
-      "delta": 1
-    },
-    {
-      "keyword": "mitigate",
-      "delta": 1
-    },
-    {
-      "keyword": "cybersecurity",
-      "delta": 1
-    },
-    {
-      "keyword": "risks",
+      "keyword": "labs",
       "delta": 1
     },
     {
       "keyword": "80m",
+      "delta": 1
+    },
+    {
+      "keyword": "across",
       "delta": 1
     },
     {
@@ -10953,387 +10761,63 @@
       "delta": 1
     },
     {
-      "keyword": "ventures",
+      "keyword": "thomas",
       "delta": 1
     },
     {
-      "keyword": "globes",
+      "keyword": "like",
       "delta": 1
     },
     {
-      "keyword": "nydfs",
+      "keyword": "jumps",
       "delta": 1
     },
     {
-      "keyword": "grants",
+      "keyword": "have",
       "delta": 1
     },
     {
-      "keyword": "bullish",
+      "keyword": "takes",
       "delta": 1
     },
     {
-      "keyword": "bitlicense",
+      "keyword": "business",
       "delta": 1
     },
     {
-      "keyword": "allowing",
+      "keyword": "cdc",
       "delta": 1
     },
     {
-      "keyword": "entity",
+      "keyword": "director",
       "delta": 1
     },
     {
-      "keyword": "offer",
+      "keyword": "protest",
       "delta": 1
     },
     {
-      "keyword": "spot",
+      "keyword": "kash",
       "delta": 1
     },
     {
-      "keyword": "trading",
+      "keyword": "patel",
       "delta": 1
     },
     {
-      "keyword": "custody",
+      "keyword": "court",
       "delta": 1
     },
     {
-      "keyword": "coindesk",
+      "keyword": "politico",
       "delta": 1
     },
     {
-      "keyword": "further",
+      "keyword": "found",
       "delta": 1
     },
     {
-      "keyword": "ouster",
-      "delta": 1
-    },
-    {
-      "keyword": "praises",
-      "delta": 1
-    },
-    {
-      "keyword": "utah",
-      "delta": 1
-    },
-    {
-      "keyword": "gov",
-      "delta": 1
-    },
-    {
-      "keyword": "cox",
-      "delta": 1
-    },
-    {
-      "keyword": "oppose",
-      "delta": 1
-    },
-    {
-      "keyword": "stopgap",
-      "delta": 1
-    },
-    {
-      "keyword": "raising",
-      "delta": 1
-    },
-    {
-      "keyword": "odds",
-      "delta": 1
-    },
-    {
-      "keyword": "shutdown",
-      "delta": 1
-    },
-    {
-      "keyword": "spirit",
-      "delta": 1
-    },
-    {
-      "keyword": "airlines",
-      "delta": 1
-    },
-    {
-      "keyword": "flight",
-      "delta": 1
-    },
-    {
-      "keyword": "repeatedly",
-      "delta": 1
-    },
-    {
-      "keyword": "warned",
-      "delta": 1
-    },
-    {
-      "keyword": "abigail",
-      "delta": 1
-    },
-    {
-      "keyword": "spanberger",
-      "delta": 1
-    },
-    {
-      "keyword": "support",
-      "delta": 1
-    },
-    {
-      "keyword": "virginia",
-      "delta": 1
-    },
-    {
-      "keyword": "governor",
-      "delta": 1
-    },
-    {
-      "keyword": "fatal",
-      "delta": 1
-    },
-    {
-      "keyword": "body",
-      "delta": 1
-    },
-    {
-      "keyword": "cameras",
-      "delta": 1
-    },
-    {
-      "keyword": "politician",
-      "delta": 1
-    },
-    {
-      "keyword": "recalled",
-      "delta": 1
-    },
-    {
-      "keyword": "closure",
-      "delta": 1
-    },
-    {
-      "keyword": "stock",
-      "delta": 1
-    },
-    {
-      "keyword": "drops",
-      "delta": 1
-    },
-    {
-      "keyword": "tiktok",
-      "delta": 1
-    },
-    {
-      "keyword": "parent",
-      "delta": 1
-    },
-    {
-      "keyword": "affected",
-      "delta": 1
-    },
-    {
-      "keyword": "barron",
-      "delta": 1
-    },
-    {
-      "keyword": "morning",
-      "delta": 1
-    },
-    {
-      "keyword": "ailing",
-      "delta": 1
-    },
-    {
-      "keyword": "dollar",
-      "delta": 1
-    },
-    {
-      "keyword": "toehold",
-      "delta": 1
-    },
-    {
-      "keyword": "awaited",
-      "delta": 1
-    },
-    {
-      "keyword": "release",
-      "delta": 1
-    },
-    {
-      "keyword": "wells",
-      "delta": 1
-    },
-    {
-      "keyword": "fargo",
-      "delta": 1
-    },
-    {
-      "keyword": "banker",
-      "delta": 1
-    },
-    {
-      "keyword": "placed",
-      "delta": 1
-    },
-    {
-      "keyword": "exit",
-      "delta": 1
-    },
-    {
-      "keyword": "ban",
-      "delta": 1
-    },
-    {
-      "keyword": "t-mobile",
-      "delta": 1
-    },
-    {
-      "keyword": "giving",
-      "delta": 1
-    },
-    {
-      "keyword": "trade-in",
-      "delta": 1
-    },
-    {
-      "keyword": "yours",
-      "delta": 1
-    },
-    {
-      "keyword": "mashable",
-      "delta": 1
-    },
-    {
-      "keyword": "liquid",
-      "delta": 1
-    },
-    {
-      "keyword": "glass",
-      "delta": 1
-    },
-    {
-      "keyword": "makes",
-      "delta": 1
-    },
-    {
-      "keyword": "icons",
-      "delta": 1
-    },
-    {
-      "keyword": "look",
-      "delta": 1
-    },
-    {
-      "keyword": "crooked",
-      "delta": 1
-    },
-    {
-      "keyword": "users",
-      "delta": 1
-    },
-    {
-      "keyword": "microsoft",
-      "delta": 1
-    },
-    {
-      "keyword": "authority",
-      "delta": 1
-    },
-    {
-      "keyword": "dolphin",
-      "delta": 1
-    },
-    {
-      "keyword": "sharks",
-      "delta": 1
-    },
-    {
-      "keyword": "readers",
-      "delta": 1
-    },
-    {
-      "keyword": "tribute",
-      "delta": 1
-    },
-    {
-      "keyword": "decent",
-      "delta": 1
-    },
-    {
-      "keyword": "human",
-      "delta": 1
-    },
-    {
-      "keyword": "guardian",
-      "delta": 1
-    },
-    {
-      "keyword": "hilaria",
-      "delta": 1
-    },
-    {
-      "keyword": "reacts",
-      "delta": 1
-    },
-    {
-      "keyword": "alec",
-      "delta": 1
-    },
-    {
-      "keyword": "dwts",
-      "delta": 1
-    },
-    {
-      "keyword": "yahoo",
-      "delta": 1
-    },
-    {
-      "keyword": "0-2",
-      "delta": 1
-    },
-    {
-      "keyword": "teams",
-      "delta": 1
-    },
-    {
-      "keyword": "ranked",
-      "delta": 1
-    },
-    {
-      "keyword": "playoff",
-      "delta": 1
-    },
-    {
-      "keyword": "chances",
-      "delta": 1
-    },
-    {
-      "keyword": "chiefs",
-      "delta": 1
-    },
-    {
-      "keyword": "bears",
-      "delta": 1
-    },
-    {
-      "keyword": "texans",
-      "delta": 1
-    },
-    {
-      "keyword": "action",
-      "delta": 1
-    },
-    {
-      "keyword": "network",
-      "delta": 1
-    },
-    {
-      "keyword": "ancient",
-      "delta": 1
-    },
-    {
-      "keyword": "egyptian",
+      "keyword": "gold",
       "delta": 1
     },
     {
@@ -11341,139 +10825,771 @@
       "delta": 1
     },
     {
-      "keyword": "cairo",
-      "delta": 1
-    },
-    {
       "keyword": "museum",
       "delta": 1
     },
     {
-      "keyword": "curbs",
+      "keyword": "sanctions",
       "delta": 1
     },
     {
-      "keyword": "pomp",
+      "keyword": "daily",
       "delta": 1
     },
     {
-      "keyword": "ziggy",
+      "keyword": "square",
       "delta": 1
     },
     {
-      "keyword": "bond",
+      "keyword": "backed",
       "delta": 1
     },
     {
-      "keyword": "withheld",
+      "keyword": "battle",
       "delta": 1
     },
     {
-      "keyword": "eviction",
+      "keyword": "vision",
       "delta": 1
     },
     {
-      "keyword": "without",
+      "keyword": "reveals",
       "delta": 1
     },
     {
-      "keyword": "cause",
+      "keyword": "game",
       "delta": 1
     },
     {
-      "keyword": "rental",
+      "keyword": "week",
       "delta": 1
     },
     {
-      "keyword": "challenged",
+      "keyword": "pressure",
       "delta": 1
     },
     {
-      "keyword": "urged",
+      "keyword": "pritzker",
       "delta": 1
     },
     {
-      "keyword": "end",
+      "keyword": "minister",
       "delta": 1
     },
     {
-      "keyword": "double",
+      "keyword": "awards",
       "delta": 1
     },
     {
-      "keyword": "occurring",
+      "keyword": "runrl",
       "delta": 1
     },
     {
-      "keyword": "emissions",
+      "keyword": "x25",
       "delta": 1
     },
     {
-      "keyword": "sliding",
+      "keyword": "reinforcement",
       "delta": 1
     },
     {
-      "keyword": "doors",
+      "keyword": "learning",
       "delta": 1
     },
     {
-      "keyword": "generations",
+      "keyword": "service",
       "delta": 1
     },
     {
-      "keyword": "seized",
+      "keyword": "anymore",
       "delta": 1
     },
     {
-      "keyword": "tool",
+      "keyword": "server",
       "delta": 1
     },
     {
-      "keyword": "predict",
+      "keyword": "motivate",
       "delta": 1
     },
     {
-      "keyword": "person",
+      "keyword": "yourself",
       "delta": 1
     },
     {
-      "keyword": "diseases",
+      "keyword": "thing",
       "delta": 1
     },
     {
-      "keyword": "irish",
+      "keyword": "don",
       "delta": 1
     },
     {
-      "keyword": "expelled",
+      "keyword": "uuidv47",
       "delta": 1
     },
     {
-      "keyword": "blackface",
+      "keyword": "store",
       "delta": 1
     },
     {
-      "keyword": "grave",
+      "keyword": "uuidv7",
       "delta": 1
     },
     {
-      "keyword": "concerns",
+      "keyword": "emit",
       "delta": 1
     },
     {
-      "keyword": "fuel",
+      "keyword": "uuidv4",
       "delta": 1
     },
     {
-      "keyword": "famine-hit",
+      "keyword": "outside",
       "delta": 1
     },
     {
-      "keyword": "northern",
+      "keyword": "siphash-masked",
       "delta": 1
     },
     {
-      "keyword": "israel",
+      "keyword": "timestamp",
+      "delta": 1
+    },
+    {
+      "keyword": "chat",
+      "delta": 1
+    },
+    {
+      "keyword": "control",
+      "delta": 1
+    },
+    {
+      "keyword": "germany",
+      "delta": 1
+    },
+    {
+      "keyword": "position",
+      "delta": 1
+    },
+    {
+      "keyword": "reverted",
+      "delta": 1
+    },
+    {
+      "keyword": "undecided",
+      "delta": 1
+    },
+    {
+      "keyword": "macroscope",
+      "delta": 1
+    },
+    {
+      "keyword": "founded",
+      "delta": 1
+    },
+    {
+      "keyword": "kayvon",
+      "delta": 1
+    },
+    {
+      "keyword": "beykpour",
+      "delta": 1
+    },
+    {
+      "keyword": "let",
+      "delta": 1
+    },
+    {
+      "keyword": "developers",
+      "delta": 1
+    },
+    {
+      "keyword": "find",
+      "delta": 1
+    },
+    {
+      "keyword": "bugs",
+      "delta": 1
+    },
+    {
+      "keyword": "product",
+      "delta": 1
+    },
+    {
+      "keyword": "managers",
+      "delta": 1
+    },
+    {
+      "keyword": "engineering",
+      "delta": 1
+    },
+    {
+      "keyword": "lightspeed",
+      "delta": 1
+    },
+    {
+      "keyword": "others",
+      "delta": 1
+    },
+    {
+      "keyword": "jordan",
+      "delta": 1
+    },
+    {
+      "keyword": "novet",
+      "delta": 1
+    },
+    {
+      "keyword": "sources",
+      "delta": 1
+    },
+    {
+      "keyword": "reddit",
+      "delta": 1
+    },
+    {
+      "keyword": "early",
+      "delta": 1
+    },
+    {
+      "keyword": "talks",
+      "delta": 1
+    },
+    {
+      "keyword": "deepen",
+      "delta": 1
+    },
+    {
+      "keyword": "integration",
+      "delta": 1
+    },
+    {
+      "keyword": "products",
+      "delta": 1
+    },
+    {
+      "keyword": "60m",
+      "delta": 1
+    },
+    {
+      "keyword": "data-sharing",
+      "delta": 1
+    },
+    {
+      "keyword": "deal",
+      "delta": 1
+    },
+    {
+      "keyword": "signed",
+      "delta": 1
+    },
+    {
+      "keyword": "helps",
+      "delta": 1
+    },
+    {
+      "keyword": "test",
+      "delta": 1
+    },
+    {
+      "keyword": "misuse",
+      "delta": 1
+    },
+    {
+      "keyword": "seed",
+      "delta": 1
+    },
+    {
+      "keyword": "rounds",
+      "delta": 1
+    },
+    {
+      "keyword": "450m",
+      "delta": 1
+    },
+    {
+      "keyword": "brewster",
+      "delta": 1
+    },
+    {
+      "keyword": "forbes",
+      "delta": 1
+    },
+    {
+      "keyword": "susan",
+      "delta": 1
+    },
+    {
+      "keyword": "monarez",
+      "delta": 1
+    },
+    {
+      "keyword": "tells",
+      "delta": 1
+    },
+    {
+      "keyword": "senate",
+      "delta": 1
+    },
+    {
+      "keyword": "true",
+      "delta": 1
+    },
+    {
+      "keyword": "reason",
+      "delta": 1
+    },
+    {
+      "keyword": "against",
+      "delta": 1
+    },
+    {
+      "keyword": "home",
+      "delta": 1
+    },
+    {
+      "keyword": "seas",
+      "delta": 1
+    },
+    {
+      "keyword": "expands",
+      "delta": 1
+    },
+    {
+      "keyword": "republicans",
+      "delta": 1
+    },
+    {
+      "keyword": "honoring",
+      "delta": 1
+    },
+    {
+      "keyword": "memory",
+      "delta": 1
+    },
+    {
+      "keyword": "declaring",
+      "delta": 1
+    },
+    {
+      "keyword": "amendment",
+      "delta": 1
+    },
+    {
+      "keyword": "bar",
+      "delta": 1
+    },
+    {
+      "keyword": "him",
+      "delta": 1
+    },
+    {
+      "keyword": "releasing",
+      "delta": 1
+    },
+    {
+      "keyword": "files",
+      "delta": 1
+    },
+    {
+      "keyword": "judges",
+      "delta": 1
+    },
+    {
+      "keyword": "said",
+      "delta": 1
+    },
+    {
+      "keyword": "otherwise",
+      "delta": 1
+    },
+    {
+      "keyword": "wreck",
+      "delta": 1
+    },
+    {
+      "keyword": "ship",
+      "delta": 1
+    },
+    {
+      "keyword": "sank",
+      "delta": 1
+    },
+    {
+      "keyword": "nearly",
+      "delta": 1
+    },
+    {
+      "keyword": "century",
+      "delta": 1
+    },
+    {
+      "keyword": "ago",
+      "delta": 1
+    },
+    {
+      "keyword": "feet",
+      "delta": 1
+    },
+    {
+      "keyword": "underwater",
+      "delta": 1
+    },
+    {
+      "keyword": "pharaoh",
+      "delta": 1
+    },
+    {
+      "keyword": "000-year-old",
+      "delta": 1
+    },
+    {
+      "keyword": "egypt",
+      "delta": 1
+    },
+    {
+      "keyword": "unveils",
+      "delta": 1
+    },
+    {
+      "keyword": "hit",
+      "delta": 1
+    },
+    {
+      "keyword": "tariffs",
+      "delta": 1
+    },
+    {
+      "keyword": "outcry",
+      "delta": 1
+    },
+    {
+      "keyword": "firms",
+      "delta": 1
+    },
+    {
+      "keyword": "stop",
+      "delta": 1
+    },
+    {
+      "keyword": "market",
+      "delta": 1
+    },
+    {
+      "keyword": "today",
+      "delta": 1
+    },
+    {
+      "keyword": "dow",
+      "delta": 1
+    },
+    {
+      "keyword": "points",
+      "delta": 1
+    },
+    {
+      "keyword": "looms",
+      "delta": 1
+    },
+    {
+      "keyword": "breaks",
+      "delta": 1
+    },
+    {
+      "keyword": "level",
+      "delta": 1
+    },
+    {
+      "keyword": "coverage",
+      "delta": 1
+    },
+    {
+      "keyword": "investor",
+      "delta": 1
+    },
+    {
+      "keyword": "casino",
+      "delta": 1
+    },
+    {
+      "keyword": "proposal",
+      "delta": 1
+    },
+    {
+      "keyword": "caesars",
+      "delta": 1
+    },
+    {
+      "keyword": "jay-z",
+      "delta": 1
+    },
+    {
+      "keyword": "denied",
+      "delta": 1
+    },
+    {
+      "keyword": "advisory",
+      "delta": 1
+    },
+    {
+      "keyword": "hollywood",
+      "delta": 1
+    },
+    {
+      "keyword": "reporter",
+      "delta": 1
+    },
+    {
+      "keyword": "give",
+      "delta": 1
+    },
+    {
+      "keyword": "exactly",
+      "delta": 1
+    },
+    {
+      "keyword": "wired",
+      "delta": 1
+    },
+    {
+      "keyword": "unveil",
+      "delta": 1
+    },
+    {
+      "keyword": "event",
+      "delta": 1
+    },
+    {
+      "keyword": "seeking",
+      "delta": 1
+    },
+    {
+      "keyword": "alpha",
+      "delta": 1
+    },
+    {
+      "keyword": "strap",
+      "delta": 1
+    },
+    {
+      "keyword": "now",
+      "delta": 1
+    },
+    {
+      "keyword": "rope",
+      "delta": 1
+    },
+    {
+      "keyword": "dangle",
+      "delta": 1
+    },
+    {
+      "keyword": "pixel",
+      "delta": 1
+    },
+    {
+      "keyword": "wrist",
+      "delta": 1
+    },
+    {
+      "keyword": "anderson",
+      "delta": 1
+    },
+    {
+      "keyword": "mesmerizing",
+      "delta": 1
+    },
+    {
+      "keyword": "variety",
+      "delta": 1
+    },
+    {
+      "keyword": "wide",
+      "delta": 1
+    },
+    {
+      "keyword": "receiver",
+      "delta": 1
+    },
+    {
+      "keyword": "start",
+      "delta": 1
+    },
+    {
+      "keyword": "sit",
+      "delta": 1
+    },
+    {
+      "keyword": "fantasy",
+      "delta": 1
+    },
+    {
+      "keyword": "football",
+      "delta": 1
+    },
+    {
+      "keyword": "sports",
+      "delta": 1
+    },
+    {
+      "keyword": "illustrated",
+      "delta": 1
+    },
+    {
+      "keyword": "shohei",
+      "delta": 1
+    },
+    {
+      "keyword": "ohtani",
+      "delta": 1
+    },
+    {
+      "keyword": "removed",
+      "delta": 1
+    },
+    {
+      "keyword": "five",
+      "delta": 1
+    },
+    {
+      "keyword": "no-hit",
+      "delta": 1
+    },
+    {
+      "keyword": "innings",
+      "delta": 1
+    },
+    {
+      "keyword": "dodgers",
+      "delta": 1
+    },
+    {
+      "keyword": "bullpen",
+      "delta": 1
+    },
+    {
+      "keyword": "collapses",
+      "delta": 1
+    },
+    {
+      "keyword": "loss",
+      "delta": 1
+    },
+    {
+      "keyword": "los",
+      "delta": 1
+    },
+    {
+      "keyword": "angeles",
+      "delta": 1
+    },
+    {
+      "keyword": "predictions",
+      "delta": 1
+    },
+    {
+      "keyword": "expert",
+      "delta": 1
+    },
+    {
+      "keyword": "matchups",
+      "delta": 1
+    },
+    {
+      "keyword": "sportsline",
+      "delta": 1
+    },
+    {
+      "keyword": "forecast",
+      "delta": 1
+    },
+    {
+      "keyword": "health",
+      "delta": 1
+    },
+    {
+      "keyword": "weather",
+      "delta": 1
+    },
+    {
+      "keyword": "became",
+      "delta": 1
+    },
+    {
+      "keyword": "leader",
+      "delta": 1
+    },
+    {
+      "keyword": "conservative",
+      "delta": 1
+    },
+    {
+      "keyword": "youth",
+      "delta": 1
+    },
+    {
+      "keyword": "movement",
+      "delta": 1
+    },
+    {
+      "keyword": "ousted",
+      "delta": 1
+    },
+    {
+      "keyword": "testifies",
+      "delta": 1
+    },
+    {
+      "keyword": "resisting",
+      "delta": 1
+    },
+    {
+      "keyword": "rfk",
+      "delta": 1
+    },
+    {
+      "keyword": "tennessee",
+      "delta": 1
+    },
+    {
+      "keyword": "guard",
+      "delta": 1
+    },
+    {
+      "keyword": "illinois",
+      "delta": 1
+    },
+    {
+      "keyword": "hard",
+      "delta": 1
+    },
+    {
+      "keyword": "culture",
+      "delta": 1
+    },
+    {
+      "keyword": "threatens",
+      "delta": 1
+    },
+    {
+      "keyword": "palestinian",
+      "delta": 1
+    },
+    {
+      "keyword": "story",
+      "delta": 1
+    },
+    {
+      "keyword": "top",
+      "delta": 1
+    },
+    {
+      "keyword": "prize",
+      "delta": 1
+    },
+    {
+      "keyword": "trump",
       "delta": -1
     },
     {
@@ -11481,39 +11597,55 @@
       "delta": -1
     },
     {
+      "keyword": "city",
+      "delta": -1
+    },
+    {
       "keyword": "state",
       "delta": -1
     },
     {
-      "keyword": "attacks",
+      "keyword": "raised",
       "delta": -1
     },
     {
-      "keyword": "first",
+      "keyword": "robert",
       "delta": -1
     },
     {
-      "keyword": "pro",
+      "keyword": "led",
       "delta": -1
     },
     {
-      "keyword": "york",
+      "keyword": "reuters",
       "delta": -1
     },
     {
-      "keyword": "israeli",
+      "keyword": "china",
       "delta": -1
     },
     {
-      "keyword": "key",
+      "keyword": "show",
       "delta": -1
     },
     {
-      "keyword": "years",
+      "keyword": "free",
       "delta": -1
     },
     {
-      "keyword": "nvidia",
+      "keyword": "protests",
+      "delta": -1
+    },
+    {
+      "keyword": "offensive",
+      "delta": -1
+    },
+    {
+      "keyword": "app",
+      "delta": -1
+    },
+    {
+      "keyword": "again",
       "delta": -1
     },
     {
@@ -11521,7 +11653,11 @@
       "delta": -1
     },
     {
-      "keyword": "economic",
+      "keyword": "air",
+      "delta": -1
+    },
+    {
+      "keyword": "years",
       "delta": -1
     },
     {
@@ -11529,27 +11665,15 @@
       "delta": -1
     },
     {
+      "keyword": "nbc",
+      "delta": -1
+    },
+    {
       "keyword": "castle",
       "delta": -1
     },
     {
-      "keyword": "president",
-      "delta": -1
-    },
-    {
-      "keyword": "flee",
-      "delta": -1
-    },
-    {
-      "keyword": "american",
-      "delta": -1
-    },
-    {
-      "keyword": "fed",
-      "delta": -1
-    },
-    {
-      "keyword": "report",
+      "keyword": "economic",
       "delta": -1
     },
     {
@@ -11557,47 +11681,47 @@
       "delta": -1
     },
     {
-      "keyword": "commission",
+      "keyword": "search",
       "delta": -1
     },
     {
-      "keyword": "alleged",
+      "keyword": "alibaba",
       "delta": -1
     },
     {
-      "keyword": "images",
+      "keyword": "banned",
       "delta": -1
     },
     {
-      "keyword": "bloomberg",
+      "keyword": "display",
       "delta": -1
     },
     {
-      "keyword": "coffee",
+      "keyword": "wins",
       "delta": -1
     },
     {
-      "keyword": "companies",
+      "keyword": "washington",
       "delta": -1
     },
     {
-      "keyword": "verge",
+      "keyword": "com",
       "delta": -1
     },
     {
-      "keyword": "during",
+      "keyword": "meta",
       "delta": -1
     },
     {
-      "keyword": "special",
+      "keyword": "glasses",
       "delta": -1
     },
     {
-      "keyword": "minnesota",
+      "keyword": "great",
       "delta": -1
     },
     {
-      "keyword": "former",
+      "keyword": "tom",
       "delta": -1
     },
     {
@@ -11605,31 +11729,15 @@
       "delta": -1
     },
     {
-      "keyword": "navalny",
+      "keyword": "crash",
       "delta": -1
     },
     {
-      "keyword": "widow",
+      "keyword": "appearance",
       "delta": -1
     },
     {
-      "keyword": "prison",
-      "delta": -1
-    },
-    {
-      "keyword": "thousands",
-      "delta": -1
-    },
-    {
-      "keyword": "madeleine",
-      "delta": -1
-    },
-    {
-      "keyword": "mccann",
-      "delta": -1
-    },
-    {
-      "keyword": "released",
+      "keyword": "greetings",
       "delta": -1
     },
     {
@@ -11637,19 +11745,35 @@
       "delta": -1
     },
     {
-      "keyword": "cut",
+      "keyword": "beirut",
       "delta": -1
     },
     {
-      "keyword": "other",
+      "keyword": "cats",
       "delta": -1
     },
     {
-      "keyword": "shootings",
+      "keyword": "roam",
       "delta": -1
     },
     {
-      "keyword": "amid",
+      "keyword": "project",
+      "delta": -1
+    },
+    {
+      "keyword": "strategy",
+      "delta": -1
+    },
+    {
+      "keyword": "risk",
+      "delta": -1
+    },
+    {
+      "keyword": "wearing",
+      "delta": -1
+    },
+    {
+      "keyword": "democrats",
       "delta": -1
     },
     {
@@ -11657,644 +11781,44 @@
       "delta": -1
     },
     {
-      "keyword": "h20",
+      "keyword": "bill",
       "delta": -1
     },
     {
-      "keyword": "english",
+      "keyword": "prince",
       "delta": -1
     },
     {
-      "keyword": "real",
+      "keyword": "cassidy",
       "delta": -1
     },
     {
-      "keyword": "like",
+      "keyword": "munsch",
       "delta": -1
-    },
-    {
-      "keyword": "raise",
-      "delta": -1
-    },
-    {
-      "keyword": "total",
-      "delta": -1
-    },
-    {
-      "keyword": "march",
-      "delta": -1
-    },
-    {
-      "keyword": "run",
-      "delta": -1
-    },
-    {
-      "keyword": "exempt",
-      "delta": -1
-    },
-    {
-      "keyword": "integrate",
-      "delta": -1
-    },
-    {
-      "keyword": "framework",
-      "delta": -1
-    },
-    {
-      "keyword": "rtx",
-      "delta": -1
-    },
-    {
-      "keyword": "6000d",
-      "delta": -1
-    },
-    {
-      "keyword": "takes",
-      "delta": -1
-    },
-    {
-      "keyword": "screen",
-      "delta": -1
-    },
-    {
-      "keyword": "doesn",
-      "delta": -1
-    },
-    {
-      "keyword": "longer",
-      "delta": -1
-    },
-    {
-      "keyword": "quicker",
-      "delta": -1
-    },
-    {
-      "keyword": "scale",
-      "delta": -1
-    },
-    {
-      "keyword": "tech",
-      "delta": -1
-    },
-    {
-      "keyword": "agents",
-      "delta": -1
-    },
-    {
-      "keyword": "co-founder",
-      "delta": -1
-    },
-    {
-      "keyword": "site",
-      "delta": -1
-    },
-    {
-      "keyword": "arrives",
-      "delta": -1
-    },
-    {
-      "keyword": "windsor",
-      "delta": -1
-    },
-    {
-      "keyword": "activists",
-      "delta": -1
-    },
-    {
-      "keyword": "onto",
-      "delta": -1
-    },
-    {
-      "keyword": "axios",
-      "delta": -1
-    },
-    {
-      "keyword": "democrat",
-      "delta": -1
-    },
-    {
-      "keyword": "slain",
-      "delta": -1
-    },
-    {
-      "keyword": "lawmaker",
-      "delta": -1
-    },
-    {
-      "keyword": "gop",
-      "delta": -1
-    },
-    {
-      "keyword": "ice",
-      "delta": -1
-    },
-    {
-      "keyword": "officers",
-      "delta": -1
-    },
-    {
-      "keyword": "proves",
-      "delta": -1
-    },
-    {
-      "keyword": "update",
-      "delta": -1
-    },
-    {
-      "keyword": "all",
-      "delta": -1
-    },
-    {
-      "keyword": "reveals",
-      "delta": -1
-    },
-    {
-      "keyword": "seen",
-      "delta": -1
-    },
-    {
-      "keyword": "political",
-      "delta": -1
-    },
-    {
-      "keyword": "reports",
-      "delta": -1
-    },
-    {
-      "keyword": "route",
-      "delta": -1
-    },
-    {
-      "keyword": "never",
-      "delta": -1
-    },
-    {
-      "keyword": "charged",
-      "delta": -1
-    },
-    {
-      "keyword": "crime",
-      "delta": -1
-    },
-    {
-      "keyword": "takeaways",
-      "delta": -1
-    },
-    {
-      "keyword": "india",
-      "delta": -1
-    },
-    {
-      "keyword": "shooter",
-      "delta": -1
-    },
-    {
-      "keyword": "penalty",
-      "delta": -1
-    },
-    {
-      "keyword": "silence",
-      "delta": -1
-    },
-    {
-      "keyword": "serving",
-      "delta": -1
-    },
-    {
-      "keyword": "unrelated",
-      "delta": -1
-    },
-    {
-      "keyword": "homeless",
-      "delta": -1
-    },
-    {
-      "keyword": "gun",
-      "delta": -1
-    },
-    {
-      "keyword": "know",
-      "delta": -1
-    },
-    {
-      "keyword": "pressure",
-      "delta": -1
-    },
-    {
-      "keyword": "presidential",
-      "delta": -1
-    },
-    {
-      "keyword": "killed",
-      "delta": -1
-    },
-    {
-      "keyword": "bank",
-      "delta": -1
-    },
-    {
-      "keyword": "plot",
-      "delta": -1
-    },
-    {
-      "keyword": "politicians",
-      "delta": -1
-    },
-    {
-      "keyword": "rhetoric",
-      "delta": -1
-    },
-    {
-      "keyword": "protest",
-      "delta": -1
-    },
-    {
-      "keyword": "announces",
-      "delta": -1
-    },
-    {
-      "keyword": "latest",
-      "delta": -1
-    },
-    {
-      "keyword": "between",
-      "delta": -1
-    },
-    {
-      "keyword": "attack",
-      "delta": -1
-    },
-    {
-      "keyword": "celebrate",
-      "delta": -1
-    },
-    {
-      "keyword": "independence",
-      "delta": -1
-    },
-    {
-      "keyword": "economy",
-      "delta": -1
-    },
-    {
-      "keyword": "target",
-      "delta": -1
-    },
-    {
-      "keyword": "saying",
-      "delta": -1
-    },
-    {
-      "keyword": "far",
-      "delta": -1
-    },
-    {
-      "keyword": "minister",
-      "delta": -1
-    },
-    {
-      "keyword": "sanctions",
-      "delta": -1
-    },
-    {
-      "keyword": "europe",
-      "delta": -1
-    },
-    {
-      "keyword": "social",
-      "delta": -1
-    },
-    {
-      "keyword": "idf",
-      "delta": -1
-    },
-    {
-      "keyword": "civilians",
-      "delta": -1
-    },
-    {
-      "keyword": "launches",
-      "delta": -1
-    },
-    {
-      "keyword": "van",
-      "delta": -1
-    },
-    {
-      "keyword": "stephen",
-      "delta": -1
-    },
-    {
-      "keyword": "deaths",
-      "delta": -1
-    },
-    {
-      "keyword": "turning",
-      "delta": -1
-    },
-    {
-      "keyword": "summer",
-      "delta": -1
-    },
-    {
-      "keyword": "turned",
-      "delta": -1
-    },
-    {
-      "keyword": "jeffrey",
-      "delta": -1
-    },
-    {
-      "keyword": "city",
-      "delta": -2
-    },
-    {
-      "keyword": "iphone",
-      "delta": -2
-    },
-    {
-      "keyword": "redford",
-      "delta": -2
-    },
-    {
-      "keyword": "has",
-      "delta": -2
-    },
-    {
-      "keyword": "free",
-      "delta": -2
-    },
-    {
-      "keyword": "offensive",
-      "delta": -2
-    },
-    {
-      "keyword": "pay",
-      "delta": -2
-    },
-    {
-      "keyword": "say",
-      "delta": -2
-    },
-    {
-      "keyword": "deep",
-      "delta": -2
-    },
-    {
-      "keyword": "cnn",
-      "delta": -2
-    },
-    {
-      "keyword": "bbc",
-      "delta": -2
-    },
-    {
-      "keyword": "plan",
-      "delta": -2
-    },
-    {
-      "keyword": "time",
-      "delta": -2
-    },
-    {
-      "keyword": "people",
-      "delta": -2
-    },
-    {
-      "keyword": "robinson",
-      "delta": -2
-    },
-    {
-      "keyword": "chip",
-      "delta": -2
-    },
-    {
-      "keyword": "make",
-      "delta": -2
-    },
-    {
-      "keyword": "have",
-      "delta": -2
-    },
-    {
-      "keyword": "plans",
-      "delta": -2
-    },
-    {
-      "keyword": "abc",
-      "delta": -2
-    },
-    {
-      "keyword": "cdc",
-      "delta": -2
-    },
-    {
-      "keyword": "election",
-      "delta": -2
-    },
-    {
-      "keyword": "part",
-      "delta": -2
-    },
-    {
-      "keyword": "german",
-      "delta": -2
-    },
-    {
-      "keyword": "push",
-      "delta": -2
-    },
-    {
-      "keyword": "set",
-      "delta": -2
-    },
-    {
-      "keyword": "three",
-      "delta": -2
-    },
-    {
-      "keyword": "court",
-      "delta": -2
-    },
-    {
-      "keyword": "case",
-      "delta": -2
-    },
-    {
-      "keyword": "power",
-      "delta": -2
-    },
-    {
-      "keyword": "used",
-      "delta": -2
-    },
-    {
-      "keyword": "ordered",
-      "delta": -2
-    },
-    {
-      "keyword": "damages",
-      "delta": -2
-    },
-    {
-      "keyword": "racist",
-      "delta": -2
-    },
-    {
-      "keyword": "remarks",
-      "delta": -2
-    },
-    {
-      "keyword": "office",
-      "delta": -2
-    },
-    {
-      "keyword": "secretary",
-      "delta": -2
-    },
-    {
-      "keyword": "luigi",
-      "delta": -2
-    },
-    {
-      "keyword": "mangione",
-      "delta": -2
-    },
-    {
-      "keyword": "last",
-      "delta": -2
-    },
-    {
-      "keyword": "tyler",
-      "delta": -2
     },
     {
       "keyword": "news",
+      "delta": -2
+    },
+    {
+      "keyword": "york",
+      "delta": -2
+    },
+    {
+      "keyword": "building",
+      "delta": -2
+    },
+    {
+      "keyword": "away",
+      "delta": -2
+    },
+    {
+      "keyword": "post",
       "delta": -3
     },
     {
-      "keyword": "robert",
-      "delta": -3
-    },
-    {
-      "keyword": "china",
-      "delta": -3
-    },
-    {
-      "keyword": "suspect",
-      "delta": -3
-    },
-    {
-      "keyword": "one",
-      "delta": -3
-    },
-    {
-      "keyword": "troops",
-      "delta": -3
-    },
-    {
-      "keyword": "ben",
-      "delta": -3
-    },
-    {
-      "keyword": "week",
-      "delta": -3
-    },
-    {
-      "keyword": "death",
-      "delta": -3
-    },
-    {
-      "keyword": "speech",
-      "delta": -3
-    },
-    {
-      "keyword": "year",
-      "delta": -3
-    },
-    {
-      "keyword": "murder",
-      "delta": -3
-    },
-    {
-      "keyword": "bolsonaro",
-      "delta": -3
-    },
-    {
-      "keyword": "high",
-      "delta": -3
-    },
-    {
-      "keyword": "claims",
-      "delta": -3
-    },
-    {
-      "keyword": "military",
-      "delta": -3
-    },
-    {
-      "keyword": "kash",
-      "delta": -3
-    },
-    {
-      "keyword": "staff",
+      "keyword": "new",
       "delta": -4
-    },
-    {
-      "keyword": "director",
-      "delta": -4
-    },
-    {
-      "keyword": "charges",
-      "delta": -4
-    },
-    {
-      "keyword": "violence",
-      "delta": -4
-    },
-    {
-      "keyword": "two",
-      "delta": -4
-    },
-    {
-      "keyword": "patel",
-      "delta": -4
-    },
-    {
-      "keyword": "brazil",
-      "delta": -5
-    },
-    {
-      "keyword": "epstein",
-      "delta": -6
-    },
-    {
-      "keyword": "his",
-      "delta": -6
-    },
-    {
-      "keyword": "russia",
-      "delta": -6
-    },
-    {
-      "keyword": "charlie",
-      "delta": -8
-    },
-    {
-      "keyword": "after",
-      "delta": -9
-    },
-    {
-      "keyword": "kirk",
-      "delta": -10
-    },
-    {
-      "keyword": "says",
-      "delta": -13
-    },
-    {
-      "keyword": "trump",
-      "delta": -20
     }
   ]
 }
