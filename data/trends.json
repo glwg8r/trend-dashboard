@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T14:53:09.914695Z",
+  "generated_at": "2026-08-20T15:47:23.912654Z",
   "sources": {
     "google_trends": [],
     "reddit": [
@@ -8,12 +8,12 @@
         "url": "https://www.reddit.com/r/news/comments/1vtkn73/us_retail_giant_receives_1bn_boost_from_tariff/"
       },
       {
-        "title": "The US national debt now stands at $40 trillion",
-        "url": "https://www.reddit.com/r/news/comments/1vt2u34/the_us_national_debt_now_stands_at_40_trillion/"
-      },
-      {
         "title": "Two students killed, driver charged after crash into Tennessee college cycling team",
         "url": "https://www.reddit.com/r/news/comments/1vti52j/two_students_killed_driver_charged_after_crash/"
+      },
+      {
+        "title": "The US national debt now stands at $40 trillion",
+        "url": "https://www.reddit.com/r/news/comments/1vt2u34/the_us_national_debt_now_stands_at_40_trillion/"
       },
       {
         "title": "More than 100 dead after goldmine collapses in Central African Republic | Central African Republic",
@@ -22,10 +22,6 @@
       {
         "title": "'Most prolific' member of online extremist network 764 sentenced to 77 years in prison",
         "url": "https://www.reddit.com/r/news/comments/1vt45cf/most_prolific_member_of_online_extremist_network/"
-      },
-      {
-        "title": "Invited media and military members held at gunpoint at Space Force base in California",
-        "url": "https://www.reddit.com/r/news/comments/1vt6c77/invited_media_and_military_members_held_at/"
       },
       {
         "title": "A quiet channel between ICE and Iran shaped deportation flights, newly released emails show",
@@ -40,8 +36,16 @@
         "url": "https://www.reddit.com/r/news/comments/1vtid58/19yearold_arrested_in_brutal_stabbing_death_of/"
       },
       {
+        "title": "Invited media and military members held at gunpoint at Space Force base in California",
+        "url": "https://www.reddit.com/r/news/comments/1vt6c77/invited_media_and_military_members_held_at/"
+      },
+      {
         "title": "Idaho county’s probation office compiles ‘foreign born list’ for ICE",
         "url": "https://www.reddit.com/r/news/comments/1vsxywb/idaho_countys_probation_office_compiles_foreign/"
+      },
+      {
+        "title": "Founder of collapsed Chinese property giant Evergrande sentenced to life in prison",
+        "url": "https://www.reddit.com/r/news/comments/1vtl6e0/founder_of_collapsed_chinese_property_giant/"
       },
       {
         "title": "Vaccine breakthrough stops cancer returning in trial",
@@ -58,10 +62,6 @@
       {
         "title": "Spared execution eight times, US's oldest inmate dies at 101",
         "url": "https://www.reddit.com/r/news/comments/1vsn3we/spared_execution_eight_times_uss_oldest_inmate/"
-      },
-      {
-        "title": "Founder of collapsed Chinese property giant Evergrande sentenced to life in prison",
-        "url": "https://www.reddit.com/r/news/comments/1vtl6e0/founder_of_collapsed_chinese_property_giant/"
       },
       {
         "title": "Israeli army orders criminal investigation into killing of Palestinian girl Hind Rajab in Gaza",
@@ -106,8 +106,20 @@
     ],
     "tech": [
       {
-        "title": "Harvest hikes bills by 1500% after purchased by Bending Spoons",
-        "url": "https://www.bbc.com/news/articles/clyq011414eo"
+        "title": "Clean up Claude 5's token vomit with a separate LLM",
+        "url": "https://github.com/zachahn/vomit"
+      },
+      {
+        "title": "Anti-AI fonts are useless and harmful",
+        "url": "https://blog.yaros.ae/anti-ai-fonts-are-useless-and-harmful/"
+      },
+      {
+        "title": "Show HN: Open-source Stripe Connect alternative",
+        "url": "https://zoneless.com"
+      },
+      {
+        "title": "Show HN: Check if any of the $656M in unclaimed royalties at The MLC is yours",
+        "url": "https://pub.doub.ly/"
       },
       {
         "title": "An elliptic curve of rank ≥ 30",
@@ -134,40 +146,20 @@
         "url": "https://deadsimpleci.sparrowhub.io/doc/job-artifacts"
       },
       {
-        "title": "I spent twenty years becoming good at the wrong game",
-        "url": "https://savvynormie.com/i-spent-twenty-years-becoming-good-at-the-wrong-game/"
-      },
-      {
         "title": "DiffusionGemma Technical Report",
         "url": "https://arxiv.org/abs/2608.00146"
       },
       {
-        "title": "Malicious Rust Crate Arrayref Runs a Build-Time Payload",
+        "title": "Malicious Rust crate Arrayref runs a build-time payload",
         "url": "https://safedep.io/arrayref-proc-macro1-rust-build-time-malware/"
       },
       {
-        "title": "Canonical Backs New Project to Translate Large C Codebases into Safe Rust",
-        "url": "https://linuxiac.com/canonical-backs-new-project-to-translate-large-c-codebases-into-safe-rust/"
-      },
-      {
-        "title": "UK internet age checks have boosted rogue adult sites, says Pornhub",
-        "url": "https://www.ft.com/content/295c2eba-da29-434d-84e0-e9de3b0b1cc2"
-      },
-      {
-        "title": "Why the Ocean Cleanup Hasn't Solved the Plastic Pollution Crisis",
+        "title": "Why the Ocean Cleanup hasn't solved the plastic pollution crisis",
         "url": "https://therevelator.org/why-ocean-cleanup-has-not-solved-plastic-pollution/"
       },
       {
         "title": "Xorg-Server 26.0.99.901",
         "url": "https://lists.x.org/archives/xorg-announce/2026-August/003741.html"
-      },
-      {
-        "title": "Zellij 0.45.0: nested sessions, Kitty graphics, a fresh UI",
-        "url": "https://zellij.dev/news/nested-sessions-kitty-graphics-new-ui/"
-      },
-      {
-        "title": "Browser De-Slop",
-        "url": "https://www.sacredheartsc.com/blog/browser-de-slop/"
       },
       {
         "title": "Show HN: I trained a 125M model to autocomplete piano on-device",
@@ -178,15 +170,31 @@
         "url": "https://www.ycombinator.com/companies/proof-of-human/jobs/ZTZHEbb-member-of-technical-staff"
       },
       {
-        "title": "AI didn't erase the junior engineer's value, it increased it it",
-        "url": "https://franciscotrindade.me/blog/the-kids-are-really-alright/"
-      },
-      {
         "title": "Seeing beyond BMI: Estimating cardiometabolic risk with smartphone imagery",
         "url": "https://research.google/blog/seeing-beyond-bmi-estimating-cardiometabolic-risk-with-smartphone-imagery/"
       },
       {
-        "title": "Waymo says it has built an ASIC chip that will improve its robotaxis' reflexes and navigational skills and help it diversify away from companies like Nvidia (Edward Ludlow/Bloomberg)",
+        "title": "Risk Engineering",
+        "url": "https://risk-engineering.org/"
+      },
+      {
+        "title": "AliExpress runs silent WebAudio fingerprinting that breaks Bluetooth multipoint",
+        "url": "https://blog.laserphile.com/2026/08/aliexpress-webpage-keeping-multipoint.html"
+      },
+      {
+        "title": "Windows brings out the Rorschach test in everyone (2003)",
+        "url": "https://devblogs.microsoft.com/oldnewthing/20030825-00/?p=42803"
+      },
+      {
+        "title": "Filing: in 2025, TikTok posted its first net profit of $702.5M in Europe, Africa, and Latin America on $9.1B in revenue, up 45.7% YoY (Iain Martin/Forbes)",
+        "url": "https://www.techmeme.com/260820/p25#a260820p25"
+      },
+      {
+        "title": "A bankruptcy court delays Google's $10M purchase of Spirit Airlines' data after former flight attendants objected, seeking assurance their info would be removed (Alexander Gladstone/Wall Street Journal)",
+        "url": "https://www.techmeme.com/260820/p24#a260820p24"
+      },
+      {
+        "title": "Waymo says it has built an ASIC chip that will improve its robotaxis' reflexes and navigational skills and help it diversify away from third parties like Nvidia (Edward Ludlow/Bloomberg)",
         "url": "https://www.techmeme.com/260820/p23#a260820p23"
       },
       {
@@ -198,7 +206,7 @@
         "url": "https://www.techmeme.com/260820/p21#a260820p21"
       },
       {
-        "title": "Study: 150+ Polymarket wallets may have traded on inside US military information, attracting copycat bets and making $8M overall, with a 97.2% average win rate (Douglas Gillison/Reuters)",
+        "title": "Study: 150+ Polymarket wallets may have traded on internal US military information, making $8M overall with a 97.2% average win rate and attracting copycat bets (Douglas Gillison/Reuters)",
         "url": "https://www.techmeme.com/260820/p20#a260820p20"
       },
       {
@@ -218,7 +226,7 @@
         "url": "https://www.techmeme.com/260820/p16#a260820p16"
       },
       {
-        "title": "Australia passes the News Bargaining Incentive, which will tax tech giants 2.5% on their Australian ad revenue unless they strike deals with local news media (Christine Chen/Reuters)",
+        "title": "Australia passes the News Bargaining Incentive, which will tax tech giants 2.5% on their Australian ad revenue if they don't strike deals with local news media (Christine Chen/Reuters)",
         "url": "https://www.techmeme.com/260820/p15#a260820p15"
       },
       {
@@ -236,88 +244,80 @@
       {
         "title": "Alibaba reports Q1 revenue up 9% YoY to ~$39.64B, meeting est., and net income down 75% to ~$1.54B due to heavy AI spending and weak domestic retail consumption (Luz Ding/Bloomberg)",
         "url": "https://www.techmeme.com/260820/p11#a260820p11"
-      },
-      {
-        "title": "Binance launches Agent OS, a platform that lets AI agents analyze markets and execute trades on users' behalf; users set limits on AI agents' access and trades (Jagmeet Singh/TechCrunch)",
-        "url": "https://www.techmeme.com/260820/p10#a260820p10"
-      },
-      {
-        "title": "South Korea media: SK Hynix and its union reach a tentative deal on a 6.3% wage hike and paying out 60% of profit-sharing bonuses in shares and 40% in cash (Yoolim Lee/Bloomberg)",
-        "url": "https://www.techmeme.com/260820/p9#a260820p9"
       }
     ],
     "major_outlets": [
       {
-        "title": "Trump’s Order to Cut Military Exercises With South Korea Carries Risks, Experts Say - The New York Times",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPZUNYOURJdHBQbTVuMXdSRF9XUXVOQ3c5azVOZFA2Z1BTN2dtS1FnOGdSSXFmRnBUS1RnRFdDejQydlRQUmRvM0xlZUpWblVYdVc4Ukk3YkFaYXQwR2N3R0MyWkc5NWxfeE9XQnhrcTVESzYzcmgweF9JMGpjbXRUYVNtZVlpcXZmNmtBTkVOVS1oazg?oc=5"
-      },
-      {
-        "title": "White House faces scrutiny over top Trump aide Natalie Harp – live - The Guardian",
-        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPczg2X2Q1QnBXa0w2bTdzRWlwdDM0UTBIbFRSY1E0SUtCU1FjTW9fd1pHanY5SWVMNmRyYW9OYnNVWl9yQ3JNVjF6cklpRGhyamRaaHRWcVgxM1NCVDdRLV9XcnBjM191SXBRY0VtelROVzB5UWFrNXd6SjNUNUJ5aTlLdXNRQWVTRlA0RjlNcnNCUjdCTWFTNHdIZWM4dkZ6SV9nRFQ4Z04xZHhBVDB0THZqdWhDWFpMckJlUlZjbGE5RUhCRzQwTTl2Q0FSRXVZc0Eydm5rZnpudw?oc=5"
-      },
-      {
-        "title": "El Niño will upend winter weather in the US. Here’s who will feel it the most - CNN",
-        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQWGJVSjFoMl9rbWdVcG1SdzBWUTdvS3RZRGpmblNpbkI3bm9HbHdJd0lma04wdTBpY19CUEIydFRNdFpUNllZV2FmdUhuUURUQV9pNjRvUmFaQlRCSTFnd2xuQ1RpX2hFZHN6NXozZFlPN0ZhYVNGdmVDRVhoS3RTUHpZTEd4UQ?oc=5"
-      },
-      {
-        "title": "A Russian missile and drone barrage kills at least 16 in Ukraine’s Kyiv region - AP News",
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPWEM2OWViY2VqbDVyZFBIWHk5T05RYzVwbDEzeUQxZmtlQk9BRzJqVzVwWXZmQ1pwVnZXUkt2eVJLb3RncnpLUTJzT2txYlBVakhMWXpSY3BzR0JwM3dJVmhDZ1JTX3AwQUtuc0VXdmljOHhFeWlzdjlXakYtUmc0ekhOalRSZWZ3VVVYMzg4MUI3bDJa?oc=5"
-      },
-      {
-        "title": "‘The streets are empty:’ How Miami’s Little Haiti reacted to losing TPS - USA Today",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNY1A4WE9sbWRwNFd2bnZmUEs1Z2Y0NEV2bkRMUzRaYXZ5Ym0xYlNoTEZyazZQT0l5ZkE0cUpmQ0QyYmV4WVVZdnFaRjFWd0tnb1p4OHVheU9VcDlXblJrOGw4b2tiNHJwSGZhejV0OWJWT0lybVJ1cWJFdFJyTmNpSmtrTlF3cFJWNWtEWWxMWWp3b2QxWEJjTUVBZXNmVlV5X2JjSWRncWdFQTZWNHgtNmpiaW9pbnpiWDFMekF1QW0?oc=5"
-      },
-      {
-        "title": "California, Long a Climate Leader, Is in Trump’s Crosshairs - The New York Times",
-        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBjdkc4cnMtdlVyUW9Ja3Z3V0JNenFuRUlsd2s2ZlA1YXRERHB4QzdhOWNTRjRlYWpHdEJwaFVWM2pRRVYtVEtFNWh3V291Y2xGT2lpampJbURTZExtd0JKbVdtdTNpV2JncTYxN2VFV2JBa2hCMm1VaVN1LVA?oc=5"
-      },
-      {
-        "title": "Capitol agenda: Trump 1.0 enemies face brutal primaries - Politico",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPN2lSTDBvNFJkNWt2TWlIOWhaaHltSXN4dzVBMGRmWW8yYkY4UkNKbll6NGNEaHBvTjJvX2FEU3dkSjR4NU9BXzJGNi01Wml3a2NhTWdqcGxqZlZzbGdsbTZxMlMwRnFMMkI2Z09RWm1DYkxDMEtMSS0zUWRncVV6cVhTQm9iei1vbGVOQTdB?oc=5"
-      },
-      {
-        "title": "Jimmy Fallon Teases Trump’s Efforts to Rekindle North Korea Bromance - The New York Times",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQMktxNWd5UnFQMTNrcXlka1ZfYkIyLXU0TVYxZi1kYi1KcHkwTlBRNmtHdlFILVVlbUhQTUJvRXVPMVY4bUcwZnk2R0VGUzZnYjNLdHBlSUpzUDh0dEljU28zQktWRzNuVnNKQTVjbVk0NDlWZG8yQ0hQdUxQSnVfX1ZBb3IyUk50U1hhelJhUQ?oc=5"
+        "title": "Live Updates: Iran dismisses Trump's \"economic D-Day\" threat, says it \"will only bring further defeat\" - CBS News",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZmRJd19TelVBUVBiN0s3SjlmUFdnNTdEMmVsS3NCeUZ1MldCSWFNc19TTzI0amgxdDZJVGFJaFFVVEh0V0lhd0E5LTE0eExOb1ZGbnRra0NGRDhxRmYzOUgyY2VtTk9iMWwwN0lhblVIT09lNlNQcTRadUs5N3RsbFE2bWhqeWhXRERERUZ3?oc=5"
       },
       {
         "title": "North Korea fires 10 missiles day after Trump curtails South Korea joint drills - The Guardian",
         "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxORVdsZHA4UEJGQk91VHU5TURyME9mbHRfN0RmdE5menhRTmdCaE45ZGtNSlVVakFSazlhLXpna25HaWJrSm1oVzU0cmZweUhQN2JGYXM1X0ltbFVkMkVvQnFQcmh2QkdPTXMxUGpUWVdTc1RUUDV6SzczSWtYOXlPaGFzN21wWEJiMkZ3ZjVpM1RzUlhqTG9rU3BocHBBNWRLZUZvS3ViU0ZOb1JteWFkdjFHNy1HZ1I4QUFYSXpYRDFkMEk?oc=5"
       },
       {
-        "title": "Harry and Meghan's security arrangements a private matter, PM says - BBC",
-        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1RTHBNMHhfUzZaZ05ZWURUM3ZZcXdWSkNxVlA1Q25mWkN3VGhKZnYzd0tmaXdSQUNTTWlfd2pLM1NlQkxjWXdlUTZOSFp0b1hteUpHTFJCUDlIUQ?oc=5"
+        "title": "Ossoff: ‘Amazing to watch this White House melt down’ over Harp remark - The Hill",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQQllZLWUzYko2UVRsX1ZVbEUwYTVIVGJpZzZFTTBEMVRwTDZzSWg5XzJZN2tISTBjX28wc3N2TFVUT0NfbzQtSkRtblhyRDNDVHhBd2RLZzB2RWF2WHp3cjNwNzV1ajhQbjF6dXVZYnV4X2FWeDY1Z28xWDdMOVNDTllOUko3c2VQbG5LaTd2WWJDNEZUZmZzSUt6ZU44Mm_SAaQBQVVfeXFMUF9YSEFsT1VUanNIZTdXcktOc2dzeHJ6NnVIOV9zbHUxQTZpVFFHOHVFelZyb1Z6TWx5Sl83UHV1TVBoNFB5TEhFTWxGSDY2dlFJTTEzVGljWmthMHNPZkZrSFFXanZaRTNnTUxUSTNxUVRER3lDX25XZHlUN3k3NExyZjhQeDJyUlFyXzFNMWk2aUZRMU5adkZvSXg4ZVc2VHh3ZmU?oc=5"
+      },
+      {
+        "title": "A Russian missile and drone barrage kills at least 16 in Ukraine’s Kyiv region - AP News",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPWEM2OWViY2VqbDVyZFBIWHk5T05RYzVwbDEzeUQxZmtlQk9BRzJqVzVwWXZmQ1pwVnZXUkt2eVJLb3RncnpLUTJzT2txYlBVakhMWXpSY3BzR0JwM3dJVmhDZ1JTX3AwQUtuc0VXdmljOHhFeWlzdjlXakYtUmc0ekhOalRSZWZ3VVVYMzg4MUI3bDJa?oc=5"
+      },
+      {
+        "title": "El Niño will upend winter weather in the US. Here’s who will feel it the most - CNN",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQWGJVSjFoMl9rbWdVcG1SdzBWUTdvS3RZRGpmblNpbkI3bm9HbHdJd0lma04wdTBpY19CUEIydFRNdFpUNllZV2FmdUhuUURUQV9pNjRvUmFaQlRCSTFnd2xuQ1RpX2hFZHN6NXozZFlPN0ZhYVNGdmVDRVhoS3RTUHpZTEd4UQ?oc=5"
+      },
+      {
+        "title": "Trump’s Order to Cut Military Exercises With South Korea Carries Risks, Experts Say - The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPZUNYOURJdHBQbTVuMXdSRF9XUXVOQ3c5azVOZFA2Z1BTN2dtS1FnOGdSSXFmRnBUS1RnRFdDejQydlRQUmRvM0xlZUpWblVYdVc4Ukk3YkFaYXQwR2N3R0MyWkc5NWxfeE9XQnhrcTVESzYzcmgweF9JMGpjbXRUYVNtZVlpcXZmNmtBTkVOVS1oazg?oc=5"
+      },
+      {
+        "title": "How much has the national debt grown under President Trump? - Fox Business",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNYm95dGFiYnQ1c3FNLXd4cTB5NllpLVFIUUxBdlpOWUVlekxDeHl1TFpHQTc4RWVBNE95X0stR0RhbkJwUkYxTHN5VW5ZWkZmLThSMnptbzVVQ3hYMXVSQU5YeG50Smo4Rk13c1VkWW5fNjZuVnJYWUI4bmpaSTdudVg0d3UxUXIwZDN1ZFRPWlBpUG51SVHSAZsBQVVfeXFMTm5FRFMxeFFYcXV5NlFETEU0LWRnSTV3R1BzRTNSQnJ0ZHhBWUhoVWxYMHBCSFNiX00tV2sySTI3QkE5X2ZpRkxNZDJCVVlCdl8weUFvdjc2MkJENTFyMmtPUTRUbUw2djBwd0R0OEt6clhENzZEVmZkVXVuLW5fWjhqa09pZ3RURjZhc2Y2X0NoUm5SQmVPbnZ0dFU?oc=5"
+      },
+      {
+        "title": "#Resistance Democrats are flopping in primaries - Politico",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxObndjbXhxWlRIcC1IWk8yVkM5S0ZFZTR4bTZQbDZJRi15OTZRUlB2TkVvaHBfdDdQX3NCX1FZZUNvclA3emFlOW1JbzI5clM3RkkyYWNPVUVGd2dkRFNJZGV4LTZhVEJKZHlNV291THBLZTNVYjVoRUVHVmlGM2pPMUdFbGhlSkp0YmpFNlc2VGltcUdkUElqc0t3?oc=5"
+      },
+      {
+        "title": "FBI raids former Rep. Eric Swalwell’s home, seizes devices in probe tied to sexual assault claims - CNN",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNRTdSU1NpUUVpXzNrYkYzVHZ2bl9WTEVKQ0pxTDlRY3FLTmdZdWk2S1F1LWpqRDJ2c3RhUFA3QWtCaWxNZi1zazNyX3JlTk9yRTJBLWhCa2kwRkZUQ1NZQl85U3FkME5sb2pycGNISk9YYzZFckN0MFpkY2R4VzZoR2ZsYzc2VVd0RklLRG5rbGJDWEU?oc=5"
+      },
+      {
+        "title": "What we know about deadly plane crash involving Pennsylvania State Police helicopter at Carlisle Regional Airport - 6abc Philadelphia",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPYlpqb1VlUy1FRzNpb256cUFDdzY4eXV2V21BamhIa2hfX2kwTUhfREdmN1NIaVhxQk52amZLanZXN3Nmc2sySzNIZ3dOc1ZaRW5NV3NOdjRmeFE0V2hCOU05N3kyX2VQOXpEaXhSZnlIZ1Z3R2VIMXN2cC1sdXloS0FxbWlkbFdPVEJXU1FlU1d1X2tGbzA1MzFkaVR1VkQwWTFpZXViSlJTVVJLempObkhydXVDSUtmVUxiRl9mWkpRR05vdFphcEVuQm9SQdIB0wFBVV95cUxOVVVJWXFYVm1keGNUQzVmRWdERHdIWmpCb2J5ME5ENVlGeHMtWnNPTV9BelhtX3pMRHNySHROQkprT2wtX3pFbE1ZZnRGOV8tVHdFZTlfZ1c1QjRzbjh4d1lJRDFiRmhnR1dBX1hEcFNWQ0wyRWNqUXNTSFBMbTRJYWVXMGNscjV3djR1dUJreklnS013bzRmRkp2QmFOdmphdmpCMDhmQThEZDUzcXRpMWw5c3VjRnlsUDhtN2JIWXo0Nl9VZV9KR1pGRTFCbE50V2JJ?oc=5"
+      },
+      {
+        "title": "Somali pirate menace returns as U.S.-Iran war stokes regional chaos and saps enforcement resources - CNBC",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9vWEpOX05VSmJHY2xaa2Jmd3NBYmFSWEFnUnA1M3Jabkw0RjlqekZ2QlA0OVhYQjFpTXhIMXR0Q1RrZFZGT0tDMEtsLThPejBLUEpQOElKUUEwTlREaDlrTUsxZldnZUd4RE1OcXI4aFctM3c3VVHSAXtBVV95cUxNREhpWkFKQW9saVZrWTZ2dkhrYUNRN0hpbmJXWmJCTTZ0UW0xMDllOHlrZFExaG5tRk5hZFNPbWRyTEREclV3VWNDQTIzYW9ENGl0Tm9MNWE4eGZHcVJmU2VGUnVhTmFucVdqYVFmcmI3YkdqNGk2T2dtXzQ?oc=5"
       },
       {
         "title": "Trump’s Plan to Squeeze Iran’s Economy Will Live or Die in Dubai - WSJ",
         "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPb2pfemR3czYyOTVqcnF1bWwweUVZVFR4NjRNRXFobmpwMmxHanNlQ29KelBpcHZUUTQzWURFV1VaZENJNTJjRUNwTkhHTkZDVVNjLUJROVVLX3NoQlVsb2M3ZWUwQks3LWRtbkc1U1Q1M1ZBTE1aOVZrNFVWcGVPd3VsSkU2aGpsZUY3cUdOZGpqTlN2Qms0TkVHRUJmMk9pNlRLeDNEWTh6UkRSTWc?oc=5"
       },
       {
+        "title": "Romania destroys marine drone near Neptun Deep gas project, minister says - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZHhFbnVfeUN3WXExb3dCUFZTQzhPTVlnQm0xQkZ0YXFTUjVQZ3Y4WG1ET2N0T0JKMHJNWDBmU0xCYmxhT3FINXF3QlhYTDBxRWsxR2lXNkdQRThPc0lUY2FmakhSbUkwNTM3NWdRMjZ1T0JyYTUzWjBwbnRMUldCbXhaR245SWs3UFkzZFdtNzQ3dEhFQXhjZU9PV3pBS0NBX3ROTmZSVXBBOC1vbk1PN090SFF4S1poSjZBMkNn?oc=5"
+      },
+      {
         "title": "Fishermen found alive floating on cooler 150 miles off Mexico 5 days after going missing - CBS News",
         "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFB3T3I0WFJWdTN4SkV2S0R1VFpIdWJna0FGZ3JDeFNnSkQybXQza2FpQW1FTW1Mbk11ZGlJVGQ1Ung4WXNiVXRQLXlRMjk5c2c0YXgyTXJEcVpPMDdPaXJTenZ4aF9hYzNyV2xzUEpNTXpyRVZaak13dzlkc0I?oc=5"
       },
       {
-        "title": "Russia runs out of petrol at seven in 10 stations as fuel crisis worsens - Euronews.com",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPTmRtb1FpeGYtTVpKQkNVMUdBYnRCa3N4WHplRG1CaG9vaEcxT0Nka2ZrUGpOVzh2YWZDQnF2Z2VleXJXTnFOWk5MbDZJLXliaU1icEh6eHhoS1pWYlUwa0FpUkFNZjY2Ny1JLXoyVE1ZbzE4OW9zZy14Mml3bHR4SHV2YndOLXlZVS1GdlFMZ3VvZzFIcGgyREtEZHRqTUxwaTNPUl9jMWdjaHlN?oc=5"
+        "title": "US long-term bonds slide as Bessent intervention fails to soothe investors - Financial Times",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPZ2QyX2VhNGtvZlNVcUIwUmU4eTR4a2R5MHFCVU1YM3VqbGJ6M1lGUUFZWnhMVktQT0NWS08xTndZcTg4cXRDZ2dRbkxSTnhIbFVoRGNrbXpIOXBiNHVPNW9HbTNSRmVzUkdMSktaSS1SQXp4eU1iRTEyMzc1d09Od2FILUw?oc=5"
       },
       {
-        "title": "Defense minister dismissed by Zelensky demands elections in Ukraine - The Washington Post",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOcUVPLUN6a3VFYUlTRlFSblNYb0IybnUzV1lieVp3aVVXenJXVklxRWRrM2dKTDZUaS1LSHpfV2pVYjhmRmlwVExHYUlXTXRndllOdUtGM283ajFIeXBzaGUzR2hmWjMzS0Z5ZnY1eWxMbWE4eXItX1l3c2h0MVBwTlBZN1EzdERjZmNRdE5GZ01FRmw0YWxzZjN5cERKbDZQSVZiS0hEQVFzQW5pQ0xUNGQyRQ?oc=5"
-      },
-      {
-        "title": "Stock Market Today: Bond Yields Jump, Largely Wiping Out Effect of Bessent Intervention - WSJ",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQZFBldUlGa1pnUUM2bjFDS3MzeFhLeTNrSXRJN0RTbnVYeXJZbHJ1eXROVTZUbV95amFvOGgxLTdEdzZ5YnZfWHZKOVIwZEI5MG5UbW0tWVpKWG9MNzhmbXl6U29fTnBDbFlCcmxmQ3lVaW00VXpoYzZ3d2pTVENBMlk2VmJ3TWs?oc=5"
-      },
-      {
-        "title": "Bond markets rattle economy, forcing controversial buyback ‘Band-Aid’ - The Hill",
-        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5BUTZtUnNPaVF4NFlMUE9pX0NMNXozTzhMa1NiMGQxVDdMVVFJdnk3Z2RLTEI2TVd1MkpVRVZSelN3M243b3pkT2FwOTdOR011VlY0aEh4bG14MFYwRHFsV3A2SkRhRy03YWZzZjhjNXJmMFRheXVQM1pBYzE?oc=5"
+        "title": "Walmart Shares Slump on Weakest Sales Growth in Over Six Years - WSJ",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNdjhXYXlPMXRMM0RDbmVFNWVTd2d2MmtMXzlEV3NNUVRyTERka1lqNWs1WGEwSk1paTVhX0hWUjljV1JtZEhsYWRNR1I2djJSRkZEMldNclZ6Q3dUdkpHSmRGTUVrMFc5S1hOZUF2WWM5b3FEbE5pV216RGp5bXF2bDcxakRnSkg4Ymc?oc=5"
       },
       {
         "title": "Mark Zuckerberg encouraged growth over child safety, ex-Meta executive testifies at trial - NBC News",
         "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSnJickNjcEg3Ykp6T0l3dk5kc296R1RUX3FaeGlESnNxNlgzd2tRYm1uMW8taV9GWmsxUmtXc2lBR2J6Z2dBWnZOcEVsV2JCelRPTmFGNDZlajZJeUtKcFZlTl9DOTFLQjZYbDlVTXNhbXNjcnRkM2lqLWc2ZHVtdDlUTmZpNjc1WXZYcl9JOWRtdDM2dkxOZFkycExLS3NCNjN1ZjRkdktRajJlQng4bElLcmdWclRWV3RIa05DYw?oc=5"
       },
       {
-        "title": "Walmart reports rare sales miss as consumers cut spending, shares fall - Reuters",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPWHpDQjhTTjdrTGVtLWhZMUJIdWtybnk5SjJ0bWxfMjZ3VmhYXzE3UGljRlZiMmI3V0FNN09Pb1NYWlhCWTVmMlFsdjZTRDFLUFh4WV9Yb0ZGMTJWYTc0eWVWVEZiVC1oVmdXNTBNdGtGdGZoWHN3MzRndDR2YlY2bzFuWTlJeHBXdGJzZHZzMmFiVzYxWUtsZDFlN0F6OWJPTktkS0RaTmtjY0I4WU9wQ3Y4X1VsZzQ?oc=5"
+        "title": "After Moderna stock surge of 177% on cancer drug breakthrough, here's what Wall Street thinks happens next - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQbXI4VFJadTRmMEFHYnY0bUlDcUxLZGt2ZGdLcXBMQlRIazA3YjJ5VTM2dURFTFlFajNic1c5R182WGhpV3RkQWFLcTV0clN5VDFJTXhJdFdFZk1OdXBZMWRFbGR0WjBBQWktQnpZZ0ItU2h5UktHdHlNRHFac2drcTNRVVJ1NkRiay1xbzBEYU56VHQ3NTVMX2drMGhKOFEwYk5kWVU5TmpGRGZ6bmNvOWJEam9iRlY1NXdFdXdtVkt1R1Y5U0Q1LTBZX0l3cEEzRFBTclFzQ3BPNEQ2SWgxYUVsb1BXOE42aEpTT3hpeTRSeUh0eEE?oc=5"
       },
       {
         "title": "The Google Pixel 11 series is now on sale - GSMArena.com news - GSMArena.com",
@@ -328,44 +328,44 @@
         "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQNUR6aFNxSExzUzJSb1l2ZUtRMHpDSHdCN1Y5T29wZXNBU2hEOWpVaDFvZVRrbmxVOWtMQTVSTjF3UG03WXRBVm1MZm9wU0p4OFJyUHQ5ZVZ0VUpuUkZGbUtfNE5hRThzWVRhMlFwSGV2cV9MU2F5Szc4S0ZQaEh1M25tVnhJbVg1SDR1S0lvbDJiaTNnVlptQVd5ZGRsZ19WcnZQdQ?oc=5"
       },
       {
-        "title": "LG’s new OLED breakthrough can boost display lifespans - The Verge",
-        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPYWdLOXptWTNZTUFNNTVDdXJKWG1IUW5UTXMzckM5dWVxR0lCR2l2NlJrVl9Fa0l4V1BRek1WdDVoLVFGSlUwUEVWYmI2TzZHRXZxd2w0UHBNbldmMk04Tkpra24tZWh1a3R5UXMzYnlYVXZDVnNuQmEyVkYwYk9jag?oc=5"
+        "title": "LG Display Introduces FLiPP OLED Technology, Improving Brightness By Up To 1.6X With Longer Lifespan - Wccftech",
+        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1KQ2FhaUxQQnFJVkIxOWo1WXRUV0tYbmlUTWZZbndaRHRlcGEyTEplaVd5SjY0ZXBGUEdsd1h0VTNONzdITE5pMlNaRk13NXBJTm9XM2d3OGU5aFNiN01GMWhRRGpxZWd6d3VoWXg3emlaclHSAXhBVV95cUxPQnhzakJqNXdmQ3lRQ2JiT0cwLVJremh4UlpPUGNuSDBPZnpHSEt6MDJCNlJ5NWowUjZSS1NJNTQycFBKdVdfS1FNdlB2QW9MaThoYkVsalh0Y1E5ZEwzc0ZDT1d3RjJtVXhDMFRsVnJBTTJSaEd1SlY?oc=5"
       },
       {
-        "title": "Apple’s Camera-Equipped AI AirPods Remain on Track for 2027 Despite Video Leak - Bloomberg.com",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQSVVraUU4YnVxbnhZVXBveHhSdVp5MHZJVXBub0NDN2dwUFg0eGs0eWR1Ri1wMHRaMzI3UTFiZFJWU3NHb3lOZVNrX2FVaURGTFBrUlA4TmozVlZKbEt5WXFQc19kN0NjZXFYWFdWT1VUQzE4cVluXzJhaGNmM05mUERIckFRc0RhbkxCd3o1dnd3WkItdHhUY3pVeWt2c0R0dE1OYWdCbzJaaU9kRWRrVXl6cDF3YmNTVy04WV9GTnR4NWdtTHozSQ?oc=5"
+        "title": "This app does with Pixel 11 Pro's HiLight what Google should have done in the first place - Android Authority",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOS3lGcWpjWldVMEJnaWVGOXEyZUhlcmZwRzAwRlpCMWxXNk41TTdUSW9GY2lmNDFPRDl0ZHlLV25sRmtUZXBjazVqZnVPdDRTeENyZVJJMTY0OUNJQmdYVkxBbnBCT2VtdU1zVVR1clBNUHdGSVEtcmV5RlFpMlJCaHhB?oc=5"
       },
       {
-        "title": "Megyn Kelly ‘Not Surprised’ About Hayden Panettiere’s Death, Calls Actress’ Parents ‘Enablers’ - Yahoo",
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxORVZROHd4eTRoTEtzOERobzQxdXcydkZqWENoV1F4YjJ6NUtWdnl0bXkySGNxRDk1dS15UlFJeDl5c21vdjVuYmZlUkRZYVhOV0h6dDJqdjlnTDhfZnQ5dk9xRW9vVjF4NGR4MVI0NEJTdVN0bE9QVTRCeEJMSnlyYWNDMnpNdEFqOWM1Sks1ckhsSGhR?oc=5"
+        "title": "Hayden Panettiere’s mom’s reaction to actress’ death eviscerated by Holly Robinson Peete: No ‘integrity’ - Page Six",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPMnhHcHBPbUR1M0JOWWxDT2Q3ZkhCODhHOHZ2NFQ4OWZTZFhlZUpNNWd3VDlPSkh5aG9zVkViUERjbjZ3ekJIS0RqeEdVYTFBX1ZjR1hYYXdwa2lBd0xTZFVrZUhIQ19saExFOFlsTVRINFA4T05sVGljSTVLc3FISnU1SE5DRmlOUDhybzJ2NGhNQlNldEJEeUhZd09ralZrRm1zaEYyZ05sd09MWl80MjN2aDB4Uk1VdkY1T1FacER6Um9TaUFvQUc3cmg?oc=5"
       },
       {
-        "title": "'SoA's Kurt Sutter Reacts To Charlie Hunnam's FX Series 'Legends' - Deadline",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOUy1vSFZ5M3pIcWh5bGk0eWFVNmg4ZUpBZ0J2WWJwaXlxWG1VMndhOXJ3Wk1JYnotRjBsNnAweXFfQjkzN044eDdtcV94ZmxINzdNeUlNOEs3RDB3c0ZJd3JQYnlIeU8tWFdCWFo5SDRCRkdZWEdRT1lKb3RldV9KTzV6S3FSVGFVdmF3eHR0QmUtamFmYTAycWxB?oc=5"
+        "title": "After Six Years, Harry and Meghan Are Coming Home. What Changed? - The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNWGFHZnlPd0RuS0VWRzdGa2gxUldMaDA0Njg2YmUtcjg3VnBGUFBMZUZseFpoU1k2TXZZQmhaUGNVYTRTSTZsSV94NERYWlZ0azFDWlJBTVRYcFVIQzdvWHlGVGFGR3lSZTFsS2dieVpIbUJqam1ralI5Uy11eEtqNVFUZkU3M0k?oc=5"
       },
       {
-        "title": "Paris Jackson opens up about ‘painful’ electroconvulsive therapy. She’s not alone - USA Today",
-        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOTDRUT0VUckF1cnBGVHp5bktWQ0F0bVQ5N01ieGV5elZRSzRrWFZZQ01hM28wX0o2M0dqdGIzNDZWUktrLWRoUlVwWGRMR0RUUEMxUUZfbXM5U3FyTURxbzIwNG0yRFBtTDFqRzBzbXpTaFBUajRCZ0xVVTlSZFkwWXdIRTRMZkVPNUhIQWtHWVc3N1lMOElUZGRsT05wZURxS21RYko3SG8yMjJ6OTVNRGFha2s3UC04aGs5SzUzOHVUdGlxcFVWajQzUURjRHBGWm52S1VoRQ?oc=5"
+        "title": "Hayden Panettiere’s Neighbor Says She Called 911 Several Times to Report Disturbances: ‘She Was Terrified’ - Yahoo",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPTEFWNmdhN3NXREtndUFmZmJvRjFHLUxfWDBoMFRyaFpBQzZYTWhpUFpEbTRrN2RUakxGQVcwUlktc0FYdElBaDFUanpFQ1BsaWg2d0RYUkRlRU1sQ040LW5hbHdYWVhjb09Tc2plTU51bndtVnlZODlYQnUzLUtKNGFaTkliUjVoT3hrNk1fTlozVzVBd21ReW03WERfdzZYS0FlMzdONnI?oc=5"
       },
       {
-        "title": "Rosie O’Donnell’s return shows ABC is done capitulating to Trump - Salon.com",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQMDEwUERsa25JTGoxdTB6Vk9aVVRqZXlDbktLT2dQQ1pNZGpqLTBmV0ZBTHhQNFJfWW0ycVNzN29aa0EzWVRtNEVnemNCOEhTaHlCQUlNMXJWWlBsbXh4NFF3TmU2MldzaFktQ19pUDJXM2RlRll3RzRtTGxwRmFhRzZfNEJiSTA3WjJEbFdSdVdqTjlLMmdweXgtN0k?oc=5"
+        "title": "Josh Radnor Is 'Not' Close to His 'How I Met Your Mother' Co-Stars: - Variety",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQTC1oeWkyaTNCNXI2U21DU1I1bzFJc0FBMUxjVUpoN2hvajhrRFJGaXg2cWs3bk9XRFNtUXVTeFFJN3ZmTXpPY0E2OHpzUnFhVWVWQ3YxSUJnM1ZXWmNrR3pFdVE5UWx0VnJuVEJhTTF4b090Rngybm5IMFFfYmp0M2ZjMVFTMklnd3c4X1hGb0ZpRjFja0JwUmxTOWZ6QQ?oc=5"
       },
       {
-        "title": "‘Worse than cherry blossoms’: Drivers react to Freedom 250 Grand Prix road closures - WTOP",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPa0NFNTRjM0FUQlV0cm9sX2l1cjZ5LU1md1YzSnpvV1hZSm5sdDEzOWZWaUJqeHVmUzFVZ3JTbXQ4LW1wWEJiZk9rQkgzams4TWtaY0c5a2VFNlEteTU4ZmpESnRwZXFWU1VzMUR6b1NMcFNINXBSdEJBZVJibXJZVHVsd3FzSDlNa3lNbnFXOW41RjZuSFJqMENQTXNKN0tiaEhfWVFnc2pxd1VGZkV5dw?oc=5"
+        "title": "Anthony Hernandez: Sean Strickland helped re-spark love for martial arts ahead of UFC Sacramento main event - MMA Fighting",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPb1VJLW01TmVuVkpudzJCX0JDLXk2dlRDQlRpR2M1ZjRvY1JFdk1mU0ViMndESktxbzhtYWNrQ0pWYVFCZ2xWUG9UTjROcXpKSWtQLUR3Y1F1Q1hEazg4S1lNNGFBb1NjazZGUU1TR1Q5Z0xQRUwyMTV4RG5teEs1cFRldnMyWk9JaEUtUG5UUGxtX0pnc1pyZ1BTT2RuZk1SQmVGellKa2VMRG5TZVR5MG1qVmVDM0xmdElfZVFsaldkdHRmeWd6YkNjQ1VQbG5tMkJ5aGw0bnI5cVBGbUE?oc=5"
       },
       {
         "title": "More Details On Five-Team Peyton Watson Trade - Hoops Rumors",
         "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOS0V1NHhEYkVZZ0wtdmM4Rk1jUXBXdHRMNmZ1dkVFekd4NHBzQXdhY3laMl9KazlSbXQ3T2NUR2dOVV9uYnJsZVpQZkxPYkVuVG1ZbTZ5VzYtV3l0M0dwVDlWbHRYcDlkY0hCMFk5OGV3bGRsMXRrbkVrcDhMc0JZN3dzeGtPRjNqQjE1dDhzRQ?oc=5"
       },
       {
-        "title": "Nick Kyrgios suspended after positive cocaine test: 'I'm deeply disappointed in myself' - Yahoo Sports",
-        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPV050cC1GVkdvb3docWZPSnFaT3hoWnQ1THBfVHJtY3JpNHNHTmVONTd0RmpDSUUzd3hhNkZfRXd3Tkc5X3R0TXZXT3dKV0ZtU2NxY3Rab0VxUjdGMVZFV01IaUc3ZmJESlhWbVd4N3dhTU94bUxMa3h6UnBySjNtR0x2Vkt2Rks5VXpMbFQ1NnFSLWViRlpWODV4XzFZWWowLXBOem9Ebzhna3FCVVMydFF4UGNCUDJ2T2hUbWVVWnd3QnVlR0o3QjllbmNKS3JyZEptdlJYSTlleEE5c1hOcktGMExYX1E?oc=5"
+        "title": "Paige Bueckers, Azzi Fudd offer rare comments about relationship - ESPN",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPZEJacEVIMUhNb01mOUlwcGdpZFBIZW9TVWFwWmhBZHBVMjVCUEgyRENObHotQUFMZ1IxREFONlBPdUNEX1dZNTFaVWhmMm9HWGhlSFAwbnVIVnBGVFhNY0d0MVZKZHE1S2hBSmdaTjVEZV9QazJjS1VoRmVLd3BfeUo2ZTVvTVdUOFNjaU9NOC1VdGtKbUc1aF9oWUNpMXRmdzBJdHJJbG1sODdJVC1fVEg2YUNzUGRIU0tHRzZMalUyWnpwa2c?oc=5"
       },
       {
-        "title": "Patriots quickly turning page after first Eagles joint practice - Pats Pulpit",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPZUd6NkV1dVBwU0FLenBiWGxnQ2x3LTlQMUdtYTN3V0N4OHZRNkNHemlfaTE2TXhLaU9pX0xwdlQ1YmtYOVlVZVNVTjZJcXBhbjVxYXo1QzZoUkRiYzRJZW1maGFCeURsdmFkY2UyeVg0ODlwVVNHVjVOMWwyMkpxSU9HNWc1WEtjZFFIWXBDNW50SFd5ZkozbjdVdkFkMHd5VjlvSUZnOWtzTzFibmR1Y0NQNDI5d2VGaUF5U0s0U3dwQ1N5?oc=5"
+        "title": "Tennis world quickly turns on Nick Kyrgios after cocaine reveal — with former No. 1 leading charge - New York Post",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTGRLbFl4WmQ1LUptODBVeXljS3pSNldjNDBXeHJFUEFKTFVubngzUHlyNXIzZ0tuZ3l5ZDE3RlRLZ3ktSjZyVS1DNERETEFwR1A3RWxsQnRtT1lxN0JBRnd6czB5VTJwQjlORTJfSWtOMFRYUGFGb0NZSkk3QnBuT1JSbWFwcTJTSkZVS25ERkdCWU90Sk1pSHR6TFh2SUFCYzRTRi12UDE?oc=5"
       },
       {
         "title": "At least 15 killed in Kyiv as Ukraine grapples with air defence shortages",
@@ -400,12 +400,16 @@
         "url": "https://www.bbc.co.uk/news/articles/c3r055g23qdo?at_medium=RSS&at_campaign=rss"
       },
       {
-        "title": "At least 13 workers killed in landslide at Colombian gold mine",
-        "url": "https://www.bbc.co.uk/news/articles/czxel9lz3vqo?at_medium=RSS&at_campaign=rss"
-      },
-      {
         "title": "Ex-Zambian minister killed in security raid on opposition",
         "url": "https://www.bbc.co.uk/news/articles/cg5ljlzedd5o?at_medium=RSS&at_campaign=rss"
+      },
+      {
+        "title": "Togo charges two French journalists over incorrect documents, rights group says",
+        "url": "https://www.bbc.co.uk/news/articles/cj9dkmljmwvo?at_medium=RSS&at_campaign=rss"
+      },
+      {
+        "title": "Landslide at unlicensed Colombian gold mine kills 13",
+        "url": "https://www.bbc.co.uk/news/articles/czxel9lz3vqo?at_medium=RSS&at_campaign=rss"
       },
       {
         "title": "Israel confirms soldiers fired at car in which Hind Rajab was killed and opens criminal investigation",
@@ -430,10 +434,6 @@
       {
         "title": "Four workers dead after being hit by train in Japan",
         "url": "https://www.bbc.co.uk/news/articles/c5yrnz24j22o?at_medium=RSS&at_campaign=rss"
-      },
-      {
-        "title": "Ecuador intelligence chief and five Americans killed in Kenya helicopter crash",
-        "url": "https://www.bbc.co.uk/news/articles/clylkv4z59vo?at_medium=RSS&at_campaign=rss"
       },
       {
         "title": "Captured Ukrainian-born soldiers tell BBC why they fought for Russia",
@@ -476,16 +476,16 @@
         "url": "https://www.bbc.co.uk/news/videos/c0m7eld12l1o?at_medium=RSS&at_campaign=rss"
       },
       {
+        "title": "D.C.'s IndyCar race will zoom past museums. Some worry it could harm the art inside",
+        "url": "https://www.npr.org/2026/08/20/nx-s1-5939431/dc-indycar-race-museums-art-vibration"
+      },
+      {
         "title": "U.S. debt tops $40 trillion. And, new census report Trump is touting raises concerns",
         "url": "https://www.npr.org/2026/08/20/g-s1-139388/up-first-newsletter-us-debt-venezuela-oil-deals-census-bureau-trump-voting-claims"
       },
       {
         "title": "North Korea fires a suspected missile toward the sea, Japan says",
         "url": "https://www.npr.org/2026/08/20/g-s1-139381/north-korea-suspected-missile"
-      },
-      {
-        "title": "Privacy advocates call on Maryland to investigate data brokers",
-        "url": "https://www.npr.org/2026/08/20/nx-s1-5938822/maryland-privacy-data-brokers"
       },
       {
         "title": "The bond market is signaling trouble ahead. This is why you should pay attention",
@@ -500,7 +500,11 @@
         "url": "https://www.npr.org/2026/08/20/nx-s1-5891791/disability-rights-community-living-integration-trump"
       },
       {
-        "title": "Here's how the system to report problems in ICE detention has failed immigrants",
+        "title": "Privacy advocates call on Maryland to investigate data brokers",
+        "url": "https://www.npr.org/2026/08/20/nx-s1-5938822/maryland-privacy-data-brokers"
+      },
+      {
+        "title": "The system meant to protect ICE detainees has collapsed",
         "url": "https://www.npr.org/2026/08/20/nx-s1-5850361/grievance-ice-detention-immigrants"
       },
       {
@@ -512,8 +516,8 @@
         "url": "https://www.npr.org/2026/08/20/nx-s1-5935597/tech-billionaires-push-back-against-proposed-wealth-tax-in-california"
       },
       {
-        "title": "Chinese court sentences founder of property developer Evergrande to life in prison",
-        "url": "https://www.npr.org/2026/08/20/nx-s1-5939335/chinese-sentence-founder-evergrande"
+        "title": "US deports 20 people to Liberia, the first of 1,200 migrants under Trump deal",
+        "url": "https://www.theguardian.com/us-news/2026/aug/20/liberia-deportation-agreement"
       },
       {
         "title": "More than 100 dead after goldmine collapses in Central African Republic",
@@ -530,10 +534,6 @@
       {
         "title": "Ebola outbreak in Democratic Republic of the Congo now deadliest in country’s history",
         "url": "https://www.theguardian.com/world/2026/aug/17/ebola-outbreak-drc-democratic-republic-of-congo-deadliest-in-history"
-      },
-      {
-        "title": "Zimbabwe boat accident death toll hits 68 as 22 more bodies recovered",
-        "url": "https://www.theguardian.com/world/2026/aug/15/more-bodies-recovered-after-zimbabwe-boat-accident"
       },
       {
         "title": "Adviser to far-right Latin American leaders arrested for allegedly plotting to kill girlfriend",
@@ -576,6 +576,10 @@
         "url": "https://www.theguardian.com/us-news/2026/aug/19/china-trump-trade-weak-yuan"
       },
       {
+        "title": "Sydney air traffic controllers have ‘grave concerns’ about collision risk after airspace redesign",
+        "url": "https://www.theguardian.com/australia-news/2026/aug/21/air-traffic-controllers-safety-risk-fears-sydney-airport"
+      },
+      {
         "title": "‘You have got to go’: former NSW minister tells Icac ‘something strange at play’ when she was sacked by Perrottet",
         "url": "https://www.theguardian.com/australia-news/2026/aug/20/icac-nsw-liberal-party-petinos-perrottet-building-commissioner-ntwnfb"
       },
@@ -592,11 +596,11 @@
         "url": "https://www.theguardian.com/australia-news/2026/aug/20/villawood-detention-centre-conditions-report-ntwnfb"
       },
       {
-        "title": "More than 1,000 birds found dead in three mass mortality events amid ‘significant’ H5 escalation in Australia",
-        "url": "https://www.theguardian.com/world/2026/aug/20/more-than-1000-birds-found-dead-in-three-mass-mortality-events-amid-significant-h5-escalation-in-australia"
+        "title": "Ukrainian publishers call for support after Russian attacks destroy 10m books",
+        "url": "https://www.theguardian.com/books/2026/aug/20/help-ukrainian-publishers-russia-attacks-books"
       },
       {
-        "title": "EU’s von der Leyen warns of ‘escalating campaign of threats’ as Romania destroys naval drone – Europe live",
+        "title": "EU’s von der Leyen warns of ‘escalating campaign of threats’ as Romania destroys naval drone – as it happened",
         "url": "https://www.theguardian.com/world/live/2026/aug/20/ukraine-volodymyr-zelenskyy-russia-vladimir-putin-kyiv-europe-live-latest-updates"
       },
       {
@@ -610,10 +614,6 @@
       {
         "title": "Without action wildfires in Europe will increase 39% even in best-case climate scenario, study finds",
         "url": "https://www.theguardian.com/world/2026/aug/20/wildfires-europe-increase-climate-scenario-study"
-      },
-      {
-        "title": "Melancholy made in Hungary is fuelling bestsellers across the globe – and widely misunderstood",
-        "url": "https://www.theguardian.com/books/2026/aug/20/melancholy-made-in-hungary-is-fuelling-bestsellers-across-the-globe-and-widely-misunderstood"
       },
       {
         "title": "Israel’s Ben-Gvir posts video of gallows site for hanging Palestinians",
@@ -1047,38 +1047,38 @@
   "keyword_frequencies": [
     [
       "after",
-      23
+      26
     ],
     [
       "trump",
-      17
-    ],
-    [
-      "killed",
-      10
-    ],
-    [
-      "new",
-      9
+      15
     ],
     [
       "news",
-      9
+      10
     ],
     [
-      "korea",
-      9
-    ],
-    [
-      "series",
+      "killed",
       8
     ],
     [
-      "bloomberg",
+      "iran",
       7
     ],
     [
-      "dead",
+      "new",
+      7
+    ],
+    [
+      "series",
+      7
+    ],
+    [
+      "korea",
+      7
+    ],
+    [
+      "says",
       6
     ],
     [
@@ -1086,19 +1086,7 @@
       6
     ],
     [
-      "iran",
-      5
-    ],
-    [
-      "founder",
-      5
-    ],
-    [
-      "evergrande",
-      5
-    ],
-    [
-      "life",
+      "dead",
       5
     ],
     [
@@ -1110,15 +1098,31 @@
       5
     ],
     [
-      "least",
+      "times",
       5
     ],
     [
-      "australia",
+      "google",
       5
     ],
     [
-      "south",
+      "former",
+      5
+    ],
+    [
+      "wall",
+      5
+    ],
+    [
+      "street",
+      5
+    ],
+    [
+      "bloomberg",
+      5
+    ],
+    [
+      "have",
       5
     ],
     [
@@ -1126,7 +1130,7 @@
       5
     ],
     [
-      "com",
+      "panettiere",
       5
     ],
     [
@@ -1146,11 +1150,7 @@
       4
     ],
     [
-      "prison",
-      4
-    ],
-    [
-      "military",
+      "years",
       4
     ],
     [
@@ -1158,11 +1158,27 @@
       4
     ],
     [
+      "show",
+      4
+    ],
+    [
+      "founder",
+      4
+    ],
+    [
       "china",
       4
     ],
     [
-      "death",
+      "evergrande",
+      4
+    ],
+    [
+      "life",
+      4
+    ],
+    [
+      "military",
       4
     ],
     [
@@ -1178,7 +1194,7 @@
       4
     ],
     [
-      "times",
+      "least",
       4
     ],
     [
@@ -1186,15 +1202,15 @@
       4
     ],
     [
+      "australia",
+      4
+    ],
+    [
+      "south",
+      4
+    ],
+    [
       "report",
-      4
-    ],
-    [
-      "have",
-      4
-    ],
-    [
-      "says",
       4
     ],
     [
@@ -1202,23 +1218,11 @@
       4
     ],
     [
-      "video",
+      "first",
       4
     ],
     [
-      "spending",
-      4
-    ],
-    [
-      "ukraine",
-      4
-    ],
-    [
-      "north",
-      4
-    ],
-    [
-      "found",
+      "has",
       4
     ],
     [
@@ -1226,7 +1230,7 @@
       4
     ],
     [
-      "panettiere",
+      "hayden",
       4
     ],
     [
@@ -1242,6 +1246,10 @@
       3
     ],
     [
+      "debt",
+      3
+    ],
+    [
       "african",
       3
     ],
@@ -1250,15 +1258,7 @@
       3
     ],
     [
-      "years",
-      3
-    ],
-    [
-      "media",
-      3
-    ],
-    [
-      "california",
+      "prison",
       3
     ],
     [
@@ -1266,27 +1266,19 @@
       3
     ],
     [
-      "russia",
+      "death",
       3
     ],
     [
-      "americans",
+      "police",
+      3
+    ],
+    [
+      "collapsed",
       3
     ],
     [
       "helicopter",
-      3
-    ],
-    [
-      "kenya",
-      3
-    ],
-    [
-      "chinese",
-      3
-    ],
-    [
-      "property",
       3
     ],
     [
@@ -1306,15 +1298,15 @@
       3
     ],
     [
+      "threat",
+      3
+    ],
+    [
       "one",
       3
     ],
     [
       "children",
-      3
-    ],
-    [
-      "platform",
       3
     ],
     [
@@ -1326,19 +1318,43 @@
       3
     ],
     [
-      "game",
+      "risk",
       3
     ],
     [
-      "has",
+      "net",
       3
     ],
     [
-      "companies",
+      "revenue",
+      3
+    ],
+    [
+      "yoy",
+      3
+    ],
+    [
+      "court",
+      3
+    ],
+    [
+      "data",
+      3
+    ],
+    [
+      "journal",
       3
     ],
     [
       "like",
+      3
+    ],
+    [
+      "video",
+      3
+    ],
+    [
+      "spending",
       3
     ],
     [
@@ -1350,67 +1366,15 @@
       3
     ],
     [
-      "wall",
-      3
-    ],
-    [
-      "launches",
-      3
-    ],
-    [
-      "agents",
-      3
-    ],
-    [
-      "across",
-      3
-    ],
-    [
-      "verge",
-      3
-    ],
-    [
-      "elections",
-      3
-    ],
-    [
       "states",
       3
     ],
     [
-      "street",
+      "economic",
       3
     ],
     [
-      "google",
-      3
-    ],
-    [
-      "users",
-      3
-    ],
-    [
-      "york",
-      3
-    ],
-    [
-      "top",
-      3
-    ],
-    [
-      "natalie",
-      3
-    ],
-    [
-      "harp",
-      3
-    ],
-    [
-      "live",
-      3
-    ],
-    [
-      "today",
+      "north",
       3
     ],
     [
@@ -1422,15 +1386,39 @@
       3
     ],
     [
-      "joint",
+      "harp",
       3
     ],
     [
-      "bond",
+      "russian",
       3
     ],
     [
-      "hayden",
+      "drone",
+      3
+    ],
+    [
+      "ukraine",
+      3
+    ],
+    [
+      "york",
+      3
+    ],
+    [
+      "home",
+      3
+    ],
+    [
+      "deadly",
+      3
+    ],
+    [
+      "found",
+      3
+    ],
+    [
+      "six",
       3
     ],
     [
@@ -1442,10 +1430,6 @@
       3
     ],
     [
-      "court",
-      3
-    ],
-    [
       "soldiers",
       3
     ],
@@ -1454,15 +1438,7 @@
       3
     ],
     [
-      "three",
-      3
-    ],
-    [
       "florida",
-      3
-    ],
-    [
-      "detention",
       3
     ],
     [
@@ -1474,11 +1450,15 @@
       2
     ],
     [
-      "boost",
+      "two",
       2
     ],
     [
-      "debt",
+      "charged",
+      2
+    ],
+    [
+      "national",
       2
     ],
     [
@@ -1487,10 +1467,6 @@
     ],
     [
       "trillion",
-      2
-    ],
-    [
-      "charged",
       2
     ],
     [
@@ -1503,14 +1479,6 @@
     ],
     [
       "member",
-      2
-    ],
-    [
-      "space",
-      2
-    ],
-    [
-      "show",
       2
     ],
     [
@@ -1530,15 +1498,19 @@
       2
     ],
     [
-      "brutal",
-      2
-    ],
-    [
       "stabbing",
       2
     ],
     [
-      "police",
+      "media",
+      2
+    ],
+    [
+      "space",
+      2
+    ],
+    [
+      "california",
       2
     ],
     [
@@ -1546,7 +1518,23 @@
       2
     ],
     [
+      "chinese",
+      2
+    ],
+    [
+      "property",
+      2
+    ],
+    [
       "breakthrough",
+      2
+    ],
+    [
+      "cancer",
+      2
+    ],
+    [
+      "russia",
       2
     ],
     [
@@ -1554,7 +1542,15 @@
       2
     ],
     [
+      "americans",
+      2
+    ],
+    [
       "among",
+      2
+    ],
+    [
+      "people",
       2
     ],
     [
@@ -1562,7 +1558,7 @@
       2
     ],
     [
-      "collapsed",
+      "kenya",
       2
     ],
     [
@@ -1574,7 +1570,7 @@
       2
     ],
     [
-      "threat",
+      "removed",
       2
     ],
     [
@@ -1582,11 +1578,15 @@
       2
     ],
     [
-      "track",
+      "anthony",
       2
     ],
     [
       "mix-up",
+      2
+    ],
+    [
+      "several",
       2
     ],
     [
@@ -1602,6 +1602,14 @@
       2
     ],
     [
+      "platform",
+      2
+    ],
+    [
+      "attacks",
+      2
+    ],
+    [
       "man",
       2
     ],
@@ -1610,15 +1618,7 @@
       2
     ],
     [
-      "remain",
-      2
-    ],
-    [
       "power",
-      2
-    ],
-    [
-      "spent",
       2
     ],
     [
@@ -1634,15 +1634,19 @@
       2
     ],
     [
+      "claude",
+      2
+    ],
+    [
+      "stripe",
+      2
+    ],
+    [
+      "watch",
+      2
+    ],
+    [
       "model",
-      2
-    ],
-    [
-      "becoming",
-      2
-    ],
-    [
-      "good",
       2
     ],
     [
@@ -1650,15 +1654,7 @@
       2
     ],
     [
-      "rust",
-      2
-    ],
-    [
       "runs",
-      2
-    ],
-    [
-      "crisis",
       2
     ],
     [
@@ -1666,11 +1662,31 @@
       2
     ],
     [
-      "fell",
+      "test",
       2
     ],
     [
-      "yoy",
+      "europe",
+      2
+    ],
+    [
+      "latin",
+      2
+    ],
+    [
+      "10m",
+      2
+    ],
+    [
+      "flight",
+      2
+    ],
+    [
+      "game",
+      2
+    ],
+    [
+      "fell",
       2
     ],
     [
@@ -1694,15 +1710,11 @@
       2
     ],
     [
-      "access",
-      2
-    ],
-    [
-      "net",
-      2
-    ],
-    [
       "slack",
+      2
+    ],
+    [
+      "launches",
       2
     ],
     [
@@ -1710,7 +1722,15 @@
       2
     ],
     [
+      "across",
+      2
+    ],
+    [
       "all",
+      2
+    ],
+    [
+      "verge",
       2
     ],
     [
@@ -1719,6 +1739,10 @@
     ],
     [
       "largest",
+      2
+    ],
+    [
+      "elections",
       2
     ],
     [
@@ -1738,7 +1762,7 @@
       2
     ],
     [
-      "revenue",
+      "don",
       2
     ],
     [
@@ -1746,79 +1770,15 @@
       2
     ],
     [
-      "journal",
+      "companies",
       2
     ],
     [
-      "data",
+      "live",
       2
     ],
     [
-      "reports",
-      2
-    ],
-    [
-      "markets",
-      2
-    ],
-    [
-      "trades",
-      2
-    ],
-    [
-      "union",
-      2
-    ],
-    [
-      "shares",
-      2
-    ],
-    [
-      "cut",
-      2
-    ],
-    [
-      "house",
-      2
-    ],
-    [
-      "aide",
-      2
-    ],
-    [
-      "guardian",
-      2
-    ],
-    [
-      "here",
-      2
-    ],
-    [
-      "russian",
-      2
-    ],
-    [
-      "missile",
-      2
-    ],
-    [
-      "drone",
-      2
-    ],
-    [
-      "region",
-      2
-    ],
-    [
-      "usa",
-      2
-    ],
-    [
-      "long",
-      2
-    ],
-    [
-      "climate",
+      "cbs",
       2
     ],
     [
@@ -1830,23 +1790,75 @@
       2
     ],
     [
+      "joint",
+      2
+    ],
+    [
       "drills",
       2
     ],
     [
-      "security",
+      "ossoff",
       2
     ],
     [
-      "bbc",
+      "house",
       2
     ],
     [
-      "economy",
+      "hill",
+      2
+    ],
+    [
+      "missile",
+      2
+    ],
+    [
+      "kills",
+      2
+    ],
+    [
+      "region",
+      2
+    ],
+    [
+      "here",
+      2
+    ],
+    [
+      "cnn",
+      2
+    ],
+    [
+      "probe",
+      2
+    ],
+    [
+      "claims",
+      2
+    ],
+    [
+      "state",
+      2
+    ],
+    [
+      "regional",
+      2
+    ],
+    [
+      "war",
       2
     ],
     [
       "wsj",
+      2
+    ],
+    [
+      "romania",
+      2
+    ],
+    [
+      "destroys",
       2
     ],
     [
@@ -1858,19 +1870,7 @@
       2
     ],
     [
-      "seven",
-      2
-    ],
-    [
-      "market",
-      2
-    ],
-    [
-      "hill",
-      2
-    ],
-    [
-      "gsmarena",
+      "growth",
       2
     ],
     [
@@ -1878,19 +1878,31 @@
       2
     ],
     [
-      "jackson",
+      "pixel",
       2
     ],
     [
-      "opens",
+      "gsmarena",
       2
     ],
     [
-      "rosie",
+      "com",
       2
     ],
     [
-      "donnell",
+      "his",
+      2
+    ],
+    [
+      "ahead",
+      2
+    ],
+    [
+      "fighting",
+      2
+    ],
+    [
+      "world",
       2
     ],
     [
@@ -1902,19 +1914,15 @@
       2
     ],
     [
-      "test",
-      2
-    ],
-    [
-      "first",
-      2
-    ],
-    [
-      "economic",
+      "air",
       2
     ],
     [
       "syria",
+      2
+    ],
+    [
+      "charges",
       2
     ],
     [
@@ -1930,11 +1938,11 @@
       2
     ],
     [
-      "deadly",
+      "french",
       2
     ],
     [
-      "workers",
+      "rights",
       2
     ],
     [
@@ -1954,10 +1962,6 @@
       2
     ],
     [
-      "former",
-      2
-    ],
-    [
       "too",
       2
     ],
@@ -1966,7 +1970,11 @@
       2
     ],
     [
-      "five",
+      "natalie",
+      2
+    ],
+    [
+      "three",
       2
     ],
     [
@@ -1978,7 +1986,15 @@
       2
     ],
     [
+      "concerns",
+      2
+    ],
+    [
       "country",
+      2
+    ],
+    [
+      "call",
       2
     ],
     [
@@ -1987,6 +2003,10 @@
     ],
     [
       "way",
+      2
+    ],
+    [
+      "top",
       2
     ],
     [
@@ -2006,19 +2026,15 @@
       2
     ],
     [
+      "detention",
+      2
+    ],
+    [
       "centre",
       2
     ],
     [
       "warns",
-      2
-    ],
-    [
-      "events",
-      2
-    ],
-    [
-      "europe",
       2
     ],
     [
@@ -2066,19 +2082,15 @@
       1
     ],
     [
+      "boost",
+      1
+    ],
+    [
       "tariff",
       1
     ],
     [
       "refunds",
-      1
-    ],
-    [
-      "national",
-      1
-    ],
-    [
-      "two",
       1
     ],
     [
@@ -2122,30 +2134,6 @@
       1
     ],
     [
-      "invited",
-      1
-    ],
-    [
-      "members",
-      1
-    ],
-    [
-      "held",
-      1
-    ],
-    [
-      "gunpoint",
-      1
-    ],
-    [
-      "force",
-      1
-    ],
-    [
-      "base",
-      1
-    ],
-    [
       "quiet",
       1
     ],
@@ -2186,6 +2174,10 @@
       1
     ],
     [
+      "brutal",
+      1
+    ],
+    [
       "coworker",
       1
     ],
@@ -2199,6 +2191,30 @@
     ],
     [
       "virginia",
+      1
+    ],
+    [
+      "invited",
+      1
+    ],
+    [
+      "members",
+      1
+    ],
+    [
+      "held",
+      1
+    ],
+    [
+      "gunpoint",
+      1
+    ],
+    [
+      "force",
+      1
+    ],
+    [
+      "base",
       1
     ],
     [
@@ -2234,10 +2250,6 @@
       1
     ],
     [
-      "cancer",
-      1
-    ],
-    [
       "returning",
       1
     ],
@@ -2251,10 +2263,6 @@
     ],
     [
       "attack",
-      1
-    ],
-    [
-      "people",
       1
     ],
     [
@@ -2326,7 +2334,7 @@
       1
     ],
     [
-      "removed",
+      "track",
       1
     ],
     [
@@ -2346,10 +2354,6 @@
       1
     ],
     [
-      "anthony",
-      1
-    ],
-    [
       "seeks",
       1
     ],
@@ -2359,10 +2363,6 @@
     ],
     [
       "during",
-      1
-    ],
-    [
-      "several",
       1
     ],
     [
@@ -2490,10 +2490,6 @@
       1
     ],
     [
-      "attacks",
-      1
-    ],
-    [
       "colorado",
       1
     ],
@@ -2515,6 +2511,10 @@
     ],
     [
       "residents",
+      1
+    ],
+    [
+      "remain",
       1
     ],
     [
@@ -2546,31 +2546,87 @@
       1
     ],
     [
+      "spent",
+      1
+    ],
+    [
       "month",
       1
     ],
     [
-      "harvest",
+      "clean",
       1
     ],
     [
-      "hikes",
+      "token",
       1
     ],
     [
-      "bills",
+      "vomit",
       1
     ],
     [
-      "purchased",
+      "separate",
       1
     ],
     [
-      "bending",
+      "llm",
       1
     ],
     [
-      "spoons",
+      "anti-ai",
+      1
+    ],
+    [
+      "fonts",
+      1
+    ],
+    [
+      "useless",
+      1
+    ],
+    [
+      "harmful",
+      1
+    ],
+    [
+      "open-source",
+      1
+    ],
+    [
+      "connect",
+      1
+    ],
+    [
+      "alternative",
+      1
+    ],
+    [
+      "check",
+      1
+    ],
+    [
+      "any",
+      1
+    ],
+    [
+      "656m",
+      1
+    ],
+    [
+      "unclaimed",
+      1
+    ],
+    [
+      "royalties",
+      1
+    ],
+    [
+      "mlc",
+      1
+    ],
+    [
+      "yours",
       1
     ],
     [
@@ -2594,15 +2650,7 @@
       1
     ],
     [
-      "claude",
-      1
-    ],
-    [
       "smart",
-      1
-    ],
-    [
-      "watch",
       1
     ],
     [
@@ -2638,19 +2686,15 @@
       1
     ],
     [
-      "twenty",
-      1
-    ],
-    [
-      "wrong",
-      1
-    ],
-    [
       "diffusiongemma",
       1
     ],
     [
       "malicious",
+      1
+    ],
+    [
+      "rust",
       1
     ],
     [
@@ -2667,66 +2711,6 @@
     ],
     [
       "payload",
-      1
-    ],
-    [
-      "canonical",
-      1
-    ],
-    [
-      "backs",
-      1
-    ],
-    [
-      "project",
-      1
-    ],
-    [
-      "translate",
-      1
-    ],
-    [
-      "large",
-      1
-    ],
-    [
-      "codebases",
-      1
-    ],
-    [
-      "safe",
-      1
-    ],
-    [
-      "internet",
-      1
-    ],
-    [
-      "age",
-      1
-    ],
-    [
-      "checks",
-      1
-    ],
-    [
-      "boosted",
-      1
-    ],
-    [
-      "rogue",
-      1
-    ],
-    [
-      "adult",
-      1
-    ],
-    [
-      "sites",
-      1
-    ],
-    [
-      "pornhub",
       1
     ],
     [
@@ -2754,39 +2738,11 @@
       1
     ],
     [
+      "crisis",
+      1
+    ],
+    [
       "xorg-server",
-      1
-    ],
-    [
-      "zellij",
-      1
-    ],
-    [
-      "nested",
-      1
-    ],
-    [
-      "sessions",
-      1
-    ],
-    [
-      "kitty",
-      1
-    ],
-    [
-      "graphics",
-      1
-    ],
-    [
-      "fresh",
-      1
-    ],
-    [
-      "browser",
-      1
-    ],
-    [
-      "de-slop",
       1
     ],
     [
@@ -2826,30 +2782,6 @@
       1
     ],
     [
-      "didn",
-      1
-    ],
-    [
-      "erase",
-      1
-    ],
-    [
-      "junior",
-      1
-    ],
-    [
-      "engineer",
-      1
-    ],
-    [
-      "value",
-      1
-    ],
-    [
-      "increased",
-      1
-    ],
-    [
       "seeing",
       1
     ],
@@ -2870,15 +2802,143 @@
       1
     ],
     [
-      "risk",
-      1
-    ],
-    [
       "smartphone",
       1
     ],
     [
       "imagery",
+      1
+    ],
+    [
+      "engineering",
+      1
+    ],
+    [
+      "aliexpress",
+      1
+    ],
+    [
+      "silent",
+      1
+    ],
+    [
+      "webaudio",
+      1
+    ],
+    [
+      "fingerprinting",
+      1
+    ],
+    [
+      "breaks",
+      1
+    ],
+    [
+      "bluetooth",
+      1
+    ],
+    [
+      "multipoint",
+      1
+    ],
+    [
+      "windows",
+      1
+    ],
+    [
+      "brings",
+      1
+    ],
+    [
+      "rorschach",
+      1
+    ],
+    [
+      "everyone",
+      1
+    ],
+    [
+      "filing",
+      1
+    ],
+    [
+      "tiktok",
+      1
+    ],
+    [
+      "posted",
+      1
+    ],
+    [
+      "profit",
+      1
+    ],
+    [
+      "africa",
+      1
+    ],
+    [
+      "america",
+      1
+    ],
+    [
+      "iain",
+      1
+    ],
+    [
+      "martin",
+      1
+    ],
+    [
+      "forbes",
+      1
+    ],
+    [
+      "bankruptcy",
+      1
+    ],
+    [
+      "delays",
+      1
+    ],
+    [
+      "purchase",
+      1
+    ],
+    [
+      "spirit",
+      1
+    ],
+    [
+      "airlines",
+      1
+    ],
+    [
+      "attendants",
+      1
+    ],
+    [
+      "objected",
+      1
+    ],
+    [
+      "seeking",
+      1
+    ],
+    [
+      "assurance",
+      1
+    ],
+    [
+      "info",
+      1
+    ],
+    [
+      "alexander",
+      1
+    ],
+    [
+      "gladstone",
       1
     ],
     [
@@ -2927,6 +2987,14 @@
     ],
     [
       "away",
+      1
+    ],
+    [
+      "third",
+      1
+    ],
+    [
+      "parties",
       1
     ],
     [
@@ -3058,19 +3126,7 @@
       1
     ],
     [
-      "inside",
-      1
-    ],
-    [
-      "attracting",
-      1
-    ],
-    [
-      "copycat",
-      1
-    ],
-    [
-      "bets",
+      "internal",
       1
     ],
     [
@@ -3087,6 +3143,18 @@
     ],
     [
       "rate",
+      1
+    ],
+    [
+      "attracting",
+      1
+    ],
+    [
+      "copycat",
+      1
+    ],
+    [
+      "bets",
       1
     ],
     [
@@ -3146,6 +3214,10 @@
       1
     ],
     [
+      "access",
+      1
+    ],
+    [
       "robert",
       1
     ],
@@ -3187,6 +3259,10 @@
     ],
     [
       "coding",
+      1
+    ],
+    [
+      "agents",
       1
     ],
     [
@@ -3247,6 +3323,10 @@
     ],
     [
       "quietly",
+      1
+    ],
+    [
+      "becoming",
       1
     ],
     [
@@ -3343,10 +3423,6 @@
     ],
     [
       "giants",
-      1
-    ],
-    [
-      "unless",
       1
     ],
     [
@@ -3454,10 +3530,6 @@
       1
     ],
     [
-      "stripe",
-      1
-    ],
-    [
       "openrouter",
       1
     ],
@@ -3475,6 +3547,10 @@
     ],
     [
       "future",
+      1
+    ],
+    [
+      "users",
       1
     ],
     [
@@ -3507,6 +3583,10 @@
     ],
     [
       "alibaba",
+      1
+    ],
+    [
+      "reports",
       1
     ],
     [
@@ -3558,115 +3638,39 @@
       1
     ],
     [
-      "binance",
+      "updates",
       1
     ],
     [
-      "agent",
+      "dismisses",
       1
     ],
     [
-      "lets",
+      "d-day",
       1
     ],
     [
-      "analyze",
+      "only",
       1
     ],
     [
-      "execute",
+      "bring",
       1
     ],
     [
-      "behalf",
+      "further",
       1
     ],
     [
-      "set",
+      "defeat",
       1
     ],
     [
-      "limits",
+      "guardian",
       1
     ],
     [
-      "jagmeet",
-      1
-    ],
-    [
-      "singh",
-      1
-    ],
-    [
-      "techcrunch",
-      1
-    ],
-    [
-      "hynix",
-      1
-    ],
-    [
-      "reach",
-      1
-    ],
-    [
-      "tentative",
-      1
-    ],
-    [
-      "deal",
-      1
-    ],
-    [
-      "wage",
-      1
-    ],
-    [
-      "hike",
-      1
-    ],
-    [
-      "paying",
-      1
-    ],
-    [
-      "profit-sharing",
-      1
-    ],
-    [
-      "bonuses",
-      1
-    ],
-    [
-      "cash",
-      1
-    ],
-    [
-      "yoolim",
-      1
-    ],
-    [
-      "lee",
-      1
-    ],
-    [
-      "order",
-      1
-    ],
-    [
-      "exercises",
-      1
-    ],
-    [
-      "carries",
-      1
-    ],
-    [
-      "risks",
-      1
-    ],
-    [
-      "experts",
+      "amazing",
       1
     ],
     [
@@ -3674,11 +3678,15 @@
       1
     ],
     [
-      "faces",
+      "melt",
       1
     ],
     [
-      "scrutiny",
+      "remark",
+      1
+    ],
+    [
+      "barrage",
       1
     ],
     [
@@ -3698,71 +3706,55 @@
       1
     ],
     [
-      "cnn",
+      "order",
       1
     ],
     [
-      "barrage",
+      "cut",
       1
     ],
     [
-      "kills",
+      "exercises",
       1
     ],
     [
-      "streets",
+      "carries",
       1
     ],
     [
-      "empty",
+      "risks",
       1
     ],
     [
-      "miami",
+      "experts",
       1
     ],
     [
-      "little",
+      "grown",
       1
     ],
     [
-      "haiti",
+      "president",
       1
     ],
     [
-      "reacted",
+      "fox",
       1
     ],
     [
-      "losing",
+      "business",
       1
     ],
     [
-      "tps",
+      "#resistance",
       1
     ],
     [
-      "leader",
+      "democrats",
       1
     ],
     [
-      "crosshairs",
-      1
-    ],
-    [
-      "capitol",
-      1
-    ],
-    [
-      "agenda",
-      1
-    ],
-    [
-      "enemies",
-      1
-    ],
-    [
-      "face",
+      "flopping",
       1
     ],
     [
@@ -3774,47 +3766,115 @@
       1
     ],
     [
-      "jimmy",
+      "fbi",
       1
     ],
     [
-      "fallon",
+      "raids",
       1
     ],
     [
-      "teases",
+      "rep",
       1
     ],
     [
-      "efforts",
+      "eric",
       1
     ],
     [
-      "rekindle",
+      "swalwell",
       1
     ],
     [
-      "bromance",
+      "seizes",
       1
     ],
     [
-      "harry",
+      "devices",
       1
     ],
     [
-      "meghan",
+      "tied",
       1
     ],
     [
-      "arrangements",
+      "sexual",
       1
     ],
     [
-      "private",
+      "assault",
       1
     ],
     [
-      "matter",
+      "know",
+      1
+    ],
+    [
+      "plane",
+      1
+    ],
+    [
+      "involving",
+      1
+    ],
+    [
+      "pennsylvania",
+      1
+    ],
+    [
+      "carlisle",
+      1
+    ],
+    [
+      "airport",
+      1
+    ],
+    [
+      "6abc",
+      1
+    ],
+    [
+      "philadelphia",
+      1
+    ],
+    [
+      "somali",
+      1
+    ],
+    [
+      "pirate",
+      1
+    ],
+    [
+      "menace",
+      1
+    ],
+    [
+      "returns",
+      1
+    ],
+    [
+      "stokes",
+      1
+    ],
+    [
+      "chaos",
+      1
+    ],
+    [
+      "saps",
+      1
+    ],
+    [
+      "enforcement",
+      1
+    ],
+    [
+      "resources",
+      1
+    ],
+    [
+      "cnbc",
       1
     ],
     [
@@ -3826,11 +3886,39 @@
       1
     ],
     [
+      "economy",
+      1
+    ],
+    [
       "die",
       1
     ],
     [
       "dubai",
+      1
+    ],
+    [
+      "marine",
+      1
+    ],
+    [
+      "near",
+      1
+    ],
+    [
+      "neptun",
+      1
+    ],
+    [
+      "deep",
+      1
+    ],
+    [
+      "gas",
+      1
+    ],
+    [
+      "project",
       1
     ],
     [
@@ -3858,75 +3946,15 @@
       1
     ],
     [
-      "cbs",
+      "long-term",
       1
     ],
     [
-      "petrol",
+      "bonds",
       1
     ],
     [
-      "stations",
-      1
-    ],
-    [
-      "fuel",
-      1
-    ],
-    [
-      "worsens",
-      1
-    ],
-    [
-      "euronews",
-      1
-    ],
-    [
-      "defense",
-      1
-    ],
-    [
-      "dismissed",
-      1
-    ],
-    [
-      "zelensky",
-      1
-    ],
-    [
-      "demands",
-      1
-    ],
-    [
-      "washington",
-      1
-    ],
-    [
-      "post",
-      1
-    ],
-    [
-      "stock",
-      1
-    ],
-    [
-      "yields",
-      1
-    ],
-    [
-      "jump",
-      1
-    ],
-    [
-      "largely",
-      1
-    ],
-    [
-      "wiping",
-      1
-    ],
-    [
-      "effect",
+      "slide",
       1
     ],
     [
@@ -3938,23 +3966,39 @@
       1
     ],
     [
-      "rattle",
+      "fails",
       1
     ],
     [
-      "forcing",
+      "soothe",
       1
     ],
     [
-      "controversial",
+      "investors",
       1
     ],
     [
-      "buyback",
+      "financial",
       1
     ],
     [
-      "band-aid",
+      "walmart",
+      1
+    ],
+    [
+      "shares",
+      1
+    ],
+    [
+      "slump",
+      1
+    ],
+    [
+      "weakest",
+      1
+    ],
+    [
+      "sales",
       1
     ],
     [
@@ -3967,10 +4011,6 @@
     ],
     [
       "encouraged",
-      1
-    ],
-    [
-      "growth",
       1
     ],
     [
@@ -3998,31 +4038,35 @@
       1
     ],
     [
-      "walmart",
+      "moderna",
       1
     ],
     [
-      "rare",
+      "stock",
       1
     ],
     [
-      "sales",
+      "surge",
       1
     ],
     [
-      "miss",
+      "drug",
       1
     ],
     [
-      "consumers",
+      "thinks",
       1
     ],
     [
-      "fall",
+      "happens",
       1
     ],
     [
-      "pixel",
+      "next",
+      1
+    ],
+    [
+      "finance",
       1
     ],
     [
@@ -4058,127 +4102,59 @@
       1
     ],
     [
-      "oled",
-      1
-    ],
-    [
       "display",
       1
     ],
     [
-      "lifespans",
+      "introduces",
       1
     ],
     [
-      "apple",
+      "flipp",
       1
     ],
     [
-      "camera-equipped",
+      "oled",
       1
     ],
     [
-      "airpods",
+      "technology",
       1
     ],
     [
-      "despite",
+      "improving",
       1
     ],
     [
-      "leak",
+      "brightness",
       1
     ],
     [
-      "megyn",
+      "longer",
       1
     ],
     [
-      "kelly",
+      "lifespan",
       1
     ],
     [
-      "surprised",
+      "wccftech",
       1
     ],
     [
-      "calls",
+      "app",
       1
     ],
     [
-      "actress",
+      "does",
       1
     ],
     [
-      "parents",
+      "pro",
       1
     ],
     [
-      "enablers",
-      1
-    ],
-    [
-      "soa",
-      1
-    ],
-    [
-      "kurt",
-      1
-    ],
-    [
-      "sutter",
-      1
-    ],
-    [
-      "reacts",
-      1
-    ],
-    [
-      "charlie",
-      1
-    ],
-    [
-      "hunnam",
-      1
-    ],
-    [
-      "legends",
-      1
-    ],
-    [
-      "deadline",
-      1
-    ],
-    [
-      "paris",
-      1
-    ],
-    [
-      "painful",
-      1
-    ],
-    [
-      "electroconvulsive",
-      1
-    ],
-    [
-      "therapy",
-      1
-    ],
-    [
-      "alone",
-      1
-    ],
-    [
-      "return",
-      1
-    ],
-    [
-      "shows",
-      1
-    ],
-    [
-      "abc",
+      "hilight",
       1
     ],
     [
@@ -4186,55 +4162,163 @@
       1
     ],
     [
-      "capitulating",
+      "place",
       1
     ],
     [
-      "salon",
+      "android",
       1
     ],
     [
-      "worse",
+      "authority",
       1
     ],
     [
-      "cherry",
+      "mom",
       1
     ],
     [
-      "blossoms",
+      "reaction",
       1
     ],
     [
-      "drivers",
+      "actress",
       1
     ],
     [
-      "react",
+      "eviscerated",
       1
     ],
     [
-      "freedom",
+      "holly",
       1
     ],
     [
-      "grand",
+      "robinson",
       1
     ],
     [
-      "prix",
+      "peete",
       1
     ],
     [
-      "road",
+      "integrity",
       1
     ],
     [
-      "closures",
+      "page",
       1
     ],
     [
-      "wtop",
+      "harry",
+      1
+    ],
+    [
+      "meghan",
+      1
+    ],
+    [
+      "coming",
+      1
+    ],
+    [
+      "changed",
+      1
+    ],
+    [
+      "neighbor",
+      1
+    ],
+    [
+      "called",
+      1
+    ],
+    [
+      "disturbances",
+      1
+    ],
+    [
+      "terrified",
+      1
+    ],
+    [
+      "josh",
+      1
+    ],
+    [
+      "radnor",
+      1
+    ],
+    [
+      "close",
+      1
+    ],
+    [
+      "met",
+      1
+    ],
+    [
+      "mother",
+      1
+    ],
+    [
+      "co-stars",
+      1
+    ],
+    [
+      "variety",
+      1
+    ],
+    [
+      "hernandez",
+      1
+    ],
+    [
+      "sean",
+      1
+    ],
+    [
+      "strickland",
+      1
+    ],
+    [
+      "helped",
+      1
+    ],
+    [
+      "re-spark",
+      1
+    ],
+    [
+      "love",
+      1
+    ],
+    [
+      "martial",
+      1
+    ],
+    [
+      "arts",
+      1
+    ],
+    [
+      "ufc",
+      1
+    ],
+    [
+      "sacramento",
+      1
+    ],
+    [
+      "main",
+      1
+    ],
+    [
+      "event",
+      1
+    ],
+    [
+      "mma",
       1
     ],
     [
@@ -4262,35 +4346,43 @@
       1
     ],
     [
-      "suspended",
+      "paige",
       1
     ],
     [
-      "positive",
+      "bueckers",
       1
     ],
     [
-      "cocaine",
+      "azzi",
       1
     ],
     [
-      "deeply",
+      "fudd",
       1
     ],
     [
-      "disappointed",
+      "offer",
       1
     ],
     [
-      "myself",
+      "rare",
       1
     ],
     [
-      "sports",
+      "comments",
       1
     ],
     [
-      "patriots",
+      "relationship",
+      1
+    ],
+    [
+      "espn",
+      1
+    ],
+    [
+      "tennis",
       1
     ],
     [
@@ -4298,35 +4390,31 @@
       1
     ],
     [
-      "turning",
+      "turns",
       1
     ],
     [
-      "page",
+      "cocaine",
       1
     ],
     [
-      "eagles",
+      "reveal",
       1
     ],
     [
-      "practice",
+      "leading",
       1
     ],
     [
-      "pats",
+      "charge",
       1
     ],
     [
-      "pulpit",
+      "post",
       1
     ],
     [
       "grapples",
-      1
-    ],
-    [
-      "air",
       1
     ],
     [
@@ -4394,15 +4482,7 @@
       1
     ],
     [
-      "war",
-      1
-    ],
-    [
       "crimes",
-      1
-    ],
-    [
-      "charges",
       1
     ],
     [
@@ -4486,23 +4566,11 @@
       1
     ],
     [
-      "home",
-      1
-    ],
-    [
-      "landslide",
-      1
-    ],
-    [
-      "gold",
-      1
-    ],
-    [
-      "mine",
-      1
-    ],
-    [
       "ex-zambian",
+      1
+    ],
+    [
+      "security",
       1
     ],
     [
@@ -4514,7 +4582,47 @@
       1
     ],
     [
+      "togo",
+      1
+    ],
+    [
+      "journalists",
+      1
+    ],
+    [
+      "incorrect",
+      1
+    ],
+    [
+      "documents",
+      1
+    ],
+    [
+      "group",
+      1
+    ],
+    [
+      "landslide",
+      1
+    ],
+    [
+      "unlicensed",
+      1
+    ],
+    [
+      "gold",
+      1
+    ],
+    [
+      "mine",
+      1
+    ],
+    [
       "confirms",
+      1
+    ],
+    [
+      "opens",
       1
     ],
     [
@@ -4535,10 +4643,6 @@
     ],
     [
       "drug-trafficking",
-      1
-    ],
-    [
-      "probe",
       1
     ],
     [
@@ -4578,19 +4682,15 @@
       1
     ],
     [
+      "long",
+      1
+    ],
+    [
+      "workers",
+      1
+    ],
+    [
       "train",
-      1
-    ],
-    [
-      "ecuador",
-      1
-    ],
-    [
-      "intelligence",
-      1
-    ],
-    [
-      "chief",
       1
     ],
     [
@@ -4606,7 +4706,15 @@
       1
     ],
     [
+      "bbc",
+      1
+    ],
+    [
       "fought",
+      1
+    ],
+    [
+      "aide",
       1
     ],
     [
@@ -4651,10 +4759,6 @@
     ],
     [
       "map",
-      1
-    ],
-    [
-      "french",
       1
     ],
     [
@@ -4782,6 +4886,46 @@
       1
     ],
     [
+      "indycar",
+      1
+    ],
+    [
+      "race",
+      1
+    ],
+    [
+      "zoom",
+      1
+    ],
+    [
+      "past",
+      1
+    ],
+    [
+      "museums",
+      1
+    ],
+    [
+      "some",
+      1
+    ],
+    [
+      "worry",
+      1
+    ],
+    [
+      "harm",
+      1
+    ],
+    [
+      "art",
+      1
+    ],
+    [
+      "inside",
+      1
+    ],
+    [
       "tops",
       1
     ],
@@ -4798,31 +4942,15 @@
       1
     ],
     [
-      "concerns",
-      1
-    ],
-    [
       "toward",
       1
     ],
     [
-      "advocates",
+      "bond",
       1
     ],
     [
-      "call",
-      1
-    ],
-    [
-      "maryland",
-      1
-    ],
-    [
-      "investigate",
-      1
-    ],
-    [
-      "brokers",
+      "market",
       1
     ],
     [
@@ -4831,10 +4959,6 @@
     ],
     [
       "trouble",
-      1
-    ],
-    [
-      "ahead",
       1
     ],
     [
@@ -4882,15 +5006,23 @@
       1
     ],
     [
-      "rights",
-      1
-    ],
-    [
-      "fighting",
-      1
-    ],
-    [
       "keep",
+      1
+    ],
+    [
+      "advocates",
+      1
+    ],
+    [
+      "maryland",
+      1
+    ],
+    [
+      "investigate",
+      1
+    ],
+    [
+      "brokers",
       1
     ],
     [
@@ -4898,15 +5030,15 @@
       1
     ],
     [
-      "problems",
+      "meant",
       1
     ],
     [
-      "failed",
+      "protect",
       1
     ],
     [
-      "immigrants",
+      "detainees",
       1
     ],
     [
@@ -4942,11 +5074,27 @@
       1
     ],
     [
-      "sentences",
+      "deports",
       1
     ],
     [
-      "developer",
+      "liberia",
+      1
+    ],
+    [
+      "migrants",
+      1
+    ],
+    [
+      "deal",
+      1
+    ],
+    [
+      "five",
+      1
+    ],
+    [
+      "seven",
       1
     ],
     [
@@ -4998,43 +5146,11 @@
       1
     ],
     [
-      "zimbabwe",
-      1
-    ],
-    [
-      "boat",
-      1
-    ],
-    [
-      "accident",
-      1
-    ],
-    [
-      "toll",
-      1
-    ],
-    [
-      "hits",
-      1
-    ],
-    [
-      "bodies",
-      1
-    ],
-    [
-      "recovered",
-      1
-    ],
-    [
       "adviser",
       1
     ],
     [
       "far-right",
-      1
-    ],
-    [
-      "latin",
       1
     ],
     [
@@ -5134,10 +5250,6 @@
       1
     ],
     [
-      "his",
-      1
-    ],
-    [
       "ontario",
       1
     ],
@@ -5214,10 +5326,6 @@
       1
     ],
     [
-      "claims",
-      1
-    ],
-    [
       "secret",
       1
     ],
@@ -5239,6 +5347,34 @@
     ],
     [
       "take",
+      1
+    ],
+    [
+      "sydney",
+      1
+    ],
+    [
+      "traffic",
+      1
+    ],
+    [
+      "controllers",
+      1
+    ],
+    [
+      "grave",
+      1
+    ],
+    [
+      "collision",
+      1
+    ],
+    [
+      "airspace",
+      1
+    ],
+    [
+      "redesign",
       1
     ],
     [
@@ -5326,27 +5462,23 @@
       1
     ],
     [
-      "birds",
+      "ukrainian",
       1
     ],
     [
-      "mass",
+      "publishers",
       1
     ],
     [
-      "mortality",
+      "support",
       1
     ],
     [
-      "amid",
+      "destroy",
       1
     ],
     [
-      "significant",
-      1
-    ],
-    [
-      "escalation",
+      "books",
       1
     ],
     [
@@ -5374,15 +5506,11 @@
       1
     ],
     [
-      "romania",
-      1
-    ],
-    [
-      "destroys",
-      1
-    ],
-    [
       "naval",
+      1
+    ],
+    [
+      "happened",
       1
     ],
     [
@@ -5446,43 +5574,15 @@
       1
     ],
     [
+      "climate",
+      1
+    ],
+    [
       "scenario",
       1
     ],
     [
       "finds",
-      1
-    ],
-    [
-      "melancholy",
-      1
-    ],
-    [
-      "made",
-      1
-    ],
-    [
-      "hungary",
-      1
-    ],
-    [
-      "fuelling",
-      1
-    ],
-    [
-      "bestsellers",
-      1
-    ],
-    [
-      "globe",
-      1
-    ],
-    [
-      "widely",
-      1
-    ],
-    [
-      "misunderstood",
       1
     ],
     [
@@ -5666,10 +5766,6 @@
       1
     ],
     [
-      "world",
-      1
-    ],
-    [
       "cup",
       1
     ],
@@ -5731,10 +5827,6 @@
     ],
     [
       "jon",
-      1
-    ],
-    [
-      "ossoff",
       1
     ],
     [
@@ -5815,6 +5907,10 @@
     ],
     [
       "current",
+      1
+    ],
+    [
+      "events",
       1
     ],
     [
@@ -5902,7 +5998,15 @@
       1
     ],
     [
-      "state",
+      "union",
+      1
+    ],
+    [
+      "rosie",
+      1
+    ],
+    [
+      "donnell",
       1
     ],
     [
@@ -5946,10 +6050,6 @@
       1
     ],
     [
-      "flight",
-      1
-    ],
-    [
       "wnba",
       1
     ],
@@ -5986,7 +6086,7 @@
       1
     ],
     [
-      "don",
+      "good",
       1
     ],
     [
@@ -6094,6 +6194,10 @@
       1
     ],
     [
+      "jackson",
+      1
+    ],
+    [
       "dick",
       1
     ],
@@ -6136,11 +6240,11 @@
   ],
   "bigram_frequencies": [
     [
-      "south korea",
+      "wall street",
       4
     ],
     [
-      "north korea",
+      "hayden panettiere",
       4
     ],
     [
@@ -6156,10 +6260,6 @@
       3
     ],
     [
-      "life prison",
-      3
-    ],
-    [
       "criminal investigation",
       3
     ],
@@ -6168,15 +6268,11 @@
       3
     ],
     [
-      "new york",
+      "street journal",
       3
     ],
     [
-      "york times",
-      3
-    ],
-    [
-      "natalie harp",
+      "north korea",
       3
     ],
     [
@@ -6184,12 +6280,16 @@
       3
     ],
     [
-      "hayden panettiere",
+      "south korea",
       3
     ],
     [
-      "found dead",
+      "new york",
       3
+    ],
+    [
+      "national debt",
+      2
     ],
     [
       "after goldmine",
@@ -6236,10 +6336,6 @@
       2
     ],
     [
-      "americans among",
-      2
-    ],
-    [
       "founder collapsed",
       2
     ],
@@ -6268,6 +6364,14 @@
       2
     ],
     [
+      "life prison",
+      2
+    ],
+    [
+      "americans among",
+      2
+    ],
+    [
       "investigation killing",
       2
     ],
@@ -6276,23 +6380,11 @@
       2
     ],
     [
-      "wall street",
+      "revenue yoy",
       2
     ],
     [
-      "street journal",
-      2
-    ],
-    [
-      "trump aide",
-      2
-    ],
-    [
-      "aide natalie",
-      2
-    ],
-    [
-      "usa today",
+      "cbs news",
       2
     ],
     [
@@ -6328,15 +6420,23 @@
       2
     ],
     [
+      "york times",
+      2
+    ],
+    [
+      "romania destroys",
+      2
+    ],
+    [
       "days after",
       2
     ],
     [
-      "gsmarena com",
+      "six years",
       2
     ],
     [
-      "rosie donnell",
+      "gsmarena com",
       2
     ],
     [
@@ -6372,15 +6472,15 @@
       2
     ],
     [
+      "found dead",
+      2
+    ],
+    [
       "after hit",
       2
     ],
     [
-      "five americans",
-      2
-    ],
-    [
-      "helicopter crash",
+      "natalie harp",
       2
     ],
     [
@@ -6417,22 +6517,6 @@
     ],
     [
       "tariff refunds",
-      1
-    ],
-    [
-      "national debt",
-      1
-    ],
-    [
-      "debt now",
-      1
-    ],
-    [
-      "now stands",
-      1
-    ],
-    [
-      "stands trillion",
       1
     ],
     [
@@ -6476,6 +6560,18 @@
       1
     ],
     [
+      "debt now",
+      1
+    ],
+    [
+      "now stands",
+      1
+    ],
+    [
+      "stands trillion",
+      1
+    ],
+    [
       "republic central",
       1
     ],
@@ -6505,42 +6601,6 @@
     ],
     [
       "years prison",
-      1
-    ],
-    [
-      "invited media",
-      1
-    ],
-    [
-      "media military",
-      1
-    ],
-    [
-      "military members",
-      1
-    ],
-    [
-      "members held",
-      1
-    ],
-    [
-      "held gunpoint",
-      1
-    ],
-    [
-      "gunpoint space",
-      1
-    ],
-    [
-      "space force",
-      1
-    ],
-    [
-      "force base",
-      1
-    ],
-    [
-      "base california",
       1
     ],
     [
@@ -6625,6 +6685,42 @@
     ],
     [
       "police say",
+      1
+    ],
+    [
+      "invited media",
+      1
+    ],
+    [
+      "media military",
+      1
+    ],
+    [
+      "military members",
+      1
+    ],
+    [
+      "members held",
+      1
+    ],
+    [
+      "held gunpoint",
+      1
+    ],
+    [
+      "gunpoint space",
+      1
+    ],
+    [
+      "space force",
+      1
+    ],
+    [
+      "force base",
+      1
+    ],
+    [
+      "base california",
       1
     ],
     [
@@ -7136,27 +7232,79 @@
       1
     ],
     [
-      "harvest hikes",
+      "clean claude",
       1
     ],
     [
-      "hikes bills",
+      "claude token",
       1
     ],
     [
-      "bills after",
+      "token vomit",
       1
     ],
     [
-      "after purchased",
+      "vomit separate",
       1
     ],
     [
-      "purchased bending",
+      "separate llm",
       1
     ],
     [
-      "bending spoons",
+      "anti-ai fonts",
+      1
+    ],
+    [
+      "fonts useless",
+      1
+    ],
+    [
+      "useless harmful",
+      1
+    ],
+    [
+      "show open-source",
+      1
+    ],
+    [
+      "open-source stripe",
+      1
+    ],
+    [
+      "stripe connect",
+      1
+    ],
+    [
+      "connect alternative",
+      1
+    ],
+    [
+      "show check",
+      1
+    ],
+    [
+      "check any",
+      1
+    ],
+    [
+      "any 656m",
+      1
+    ],
+    [
+      "656m unclaimed",
+      1
+    ],
+    [
+      "unclaimed royalties",
+      1
+    ],
+    [
+      "royalties mlc",
+      1
+    ],
+    [
+      "mlc yours",
       1
     ],
     [
@@ -7204,30 +7352,6 @@
       1
     ],
     [
-      "spent twenty",
-      1
-    ],
-    [
-      "twenty years",
-      1
-    ],
-    [
-      "years becoming",
-      1
-    ],
-    [
-      "becoming good",
-      1
-    ],
-    [
-      "good wrong",
-      1
-    ],
-    [
-      "wrong game",
-      1
-    ],
-    [
       "diffusiongemma technical",
       1
     ],
@@ -7260,74 +7384,6 @@
       1
     ],
     [
-      "canonical backs",
-      1
-    ],
-    [
-      "backs new",
-      1
-    ],
-    [
-      "new project",
-      1
-    ],
-    [
-      "project translate",
-      1
-    ],
-    [
-      "translate large",
-      1
-    ],
-    [
-      "large codebases",
-      1
-    ],
-    [
-      "codebases safe",
-      1
-    ],
-    [
-      "safe rust",
-      1
-    ],
-    [
-      "internet age",
-      1
-    ],
-    [
-      "age checks",
-      1
-    ],
-    [
-      "checks have",
-      1
-    ],
-    [
-      "have boosted",
-      1
-    ],
-    [
-      "boosted rogue",
-      1
-    ],
-    [
-      "rogue adult",
-      1
-    ],
-    [
-      "adult sites",
-      1
-    ],
-    [
-      "sites says",
-      1
-    ],
-    [
-      "says pornhub",
-      1
-    ],
-    [
       "ocean cleanup",
       1
     ],
@@ -7349,30 +7405,6 @@
     ],
     [
       "pollution crisis",
-      1
-    ],
-    [
-      "zellij nested",
-      1
-    ],
-    [
-      "nested sessions",
-      1
-    ],
-    [
-      "sessions kitty",
-      1
-    ],
-    [
-      "kitty graphics",
-      1
-    ],
-    [
-      "graphics fresh",
-      1
-    ],
-    [
-      "browser de-slop",
       1
     ],
     [
@@ -7424,26 +7456,6 @@
       1
     ],
     [
-      "didn erase",
-      1
-    ],
-    [
-      "erase junior",
-      1
-    ],
-    [
-      "junior engineer",
-      1
-    ],
-    [
-      "engineer value",
-      1
-    ],
-    [
-      "value increased",
-      1
-    ],
-    [
       "seeing beyond",
       1
     ],
@@ -7469,6 +7481,190 @@
     ],
     [
       "smartphone imagery",
+      1
+    ],
+    [
+      "risk engineering",
+      1
+    ],
+    [
+      "aliexpress runs",
+      1
+    ],
+    [
+      "runs silent",
+      1
+    ],
+    [
+      "silent webaudio",
+      1
+    ],
+    [
+      "webaudio fingerprinting",
+      1
+    ],
+    [
+      "fingerprinting breaks",
+      1
+    ],
+    [
+      "breaks bluetooth",
+      1
+    ],
+    [
+      "bluetooth multipoint",
+      1
+    ],
+    [
+      "windows brings",
+      1
+    ],
+    [
+      "brings rorschach",
+      1
+    ],
+    [
+      "rorschach test",
+      1
+    ],
+    [
+      "test everyone",
+      1
+    ],
+    [
+      "filing tiktok",
+      1
+    ],
+    [
+      "tiktok posted",
+      1
+    ],
+    [
+      "posted its",
+      1
+    ],
+    [
+      "its first",
+      1
+    ],
+    [
+      "first net",
+      1
+    ],
+    [
+      "net profit",
+      1
+    ],
+    [
+      "profit europe",
+      1
+    ],
+    [
+      "europe africa",
+      1
+    ],
+    [
+      "africa latin",
+      1
+    ],
+    [
+      "latin america",
+      1
+    ],
+    [
+      "america revenue",
+      1
+    ],
+    [
+      "yoy iain",
+      1
+    ],
+    [
+      "iain martin",
+      1
+    ],
+    [
+      "martin forbes",
+      1
+    ],
+    [
+      "bankruptcy court",
+      1
+    ],
+    [
+      "court delays",
+      1
+    ],
+    [
+      "delays google",
+      1
+    ],
+    [
+      "google 10m",
+      1
+    ],
+    [
+      "10m purchase",
+      1
+    ],
+    [
+      "purchase spirit",
+      1
+    ],
+    [
+      "spirit airlines",
+      1
+    ],
+    [
+      "airlines data",
+      1
+    ],
+    [
+      "data after",
+      1
+    ],
+    [
+      "after former",
+      1
+    ],
+    [
+      "former flight",
+      1
+    ],
+    [
+      "flight attendants",
+      1
+    ],
+    [
+      "attendants objected",
+      1
+    ],
+    [
+      "objected seeking",
+      1
+    ],
+    [
+      "seeking assurance",
+      1
+    ],
+    [
+      "assurance info",
+      1
+    ],
+    [
+      "info removed",
+      1
+    ],
+    [
+      "removed alexander",
+      1
+    ],
+    [
+      "alexander gladstone",
+      1
+    ],
+    [
+      "gladstone wall",
       1
     ],
     [
@@ -7528,11 +7724,15 @@
       1
     ],
     [
-      "away companies",
+      "away third",
       1
     ],
     [
-      "companies like",
+      "third parties",
+      1
+    ],
+    [
+      "parties like",
       1
     ],
     [
@@ -7724,11 +7924,11 @@
       1
     ],
     [
-      "traded inside",
+      "traded internal",
       1
     ],
     [
-      "inside military",
+      "internal military",
       1
     ],
     [
@@ -7736,19 +7936,7 @@
       1
     ],
     [
-      "information attracting",
-      1
-    ],
-    [
-      "attracting copycat",
-      1
-    ],
-    [
-      "copycat bets",
-      1
-    ],
-    [
-      "bets making",
+      "information making",
       1
     ],
     [
@@ -7768,7 +7956,19 @@
       1
     ],
     [
-      "rate douglas",
+      "rate attracting",
+      1
+    ],
+    [
+      "attracting copycat",
+      1
+    ],
+    [
+      "copycat bets",
+      1
+    ],
+    [
+      "bets douglas",
       1
     ],
     [
@@ -8144,11 +8344,11 @@
       1
     ],
     [
-      "revenue unless",
+      "revenue don",
       1
     ],
     [
-      "unless strike",
+      "don strike",
       1
     ],
     [
@@ -8392,10 +8592,6 @@
       1
     ],
     [
-      "revenue yoy",
-      1
-    ],
-    [
       "yoy 64b",
       1
     ],
@@ -8460,151 +8656,147 @@
       1
     ],
     [
-      "binance launches",
+      "live updates",
       1
     ],
     [
-      "launches agent",
+      "updates iran",
       1
     ],
     [
-      "agent platform",
+      "iran dismisses",
       1
     ],
     [
-      "platform lets",
+      "dismisses trump",
       1
     ],
     [
-      "lets agents",
+      "trump economic",
       1
     ],
     [
-      "agents analyze",
+      "economic d-day",
       1
     ],
     [
-      "analyze markets",
+      "d-day threat",
       1
     ],
     [
-      "markets execute",
+      "threat says",
       1
     ],
     [
-      "execute trades",
+      "says only",
       1
     ],
     [
-      "trades users",
+      "only bring",
       1
     ],
     [
-      "users behalf",
+      "bring further",
       1
     ],
     [
-      "behalf users",
+      "further defeat",
       1
     ],
     [
-      "users set",
+      "defeat cbs",
       1
     ],
     [
-      "set limits",
+      "drills guardian",
       1
     ],
     [
-      "limits agents",
+      "ossoff amazing",
       1
     ],
     [
-      "agents access",
+      "amazing watch",
       1
     ],
     [
-      "access trades",
+      "watch white",
       1
     ],
     [
-      "trades jagmeet",
+      "white house",
       1
     ],
     [
-      "jagmeet singh",
+      "house melt",
       1
     ],
     [
-      "singh techcrunch",
+      "melt harp",
       1
     ],
     [
-      "korea media",
+      "harp remark",
       1
     ],
     [
-      "media hynix",
+      "remark hill",
       1
     ],
     [
-      "hynix its",
+      "russian missile",
       1
     ],
     [
-      "its union",
+      "missile drone",
       1
     ],
     [
-      "union reach",
+      "drone barrage",
       1
     ],
     [
-      "reach tentative",
+      "barrage kills",
       1
     ],
     [
-      "tentative deal",
+      "kills least",
       1
     ],
     [
-      "deal wage",
+      "least ukraine",
       1
     ],
     [
-      "wage hike",
+      "ukraine kyiv",
       1
     ],
     [
-      "hike paying",
+      "kyiv region",
       1
     ],
     [
-      "paying profit-sharing",
+      "region news",
       1
     ],
     [
-      "profit-sharing bonuses",
+      "upend winter",
       1
     ],
     [
-      "bonuses shares",
+      "winter weather",
       1
     ],
     [
-      "shares cash",
+      "weather here",
       1
     ],
     [
-      "cash yoolim",
+      "here feel",
       1
     ],
     [
-      "yoolim lee",
-      1
-    ],
-    [
-      "lee bloomberg",
+      "feel cnn",
       1
     ],
     [
@@ -8648,167 +8840,39 @@
       1
     ],
     [
-      "white house",
+      "has national",
       1
     ],
     [
-      "house faces",
+      "debt grown",
       1
     ],
     [
-      "faces scrutiny",
+      "grown president",
       1
     ],
     [
-      "scrutiny top",
+      "president trump",
       1
     ],
     [
-      "top trump",
+      "trump fox",
       1
     ],
     [
-      "harp live",
+      "fox business",
       1
     ],
     [
-      "live guardian",
+      "#resistance democrats",
       1
     ],
     [
-      "upend winter",
+      "democrats flopping",
       1
     ],
     [
-      "winter weather",
-      1
-    ],
-    [
-      "weather here",
-      1
-    ],
-    [
-      "here feel",
-      1
-    ],
-    [
-      "feel cnn",
-      1
-    ],
-    [
-      "russian missile",
-      1
-    ],
-    [
-      "missile drone",
-      1
-    ],
-    [
-      "drone barrage",
-      1
-    ],
-    [
-      "barrage kills",
-      1
-    ],
-    [
-      "kills least",
-      1
-    ],
-    [
-      "least ukraine",
-      1
-    ],
-    [
-      "ukraine kyiv",
-      1
-    ],
-    [
-      "kyiv region",
-      1
-    ],
-    [
-      "region news",
-      1
-    ],
-    [
-      "streets empty",
-      1
-    ],
-    [
-      "empty miami",
-      1
-    ],
-    [
-      "miami little",
-      1
-    ],
-    [
-      "little haiti",
-      1
-    ],
-    [
-      "haiti reacted",
-      1
-    ],
-    [
-      "reacted losing",
-      1
-    ],
-    [
-      "losing tps",
-      1
-    ],
-    [
-      "tps usa",
-      1
-    ],
-    [
-      "california long",
-      1
-    ],
-    [
-      "long climate",
-      1
-    ],
-    [
-      "climate leader",
-      1
-    ],
-    [
-      "leader trump",
-      1
-    ],
-    [
-      "trump crosshairs",
-      1
-    ],
-    [
-      "crosshairs new",
-      1
-    ],
-    [
-      "capitol agenda",
-      1
-    ],
-    [
-      "agenda trump",
-      1
-    ],
-    [
-      "trump enemies",
-      1
-    ],
-    [
-      "enemies face",
-      1
-    ],
-    [
-      "face brutal",
-      1
-    ],
-    [
-      "brutal primaries",
+      "flopping primaries",
       1
     ],
     [
@@ -8816,67 +8880,159 @@
       1
     ],
     [
-      "jimmy fallon",
+      "fbi raids",
       1
     ],
     [
-      "fallon teases",
+      "raids former",
       1
     ],
     [
-      "teases trump",
+      "former rep",
       1
     ],
     [
-      "trump efforts",
+      "rep eric",
       1
     ],
     [
-      "efforts rekindle",
+      "eric swalwell",
       1
     ],
     [
-      "rekindle north",
+      "swalwell home",
       1
     ],
     [
-      "korea bromance",
+      "home seizes",
       1
     ],
     [
-      "bromance new",
+      "seizes devices",
       1
     ],
     [
-      "drills guardian",
+      "devices probe",
       1
     ],
     [
-      "harry meghan",
+      "probe tied",
       1
     ],
     [
-      "meghan security",
+      "tied sexual",
       1
     ],
     [
-      "security arrangements",
+      "sexual assault",
       1
     ],
     [
-      "arrangements private",
+      "assault claims",
       1
     ],
     [
-      "private matter",
+      "claims cnn",
       1
     ],
     [
-      "matter says",
+      "know deadly",
       1
     ],
     [
-      "says bbc",
+      "deadly plane",
+      1
+    ],
+    [
+      "plane crash",
+      1
+    ],
+    [
+      "crash involving",
+      1
+    ],
+    [
+      "involving pennsylvania",
+      1
+    ],
+    [
+      "pennsylvania state",
+      1
+    ],
+    [
+      "state police",
+      1
+    ],
+    [
+      "police helicopter",
+      1
+    ],
+    [
+      "helicopter carlisle",
+      1
+    ],
+    [
+      "carlisle regional",
+      1
+    ],
+    [
+      "regional airport",
+      1
+    ],
+    [
+      "airport 6abc",
+      1
+    ],
+    [
+      "6abc philadelphia",
+      1
+    ],
+    [
+      "somali pirate",
+      1
+    ],
+    [
+      "pirate menace",
+      1
+    ],
+    [
+      "menace returns",
+      1
+    ],
+    [
+      "returns iran",
+      1
+    ],
+    [
+      "iran war",
+      1
+    ],
+    [
+      "war stokes",
+      1
+    ],
+    [
+      "stokes regional",
+      1
+    ],
+    [
+      "regional chaos",
+      1
+    ],
+    [
+      "chaos saps",
+      1
+    ],
+    [
+      "saps enforcement",
+      1
+    ],
+    [
+      "enforcement resources",
+      1
+    ],
+    [
+      "resources cnbc",
       1
     ],
     [
@@ -8909,6 +9065,46 @@
     ],
     [
       "dubai wsj",
+      1
+    ],
+    [
+      "destroys marine",
+      1
+    ],
+    [
+      "marine drone",
+      1
+    ],
+    [
+      "drone near",
+      1
+    ],
+    [
+      "near neptun",
+      1
+    ],
+    [
+      "neptun deep",
+      1
+    ],
+    [
+      "deep gas",
+      1
+    ],
+    [
+      "gas project",
+      1
+    ],
+    [
+      "project minister",
+      1
+    ],
+    [
+      "minister says",
+      1
+    ],
+    [
+      "says reuters",
       1
     ],
     [
@@ -8956,111 +9152,15 @@
       1
     ],
     [
-      "cbs news",
+      "long-term bonds",
       1
     ],
     [
-      "russia runs",
+      "bonds slide",
       1
     ],
     [
-      "runs petrol",
-      1
-    ],
-    [
-      "petrol seven",
-      1
-    ],
-    [
-      "seven stations",
-      1
-    ],
-    [
-      "stations fuel",
-      1
-    ],
-    [
-      "fuel crisis",
-      1
-    ],
-    [
-      "crisis worsens",
-      1
-    ],
-    [
-      "worsens euronews",
-      1
-    ],
-    [
-      "euronews com",
-      1
-    ],
-    [
-      "defense minister",
-      1
-    ],
-    [
-      "minister dismissed",
-      1
-    ],
-    [
-      "dismissed zelensky",
-      1
-    ],
-    [
-      "zelensky demands",
-      1
-    ],
-    [
-      "demands elections",
-      1
-    ],
-    [
-      "elections ukraine",
-      1
-    ],
-    [
-      "ukraine washington",
-      1
-    ],
-    [
-      "washington post",
-      1
-    ],
-    [
-      "stock market",
-      1
-    ],
-    [
-      "market today",
-      1
-    ],
-    [
-      "today bond",
-      1
-    ],
-    [
-      "bond yields",
-      1
-    ],
-    [
-      "yields jump",
-      1
-    ],
-    [
-      "jump largely",
-      1
-    ],
-    [
-      "largely wiping",
-      1
-    ],
-    [
-      "wiping effect",
-      1
-    ],
-    [
-      "effect bessent",
+      "slide bessent",
       1
     ],
     [
@@ -9068,39 +9168,51 @@
       1
     ],
     [
-      "intervention wsj",
+      "intervention fails",
       1
     ],
     [
-      "bond markets",
+      "fails soothe",
       1
     ],
     [
-      "markets rattle",
+      "soothe investors",
       1
     ],
     [
-      "rattle economy",
+      "investors financial",
       1
     ],
     [
-      "economy forcing",
+      "financial times",
       1
     ],
     [
-      "forcing controversial",
+      "walmart shares",
       1
     ],
     [
-      "controversial buyback",
+      "shares slump",
       1
     ],
     [
-      "buyback band-aid",
+      "slump weakest",
       1
     ],
     [
-      "band-aid hill",
+      "weakest sales",
+      1
+    ],
+    [
+      "sales growth",
+      1
+    ],
+    [
+      "growth six",
+      1
+    ],
+    [
+      "years wsj",
       1
     ],
     [
@@ -9148,43 +9260,55 @@
       1
     ],
     [
-      "walmart reports",
+      "after moderna",
       1
     ],
     [
-      "reports rare",
+      "moderna stock",
       1
     ],
     [
-      "rare sales",
+      "stock surge",
       1
     ],
     [
-      "sales miss",
+      "surge cancer",
       1
     ],
     [
-      "miss consumers",
+      "cancer drug",
       1
     ],
     [
-      "consumers cut",
+      "drug breakthrough",
       1
     ],
     [
-      "cut spending",
+      "breakthrough here",
       1
     ],
     [
-      "spending shares",
+      "here wall",
       1
     ],
     [
-      "shares fall",
+      "street thinks",
       1
     ],
     [
-      "fall reuters",
+      "thinks happens",
+      1
+    ],
+    [
+      "happens next",
+      1
+    ],
+    [
+      "next yahoo",
+      1
+    ],
+    [
+      "yahoo finance",
       1
     ],
     [
@@ -9248,231 +9372,279 @@
       1
     ],
     [
-      "new oled",
+      "display introduces",
       1
     ],
     [
-      "oled breakthrough",
+      "introduces flipp",
       1
     ],
     [
-      "breakthrough boost",
+      "flipp oled",
       1
     ],
     [
-      "boost display",
+      "oled technology",
       1
     ],
     [
-      "display lifespans",
+      "technology improving",
       1
     ],
     [
-      "lifespans verge",
+      "improving brightness",
       1
     ],
     [
-      "apple camera-equipped",
+      "brightness longer",
       1
     ],
     [
-      "camera-equipped airpods",
+      "longer lifespan",
       1
     ],
     [
-      "airpods remain",
+      "lifespan wccftech",
       1
     ],
     [
-      "remain track",
+      "app does",
       1
     ],
     [
-      "track despite",
+      "does pixel",
       1
     ],
     [
-      "despite video",
+      "pixel pro",
       1
     ],
     [
-      "video leak",
+      "pro hilight",
       1
     ],
     [
-      "leak bloomberg",
+      "hilight google",
       1
     ],
     [
-      "bloomberg com",
+      "google have",
       1
     ],
     [
-      "megyn kelly",
+      "have done",
       1
     ],
     [
-      "kelly surprised",
+      "done first",
       1
     ],
     [
-      "surprised hayden",
+      "first place",
       1
     ],
     [
-      "panettiere death",
+      "place android",
       1
     ],
     [
-      "death calls",
+      "android authority",
       1
     ],
     [
-      "calls actress",
+      "panettiere mom",
       1
     ],
     [
-      "actress parents",
+      "mom reaction",
       1
     ],
     [
-      "parents enablers",
+      "reaction actress",
       1
     ],
     [
-      "enablers yahoo",
+      "actress death",
       1
     ],
     [
-      "soa kurt",
+      "death eviscerated",
       1
     ],
     [
-      "kurt sutter",
+      "eviscerated holly",
       1
     ],
     [
-      "sutter reacts",
+      "holly robinson",
       1
     ],
     [
-      "reacts charlie",
+      "robinson peete",
       1
     ],
     [
-      "charlie hunnam",
+      "peete integrity",
       1
     ],
     [
-      "hunnam series",
+      "integrity page",
       1
     ],
     [
-      "series legends",
+      "page six",
       1
     ],
     [
-      "legends deadline",
+      "after six",
       1
     ],
     [
-      "paris jackson",
+      "years harry",
       1
     ],
     [
-      "jackson opens",
+      "harry meghan",
       1
     ],
     [
-      "opens painful",
+      "meghan coming",
       1
     ],
     [
-      "painful electroconvulsive",
+      "coming home",
       1
     ],
     [
-      "electroconvulsive therapy",
+      "home changed",
       1
     ],
     [
-      "therapy alone",
+      "changed new",
       1
     ],
     [
-      "alone usa",
+      "panettiere neighbor",
       1
     ],
     [
-      "donnell return",
+      "neighbor says",
       1
     ],
     [
-      "return shows",
+      "says called",
       1
     ],
     [
-      "shows abc",
+      "called several",
       1
     ],
     [
-      "abc done",
+      "several times",
       1
     ],
     [
-      "done capitulating",
+      "times report",
       1
     ],
     [
-      "capitulating trump",
+      "report disturbances",
       1
     ],
     [
-      "trump salon",
+      "disturbances terrified",
       1
     ],
     [
-      "salon com",
+      "terrified yahoo",
       1
     ],
     [
-      "worse cherry",
+      "josh radnor",
       1
     ],
     [
-      "cherry blossoms",
+      "radnor close",
       1
     ],
     [
-      "blossoms drivers",
+      "close his",
       1
     ],
     [
-      "drivers react",
+      "his met",
       1
     ],
     [
-      "react freedom",
+      "met mother",
       1
     ],
     [
-      "freedom grand",
+      "mother co-stars",
       1
     ],
     [
-      "grand prix",
+      "co-stars variety",
       1
     ],
     [
-      "prix road",
+      "anthony hernandez",
       1
     ],
     [
-      "road closures",
+      "hernandez sean",
       1
     ],
     [
-      "closures wtop",
+      "sean strickland",
+      1
+    ],
+    [
+      "strickland helped",
+      1
+    ],
+    [
+      "helped re-spark",
+      1
+    ],
+    [
+      "re-spark love",
+      1
+    ],
+    [
+      "love martial",
+      1
+    ],
+    [
+      "martial arts",
+      1
+    ],
+    [
+      "arts ahead",
+      1
+    ],
+    [
+      "ahead ufc",
+      1
+    ],
+    [
+      "ufc sacramento",
+      1
+    ],
+    [
+      "sacramento main",
+      1
+    ],
+    [
+      "main event",
+      1
+    ],
+    [
+      "event mma",
+      1
+    ],
+    [
+      "mma fighting",
       1
     ],
     [
@@ -9500,83 +9672,83 @@
       1
     ],
     [
-      "kyrgios suspended",
+      "paige bueckers",
       1
     ],
     [
-      "suspended after",
+      "bueckers azzi",
       1
     ],
     [
-      "after positive",
+      "azzi fudd",
       1
     ],
     [
-      "positive cocaine",
+      "fudd offer",
       1
     ],
     [
-      "cocaine test",
+      "offer rare",
       1
     ],
     [
-      "test deeply",
+      "rare comments",
       1
     ],
     [
-      "deeply disappointed",
+      "comments relationship",
       1
     ],
     [
-      "disappointed myself",
+      "relationship espn",
       1
     ],
     [
-      "myself yahoo",
+      "tennis world",
       1
     ],
     [
-      "yahoo sports",
+      "world quickly",
       1
     ],
     [
-      "patriots quickly",
+      "quickly turns",
       1
     ],
     [
-      "quickly turning",
+      "turns nick",
       1
     ],
     [
-      "turning page",
+      "kyrgios after",
       1
     ],
     [
-      "page after",
+      "after cocaine",
       1
     ],
     [
-      "after first",
+      "cocaine reveal",
       1
     ],
     [
-      "first eagles",
+      "reveal former",
       1
     ],
     [
-      "eagles joint",
+      "former leading",
       1
     ],
     [
-      "joint practice",
+      "leading charge",
       1
     ],
     [
-      "practice pats",
+      "charge new",
       1
     ],
     [
-      "pats pulpit",
+      "york post",
       1
     ],
     [
@@ -9792,30 +9964,6 @@
       1
     ],
     [
-      "least workers",
-      1
-    ],
-    [
-      "workers killed",
-      1
-    ],
-    [
-      "killed landslide",
-      1
-    ],
-    [
-      "landslide colombian",
-      1
-    ],
-    [
-      "colombian gold",
-      1
-    ],
-    [
-      "gold mine",
-      1
-    ],
-    [
       "ex-zambian minister",
       1
     ],
@@ -9833,6 +9981,62 @@
     ],
     [
       "raid opposition",
+      1
+    ],
+    [
+      "togo charges",
+      1
+    ],
+    [
+      "charges two",
+      1
+    ],
+    [
+      "two french",
+      1
+    ],
+    [
+      "french journalists",
+      1
+    ],
+    [
+      "journalists incorrect",
+      1
+    ],
+    [
+      "incorrect documents",
+      1
+    ],
+    [
+      "documents rights",
+      1
+    ],
+    [
+      "rights group",
+      1
+    ],
+    [
+      "group says",
+      1
+    ],
+    [
+      "landslide unlicensed",
+      1
+    ],
+    [
+      "unlicensed colombian",
+      1
+    ],
+    [
+      "colombian gold",
+      1
+    ],
+    [
+      "gold mine",
+      1
+    ],
+    [
+      "mine kills",
       1
     ],
     [
@@ -9968,30 +10172,6 @@
       1
     ],
     [
-      "ecuador intelligence",
-      1
-    ],
-    [
-      "intelligence chief",
-      1
-    ],
-    [
-      "chief five",
-      1
-    ],
-    [
-      "americans killed",
-      1
-    ],
-    [
-      "killed kenya",
-      1
-    ],
-    [
-      "kenya helicopter",
-      1
-    ],
-    [
       "captured ukrainian-born",
       1
     ],
@@ -10017,6 +10197,14 @@
     ],
     [
       "key trump",
+      1
+    ],
+    [
+      "trump aide",
+      1
+    ],
+    [
+      "aide natalie",
       1
     ],
     [
@@ -10256,6 +10444,42 @@
       1
     ],
     [
+      "indycar race",
+      1
+    ],
+    [
+      "race zoom",
+      1
+    ],
+    [
+      "zoom past",
+      1
+    ],
+    [
+      "past museums",
+      1
+    ],
+    [
+      "museums some",
+      1
+    ],
+    [
+      "some worry",
+      1
+    ],
+    [
+      "worry harm",
+      1
+    ],
+    [
+      "harm art",
+      1
+    ],
+    [
+      "art inside",
+      1
+    ],
+    [
       "debt tops",
       1
     ],
@@ -10313,30 +10537,6 @@
     ],
     [
       "japan says",
-      1
-    ],
-    [
-      "privacy advocates",
-      1
-    ],
-    [
-      "advocates call",
-      1
-    ],
-    [
-      "call maryland",
-      1
-    ],
-    [
-      "maryland investigate",
-      1
-    ],
-    [
-      "investigate data",
-      1
-    ],
-    [
-      "data brokers",
       1
     ],
     [
@@ -10416,35 +10616,51 @@
       1
     ],
     [
-      "here system",
+      "privacy advocates",
       1
     ],
     [
-      "system report",
+      "advocates call",
       1
     ],
     [
-      "report problems",
+      "call maryland",
       1
     ],
     [
-      "problems ice",
+      "maryland investigate",
       1
     ],
     [
-      "ice detention",
+      "investigate data",
       1
     ],
     [
-      "detention has",
+      "data brokers",
       1
     ],
     [
-      "has failed",
+      "system meant",
       1
     ],
     [
-      "failed immigrants",
+      "meant protect",
+      1
+    ],
+    [
+      "protect ice",
+      1
+    ],
+    [
+      "ice detainees",
+      1
+    ],
+    [
+      "detainees has",
+      1
+    ],
+    [
+      "has collapsed",
       1
     ],
     [
@@ -10488,31 +10704,31 @@
       1
     ],
     [
-      "chinese court",
+      "deports people",
       1
     ],
     [
-      "court sentences",
+      "people liberia",
       1
     ],
     [
-      "sentences founder",
+      "liberia first",
       1
     ],
     [
-      "founder property",
+      "first migrants",
       1
     ],
     [
-      "property developer",
+      "migrants trump",
       1
     ],
     [
-      "developer evergrande",
+      "trump deal",
       1
     ],
     [
-      "evergrande life",
+      "five americans",
       1
     ],
     [
@@ -10529,6 +10745,10 @@
     ],
     [
       "safari helicopter",
+      1
+    ],
+    [
+      "helicopter crash",
       1
     ],
     [
@@ -10589,34 +10809,6 @@
     ],
     [
       "country history",
-      1
-    ],
-    [
-      "zimbabwe boat",
-      1
-    ],
-    [
-      "boat accident",
-      1
-    ],
-    [
-      "accident death",
-      1
-    ],
-    [
-      "death toll",
-      1
-    ],
-    [
-      "toll hits",
-      1
-    ],
-    [
-      "hits bodies",
-      1
-    ],
-    [
-      "bodies recovered",
       1
     ],
     [
@@ -10896,6 +11088,50 @@
       1
     ],
     [
+      "sydney air",
+      1
+    ],
+    [
+      "air traffic",
+      1
+    ],
+    [
+      "traffic controllers",
+      1
+    ],
+    [
+      "controllers have",
+      1
+    ],
+    [
+      "have grave",
+      1
+    ],
+    [
+      "grave concerns",
+      1
+    ],
+    [
+      "concerns collision",
+      1
+    ],
+    [
+      "collision risk",
+      1
+    ],
+    [
+      "risk after",
+      1
+    ],
+    [
+      "after airspace",
+      1
+    ],
+    [
+      "airspace redesign",
+      1
+    ],
+    [
       "have got",
       1
     ],
@@ -11040,39 +11276,39 @@
       1
     ],
     [
-      "birds found",
+      "ukrainian publishers",
       1
     ],
     [
-      "dead three",
+      "publishers call",
       1
     ],
     [
-      "three mass",
+      "call support",
       1
     ],
     [
-      "mass mortality",
+      "support after",
       1
     ],
     [
-      "mortality events",
+      "after russian",
       1
     ],
     [
-      "events amid",
+      "russian attacks",
       1
     ],
     [
-      "amid significant",
+      "attacks destroy",
       1
     ],
     [
-      "significant escalation",
+      "destroy 10m",
       1
     ],
     [
-      "escalation australia",
+      "10m books",
       1
     ],
     [
@@ -11104,10 +11340,6 @@
       1
     ],
     [
-      "romania destroys",
-      1
-    ],
-    [
       "destroys naval",
       1
     ],
@@ -11116,11 +11348,7 @@
       1
     ],
     [
-      "drone europe",
-      1
-    ],
-    [
-      "europe live",
+      "drone happened",
       1
     ],
     [
@@ -11213,38 +11441,6 @@
     ],
     [
       "study finds",
-      1
-    ],
-    [
-      "melancholy made",
-      1
-    ],
-    [
-      "made hungary",
-      1
-    ],
-    [
-      "hungary fuelling",
-      1
-    ],
-    [
-      "fuelling bestsellers",
-      1
-    ],
-    [
-      "bestsellers across",
-      1
-    ],
-    [
-      "across globe",
-      1
-    ],
-    [
-      "globe widely",
-      1
-    ],
-    [
-      "widely misunderstood",
       1
     ],
     [
@@ -11636,6 +11832,10 @@
       1
     ],
     [
+      "rosie donnell",
+      1
+    ],
+    [
       "jos mourinho",
       1
     ],
@@ -11806,55 +12006,63 @@
   ],
   "keyword_velocity": [
     {
-      "keyword": "giant",
+      "keyword": "after",
+      "delta": 3
+    },
+    {
+      "keyword": "former",
+      "delta": 3
+    },
+    {
+      "keyword": "six",
+      "delta": 3
+    },
+    {
+      "keyword": "iran",
       "delta": 2
     },
     {
-      "keyword": "today",
+      "keyword": "says",
       "delta": 2
     },
     {
-      "keyword": "boost",
+      "keyword": "google",
       "delta": 2
     },
     {
-      "keyword": "usa",
+      "keyword": "wall",
       "delta": 2
     },
     {
-      "keyword": "gsmarena",
+      "keyword": "street",
       "delta": 2
     },
     {
-      "keyword": "yahoo",
+      "keyword": "show",
       "delta": 2
     },
     {
-      "keyword": "series",
-      "delta": 1
+      "keyword": "first",
+      "delta": 2
     },
     {
-      "keyword": "bloomberg",
-      "delta": 1
+      "keyword": "risk",
+      "delta": 2
     },
     {
-      "keyword": "founder",
-      "delta": 1
+      "keyword": "home",
+      "delta": 2
     },
     {
-      "keyword": "evergrande",
-      "delta": 1
+      "keyword": "10m",
+      "delta": 2
     },
     {
-      "keyword": "life",
-      "delta": 1
+      "keyword": "regional",
+      "delta": 2
     },
     {
-      "keyword": "com",
-      "delta": 1
-    },
-    {
-      "keyword": "death",
+      "keyword": "news",
       "delta": 1
     },
     {
@@ -11862,15 +12070,11 @@
       "delta": 1
     },
     {
-      "keyword": "spending",
+      "keyword": "have",
       "delta": 1
     },
     {
-      "keyword": "found",
-      "delta": 1
-    },
-    {
-      "keyword": "sentenced",
+      "keyword": "panettiere",
       "delta": 1
     },
     {
@@ -11878,55 +12082,19 @@
       "delta": 1
     },
     {
-      "keyword": "california",
+      "keyword": "has",
       "delta": 1
     },
     {
-      "keyword": "chinese",
+      "keyword": "hayden",
       "delta": 1
     },
     {
-      "keyword": "property",
+      "keyword": "debt",
       "delta": 1
     },
     {
-      "keyword": "days",
-      "delta": 1
-    },
-    {
-      "keyword": "game",
-      "delta": 1
-    },
-    {
-      "keyword": "companies",
-      "delta": 1
-    },
-    {
-      "keyword": "like",
-      "delta": 1
-    },
-    {
-      "keyword": "verge",
-      "delta": 1
-    },
-    {
-      "keyword": "york",
-      "delta": 1
-    },
-    {
-      "keyword": "joint",
-      "delta": 1
-    },
-    {
-      "keyword": "trade",
-      "delta": 1
-    },
-    {
-      "keyword": "retail",
-      "delta": 1
-    },
-    {
-      "keyword": "breakthrough",
+      "keyword": "police",
       "delta": 1
     },
     {
@@ -11934,131 +12102,75 @@
       "delta": 1
     },
     {
-      "keyword": "spent",
+      "keyword": "threat",
       "delta": 1
     },
     {
-      "keyword": "model",
+      "keyword": "net",
       "delta": 1
     },
     {
-      "keyword": "becoming",
+      "keyword": "revenue",
       "delta": 1
     },
     {
-      "keyword": "good",
+      "keyword": "yoy",
       "delta": 1
     },
     {
-      "keyword": "technical",
+      "keyword": "data",
       "delta": 1
     },
     {
-      "keyword": "crisis",
+      "keyword": "journal",
       "delta": 1
     },
     {
-      "keyword": "reports",
+      "keyword": "economic",
       "delta": 1
     },
     {
-      "keyword": "cut",
+      "keyword": "russian",
       "delta": 1
     },
     {
-      "keyword": "aide",
+      "keyword": "drone",
       "delta": 1
     },
     {
-      "keyword": "guardian",
+      "keyword": "deadly",
       "delta": 1
     },
     {
-      "keyword": "long",
+      "keyword": "two",
       "delta": 1
     },
     {
-      "keyword": "climate",
+      "keyword": "national",
       "delta": 1
     },
     {
-      "keyword": "alive",
+      "keyword": "cancer",
       "delta": 1
     },
     {
-      "keyword": "rosie",
+      "keyword": "people",
       "delta": 1
     },
     {
-      "keyword": "donnell",
+      "keyword": "removed",
       "delta": 1
     },
     {
-      "keyword": "nick",
+      "keyword": "anthony",
       "delta": 1
     },
     {
-      "keyword": "kyrgios",
+      "keyword": "several",
       "delta": 1
     },
     {
-      "keyword": "workers",
-      "delta": 1
-    },
-    {
-      "keyword": "colombian",
-      "delta": 1
-    },
-    {
-      "keyword": "receives",
-      "delta": 1
-    },
-    {
-      "keyword": "1bn",
-      "delta": 1
-    },
-    {
-      "keyword": "harvest",
-      "delta": 1
-    },
-    {
-      "keyword": "hikes",
-      "delta": 1
-    },
-    {
-      "keyword": "bills",
-      "delta": 1
-    },
-    {
-      "keyword": "purchased",
-      "delta": 1
-    },
-    {
-      "keyword": "bending",
-      "delta": 1
-    },
-    {
-      "keyword": "spoons",
-      "delta": 1
-    },
-    {
-      "keyword": "elliptic",
-      "delta": 1
-    },
-    {
-      "keyword": "curve",
-      "delta": 1
-    },
-    {
-      "keyword": "rank",
-      "delta": 1
-    },
-    {
-      "keyword": "bun",
-      "delta": 1
-    },
-    {
-      "keyword": "hacking",
+      "keyword": "attacks",
       "delta": 1
     },
     {
@@ -12066,7 +12178,7 @@
       "delta": 1
     },
     {
-      "keyword": "smart",
+      "keyword": "stripe",
       "delta": 1
     },
     {
@@ -12074,207 +12186,27 @@
       "delta": 1
     },
     {
-      "keyword": "stwipe",
+      "keyword": "latin",
       "delta": 1
     },
     {
-      "keyword": "acquires",
+      "keyword": "flight",
       "delta": 1
     },
     {
-      "keyword": "openwouter",
+      "keyword": "don",
       "delta": 1
     },
     {
-      "keyword": "cheats",
+      "keyword": "cbs",
       "delta": 1
     },
     {
-      "keyword": "jobs",
+      "keyword": "ossoff",
       "delta": 1
     },
     {
-      "keyword": "artifacts",
-      "delta": 1
-    },
-    {
-      "keyword": "difficult",
-      "delta": 1
-    },
-    {
-      "keyword": "twenty",
-      "delta": 1
-    },
-    {
-      "keyword": "wrong",
-      "delta": 1
-    },
-    {
-      "keyword": "diffusiongemma",
-      "delta": 1
-    },
-    {
-      "keyword": "ocean",
-      "delta": 1
-    },
-    {
-      "keyword": "cleanup",
-      "delta": 1
-    },
-    {
-      "keyword": "hasn",
-      "delta": 1
-    },
-    {
-      "keyword": "solved",
-      "delta": 1
-    },
-    {
-      "keyword": "plastic",
-      "delta": 1
-    },
-    {
-      "keyword": "pollution",
-      "delta": 1
-    },
-    {
-      "keyword": "xorg-server",
-      "delta": 1
-    },
-    {
-      "keyword": "zellij",
-      "delta": 1
-    },
-    {
-      "keyword": "nested",
-      "delta": 1
-    },
-    {
-      "keyword": "sessions",
-      "delta": 1
-    },
-    {
-      "keyword": "kitty",
-      "delta": 1
-    },
-    {
-      "keyword": "graphics",
-      "delta": 1
-    },
-    {
-      "keyword": "fresh",
-      "delta": 1
-    },
-    {
-      "keyword": "didn",
-      "delta": 1
-    },
-    {
-      "keyword": "erase",
-      "delta": 1
-    },
-    {
-      "keyword": "junior",
-      "delta": 1
-    },
-    {
-      "keyword": "engineer",
-      "delta": 1
-    },
-    {
-      "keyword": "value",
-      "delta": 1
-    },
-    {
-      "keyword": "increased",
-      "delta": 1
-    },
-    {
-      "keyword": "waymo",
-      "delta": 1
-    },
-    {
-      "keyword": "built",
-      "delta": 1
-    },
-    {
-      "keyword": "asic",
-      "delta": 1
-    },
-    {
-      "keyword": "chip",
-      "delta": 1
-    },
-    {
-      "keyword": "improve",
-      "delta": 1
-    },
-    {
-      "keyword": "robotaxis",
-      "delta": 1
-    },
-    {
-      "keyword": "reflexes",
-      "delta": 1
-    },
-    {
-      "keyword": "navigational",
-      "delta": 1
-    },
-    {
-      "keyword": "skills",
-      "delta": 1
-    },
-    {
-      "keyword": "diversify",
-      "delta": 1
-    },
-    {
-      "keyword": "away",
-      "delta": 1
-    },
-    {
-      "keyword": "nvidia",
-      "delta": 1
-    },
-    {
-      "keyword": "edward",
-      "delta": 1
-    },
-    {
-      "keyword": "ludlow",
-      "delta": 1
-    },
-    {
-      "keyword": "quietly",
-      "delta": 1
-    },
-    {
-      "keyword": "64b",
-      "delta": 1
-    },
-    {
-      "keyword": "54b",
-      "delta": 1
-    },
-    {
-      "keyword": "faces",
-      "delta": 1
-    },
-    {
-      "keyword": "scrutiny",
-      "delta": 1
-    },
-    {
-      "keyword": "upend",
-      "delta": 1
-    },
-    {
-      "keyword": "weather",
-      "delta": 1
-    },
-    {
-      "keyword": "feel",
+      "keyword": "kills",
       "delta": 1
     },
     {
@@ -12282,83 +12214,27 @@
       "delta": 1
     },
     {
-      "keyword": "streets",
+      "keyword": "probe",
       "delta": 1
     },
     {
-      "keyword": "empty",
+      "keyword": "claims",
       "delta": 1
     },
     {
-      "keyword": "miami",
+      "keyword": "state",
       "delta": 1
     },
     {
-      "keyword": "little",
+      "keyword": "war",
       "delta": 1
     },
     {
-      "keyword": "haiti",
+      "keyword": "romania",
       "delta": 1
     },
     {
-      "keyword": "reacted",
-      "delta": 1
-    },
-    {
-      "keyword": "losing",
-      "delta": 1
-    },
-    {
-      "keyword": "tps",
-      "delta": 1
-    },
-    {
-      "keyword": "leader",
-      "delta": 1
-    },
-    {
-      "keyword": "crosshairs",
-      "delta": 1
-    },
-    {
-      "keyword": "fishermen",
-      "delta": 1
-    },
-    {
-      "keyword": "floating",
-      "delta": 1
-    },
-    {
-      "keyword": "cooler",
-      "delta": 1
-    },
-    {
-      "keyword": "miles",
-      "delta": 1
-    },
-    {
-      "keyword": "mexico",
-      "delta": 1
-    },
-    {
-      "keyword": "going",
-      "delta": 1
-    },
-    {
-      "keyword": "euronews",
-      "delta": 1
-    },
-    {
-      "keyword": "mark",
-      "delta": 1
-    },
-    {
-      "keyword": "zuckerberg",
-      "delta": 1
-    },
-    {
-      "keyword": "encouraged",
+      "keyword": "destroys",
       "delta": 1
     },
     {
@@ -12366,239 +12242,959 @@
       "delta": 1
     },
     {
-      "keyword": "child",
+      "keyword": "pixel",
       "delta": 1
     },
     {
-      "keyword": "ex-meta",
+      "keyword": "his",
       "delta": 1
     },
     {
-      "keyword": "executive",
+      "keyword": "ahead",
       "delta": 1
     },
     {
-      "keyword": "testifies",
+      "keyword": "fighting",
       "delta": 1
     },
     {
-      "keyword": "nbc",
+      "keyword": "world",
       "delta": 1
     },
     {
-      "keyword": "rare",
+      "keyword": "air",
       "delta": 1
     },
     {
-      "keyword": "sales",
+      "keyword": "charges",
       "delta": 1
     },
     {
-      "keyword": "miss",
+      "keyword": "french",
       "delta": 1
     },
     {
-      "keyword": "consumers",
+      "keyword": "rights",
       "delta": 1
     },
     {
-      "keyword": "fall",
+      "keyword": "concerns",
       "delta": 1
     },
     {
-      "keyword": "sale",
+      "keyword": "call",
       "delta": 1
     },
     {
-      "keyword": "lifespans",
+      "keyword": "clean",
       "delta": 1
     },
     {
-      "keyword": "megyn",
+      "keyword": "token",
       "delta": 1
     },
     {
-      "keyword": "kelly",
+      "keyword": "vomit",
       "delta": 1
     },
     {
-      "keyword": "surprised",
+      "keyword": "separate",
       "delta": 1
     },
     {
-      "keyword": "actress",
+      "keyword": "llm",
       "delta": 1
     },
     {
-      "keyword": "parents",
+      "keyword": "anti-ai",
       "delta": 1
     },
     {
-      "keyword": "enablers",
+      "keyword": "fonts",
       "delta": 1
     },
     {
-      "keyword": "paris",
+      "keyword": "useless",
       "delta": 1
     },
     {
-      "keyword": "painful",
+      "keyword": "harmful",
       "delta": 1
     },
     {
-      "keyword": "electroconvulsive",
+      "keyword": "open-source",
       "delta": 1
     },
     {
-      "keyword": "therapy",
+      "keyword": "connect",
       "delta": 1
     },
     {
-      "keyword": "alone",
+      "keyword": "alternative",
       "delta": 1
     },
     {
-      "keyword": "return",
+      "keyword": "check",
       "delta": 1
     },
     {
-      "keyword": "shows",
+      "keyword": "any",
       "delta": 1
     },
     {
-      "keyword": "abc",
+      "keyword": "656m",
       "delta": 1
     },
     {
-      "keyword": "done",
+      "keyword": "unclaimed",
       "delta": 1
     },
     {
-      "keyword": "capitulating",
+      "keyword": "royalties",
       "delta": 1
     },
     {
-      "keyword": "salon",
+      "keyword": "mlc",
       "delta": 1
     },
     {
-      "keyword": "details",
+      "keyword": "yours",
       "delta": 1
     },
     {
-      "keyword": "five-team",
+      "keyword": "engineering",
       "delta": 1
     },
     {
-      "keyword": "peyton",
+      "keyword": "aliexpress",
       "delta": 1
     },
     {
-      "keyword": "watson",
+      "keyword": "silent",
       "delta": 1
     },
     {
-      "keyword": "hoops",
+      "keyword": "webaudio",
       "delta": 1
     },
     {
-      "keyword": "rumors",
+      "keyword": "fingerprinting",
       "delta": 1
     },
     {
-      "keyword": "suspended",
+      "keyword": "breaks",
       "delta": 1
     },
     {
-      "keyword": "positive",
+      "keyword": "bluetooth",
       "delta": 1
     },
     {
-      "keyword": "cocaine",
+      "keyword": "multipoint",
       "delta": 1
     },
     {
-      "keyword": "deeply",
+      "keyword": "windows",
       "delta": 1
     },
     {
-      "keyword": "disappointed",
+      "keyword": "brings",
       "delta": 1
     },
     {
-      "keyword": "myself",
+      "keyword": "rorschach",
       "delta": 1
     },
     {
-      "keyword": "sports",
+      "keyword": "everyone",
       "delta": 1
     },
     {
-      "keyword": "patriots",
+      "keyword": "filing",
       "delta": 1
     },
     {
-      "keyword": "quickly",
+      "keyword": "tiktok",
       "delta": 1
     },
     {
-      "keyword": "turning",
+      "keyword": "posted",
       "delta": 1
     },
     {
-      "keyword": "eagles",
+      "keyword": "profit",
       "delta": 1
     },
     {
-      "keyword": "practice",
+      "keyword": "africa",
       "delta": 1
     },
     {
-      "keyword": "pats",
+      "keyword": "america",
       "delta": 1
     },
     {
-      "keyword": "pulpit",
+      "keyword": "iain",
       "delta": 1
     },
     {
-      "keyword": "landslide",
+      "keyword": "martin",
       "delta": 1
     },
     {
-      "keyword": "gold",
+      "keyword": "forbes",
       "delta": 1
     },
     {
-      "keyword": "mine",
+      "keyword": "bankruptcy",
       "delta": 1
     },
     {
-      "keyword": "say",
+      "keyword": "delays",
+      "delta": 1
+    },
+    {
+      "keyword": "purchase",
+      "delta": 1
+    },
+    {
+      "keyword": "spirit",
+      "delta": 1
+    },
+    {
+      "keyword": "airlines",
+      "delta": 1
+    },
+    {
+      "keyword": "attendants",
+      "delta": 1
+    },
+    {
+      "keyword": "objected",
+      "delta": 1
+    },
+    {
+      "keyword": "seeking",
+      "delta": 1
+    },
+    {
+      "keyword": "assurance",
+      "delta": 1
+    },
+    {
+      "keyword": "info",
+      "delta": 1
+    },
+    {
+      "keyword": "alexander",
+      "delta": 1
+    },
+    {
+      "keyword": "gladstone",
+      "delta": 1
+    },
+    {
+      "keyword": "third",
+      "delta": 1
+    },
+    {
+      "keyword": "parties",
+      "delta": 1
+    },
+    {
+      "keyword": "internal",
+      "delta": 1
+    },
+    {
+      "keyword": "updates",
+      "delta": 1
+    },
+    {
+      "keyword": "dismisses",
+      "delta": 1
+    },
+    {
+      "keyword": "d-day",
+      "delta": 1
+    },
+    {
+      "keyword": "only",
+      "delta": 1
+    },
+    {
+      "keyword": "bring",
+      "delta": 1
+    },
+    {
+      "keyword": "further",
+      "delta": 1
+    },
+    {
+      "keyword": "defeat",
+      "delta": 1
+    },
+    {
+      "keyword": "amazing",
+      "delta": 1
+    },
+    {
+      "keyword": "melt",
+      "delta": 1
+    },
+    {
+      "keyword": "remark",
+      "delta": 1
+    },
+    {
+      "keyword": "grown",
+      "delta": 1
+    },
+    {
+      "keyword": "president",
+      "delta": 1
+    },
+    {
+      "keyword": "fox",
+      "delta": 1
+    },
+    {
+      "keyword": "business",
+      "delta": 1
+    },
+    {
+      "keyword": "#resistance",
+      "delta": 1
+    },
+    {
+      "keyword": "democrats",
+      "delta": 1
+    },
+    {
+      "keyword": "flopping",
+      "delta": 1
+    },
+    {
+      "keyword": "fbi",
+      "delta": 1
+    },
+    {
+      "keyword": "raids",
+      "delta": 1
+    },
+    {
+      "keyword": "rep",
+      "delta": 1
+    },
+    {
+      "keyword": "eric",
+      "delta": 1
+    },
+    {
+      "keyword": "swalwell",
+      "delta": 1
+    },
+    {
+      "keyword": "seizes",
+      "delta": 1
+    },
+    {
+      "keyword": "devices",
+      "delta": 1
+    },
+    {
+      "keyword": "tied",
+      "delta": 1
+    },
+    {
+      "keyword": "sexual",
+      "delta": 1
+    },
+    {
+      "keyword": "assault",
+      "delta": 1
+    },
+    {
+      "keyword": "know",
+      "delta": 1
+    },
+    {
+      "keyword": "plane",
+      "delta": 1
+    },
+    {
+      "keyword": "involving",
+      "delta": 1
+    },
+    {
+      "keyword": "pennsylvania",
+      "delta": 1
+    },
+    {
+      "keyword": "carlisle",
+      "delta": 1
+    },
+    {
+      "keyword": "airport",
+      "delta": 1
+    },
+    {
+      "keyword": "6abc",
+      "delta": 1
+    },
+    {
+      "keyword": "philadelphia",
+      "delta": 1
+    },
+    {
+      "keyword": "somali",
+      "delta": 1
+    },
+    {
+      "keyword": "pirate",
+      "delta": 1
+    },
+    {
+      "keyword": "menace",
+      "delta": 1
+    },
+    {
+      "keyword": "returns",
+      "delta": 1
+    },
+    {
+      "keyword": "stokes",
+      "delta": 1
+    },
+    {
+      "keyword": "chaos",
+      "delta": 1
+    },
+    {
+      "keyword": "saps",
+      "delta": 1
+    },
+    {
+      "keyword": "enforcement",
+      "delta": 1
+    },
+    {
+      "keyword": "resources",
+      "delta": 1
+    },
+    {
+      "keyword": "cnbc",
+      "delta": 1
+    },
+    {
+      "keyword": "marine",
+      "delta": 1
+    },
+    {
+      "keyword": "near",
+      "delta": 1
+    },
+    {
+      "keyword": "neptun",
+      "delta": 1
+    },
+    {
+      "keyword": "deep",
+      "delta": 1
+    },
+    {
+      "keyword": "gas",
+      "delta": 1
+    },
+    {
+      "keyword": "long-term",
+      "delta": 1
+    },
+    {
+      "keyword": "bonds",
+      "delta": 1
+    },
+    {
+      "keyword": "slide",
+      "delta": 1
+    },
+    {
+      "keyword": "fails",
+      "delta": 1
+    },
+    {
+      "keyword": "soothe",
+      "delta": 1
+    },
+    {
+      "keyword": "investors",
+      "delta": 1
+    },
+    {
+      "keyword": "financial",
+      "delta": 1
+    },
+    {
+      "keyword": "slump",
+      "delta": 1
+    },
+    {
+      "keyword": "weakest",
+      "delta": 1
+    },
+    {
+      "keyword": "moderna",
+      "delta": 1
+    },
+    {
+      "keyword": "surge",
+      "delta": 1
+    },
+    {
+      "keyword": "drug",
+      "delta": 1
+    },
+    {
+      "keyword": "thinks",
+      "delta": 1
+    },
+    {
+      "keyword": "happens",
+      "delta": 1
+    },
+    {
+      "keyword": "next",
+      "delta": 1
+    },
+    {
+      "keyword": "finance",
+      "delta": 1
+    },
+    {
+      "keyword": "introduces",
+      "delta": 1
+    },
+    {
+      "keyword": "flipp",
+      "delta": 1
+    },
+    {
+      "keyword": "technology",
+      "delta": 1
+    },
+    {
+      "keyword": "improving",
+      "delta": 1
+    },
+    {
+      "keyword": "brightness",
+      "delta": 1
+    },
+    {
+      "keyword": "longer",
+      "delta": 1
+    },
+    {
+      "keyword": "lifespan",
+      "delta": 1
+    },
+    {
+      "keyword": "wccftech",
+      "delta": 1
+    },
+    {
+      "keyword": "app",
+      "delta": 1
+    },
+    {
+      "keyword": "does",
+      "delta": 1
+    },
+    {
+      "keyword": "pro",
+      "delta": 1
+    },
+    {
+      "keyword": "hilight",
+      "delta": 1
+    },
+    {
+      "keyword": "place",
+      "delta": 1
+    },
+    {
+      "keyword": "android",
+      "delta": 1
+    },
+    {
+      "keyword": "authority",
+      "delta": 1
+    },
+    {
+      "keyword": "mom",
+      "delta": 1
+    },
+    {
+      "keyword": "reaction",
+      "delta": 1
+    },
+    {
+      "keyword": "eviscerated",
+      "delta": 1
+    },
+    {
+      "keyword": "holly",
+      "delta": 1
+    },
+    {
+      "keyword": "robinson",
+      "delta": 1
+    },
+    {
+      "keyword": "peete",
+      "delta": 1
+    },
+    {
+      "keyword": "integrity",
+      "delta": 1
+    },
+    {
+      "keyword": "coming",
+      "delta": 1
+    },
+    {
+      "keyword": "changed",
+      "delta": 1
+    },
+    {
+      "keyword": "neighbor",
+      "delta": 1
+    },
+    {
+      "keyword": "called",
+      "delta": 1
+    },
+    {
+      "keyword": "disturbances",
+      "delta": 1
+    },
+    {
+      "keyword": "terrified",
+      "delta": 1
+    },
+    {
+      "keyword": "josh",
+      "delta": 1
+    },
+    {
+      "keyword": "radnor",
+      "delta": 1
+    },
+    {
+      "keyword": "close",
+      "delta": 1
+    },
+    {
+      "keyword": "met",
+      "delta": 1
+    },
+    {
+      "keyword": "mother",
+      "delta": 1
+    },
+    {
+      "keyword": "co-stars",
+      "delta": 1
+    },
+    {
+      "keyword": "variety",
+      "delta": 1
+    },
+    {
+      "keyword": "hernandez",
+      "delta": 1
+    },
+    {
+      "keyword": "sean",
+      "delta": 1
+    },
+    {
+      "keyword": "strickland",
+      "delta": 1
+    },
+    {
+      "keyword": "helped",
+      "delta": 1
+    },
+    {
+      "keyword": "re-spark",
+      "delta": 1
+    },
+    {
+      "keyword": "love",
+      "delta": 1
+    },
+    {
+      "keyword": "martial",
+      "delta": 1
+    },
+    {
+      "keyword": "arts",
+      "delta": 1
+    },
+    {
+      "keyword": "ufc",
+      "delta": 1
+    },
+    {
+      "keyword": "sacramento",
+      "delta": 1
+    },
+    {
+      "keyword": "main",
+      "delta": 1
+    },
+    {
+      "keyword": "event",
+      "delta": 1
+    },
+    {
+      "keyword": "mma",
+      "delta": 1
+    },
+    {
+      "keyword": "paige",
+      "delta": 1
+    },
+    {
+      "keyword": "bueckers",
+      "delta": 1
+    },
+    {
+      "keyword": "azzi",
+      "delta": 1
+    },
+    {
+      "keyword": "fudd",
+      "delta": 1
+    },
+    {
+      "keyword": "offer",
+      "delta": 1
+    },
+    {
+      "keyword": "comments",
+      "delta": 1
+    },
+    {
+      "keyword": "relationship",
+      "delta": 1
+    },
+    {
+      "keyword": "espn",
+      "delta": 1
+    },
+    {
+      "keyword": "tennis",
+      "delta": 1
+    },
+    {
+      "keyword": "turns",
+      "delta": 1
+    },
+    {
+      "keyword": "reveal",
+      "delta": 1
+    },
+    {
+      "keyword": "leading",
+      "delta": 1
+    },
+    {
+      "keyword": "charge",
+      "delta": 1
+    },
+    {
+      "keyword": "togo",
+      "delta": 1
+    },
+    {
+      "keyword": "journalists",
+      "delta": 1
+    },
+    {
+      "keyword": "incorrect",
+      "delta": 1
+    },
+    {
+      "keyword": "documents",
+      "delta": 1
+    },
+    {
+      "keyword": "group",
+      "delta": 1
+    },
+    {
+      "keyword": "unlicensed",
+      "delta": 1
+    },
+    {
+      "keyword": "indycar",
+      "delta": 1
+    },
+    {
+      "keyword": "race",
+      "delta": 1
+    },
+    {
+      "keyword": "zoom",
+      "delta": 1
+    },
+    {
+      "keyword": "past",
+      "delta": 1
+    },
+    {
+      "keyword": "museums",
+      "delta": 1
+    },
+    {
+      "keyword": "some",
+      "delta": 1
+    },
+    {
+      "keyword": "worry",
+      "delta": 1
+    },
+    {
+      "keyword": "harm",
+      "delta": 1
+    },
+    {
+      "keyword": "art",
+      "delta": 1
+    },
+    {
+      "keyword": "meant",
+      "delta": 1
+    },
+    {
+      "keyword": "protect",
+      "delta": 1
+    },
+    {
+      "keyword": "detainees",
+      "delta": 1
+    },
+    {
+      "keyword": "deports",
+      "delta": 1
+    },
+    {
+      "keyword": "liberia",
+      "delta": 1
+    },
+    {
+      "keyword": "migrants",
+      "delta": 1
+    },
+    {
+      "keyword": "sydney",
+      "delta": 1
+    },
+    {
+      "keyword": "traffic",
+      "delta": 1
+    },
+    {
+      "keyword": "controllers",
+      "delta": 1
+    },
+    {
+      "keyword": "grave",
+      "delta": 1
+    },
+    {
+      "keyword": "collision",
+      "delta": 1
+    },
+    {
+      "keyword": "airspace",
+      "delta": 1
+    },
+    {
+      "keyword": "redesign",
+      "delta": 1
+    },
+    {
+      "keyword": "ukrainian",
+      "delta": 1
+    },
+    {
+      "keyword": "publishers",
+      "delta": 1
+    },
+    {
+      "keyword": "support",
+      "delta": 1
+    },
+    {
+      "keyword": "destroy",
+      "delta": 1
+    },
+    {
+      "keyword": "books",
+      "delta": 1
+    },
+    {
+      "keyword": "happened",
+      "delta": 1
+    },
+    {
+      "keyword": "series",
       "delta": -1
     },
     {
-      "keyword": "trial",
+      "keyword": "dead",
       "delta": -1
     },
     {
-      "keyword": "kyiv",
+      "keyword": "founder",
       "delta": -1
     },
     {
-      "keyword": "killing",
+      "keyword": "evergrande",
       "delta": -1
     },
     {
-      "keyword": "gaza",
+      "keyword": "life",
       "delta": -1
     },
     {
-      "keyword": "report",
+      "keyword": "least",
       "delta": -1
     },
     {
-      "keyword": "its",
+      "keyword": "australia",
+      "delta": -1
+    },
+    {
+      "keyword": "south",
+      "delta": -1
+    },
+    {
+      "keyword": "prison",
+      "delta": -1
+    },
+    {
+      "keyword": "death",
+      "delta": -1
+    },
+    {
+      "keyword": "video",
+      "delta": -1
+    },
+    {
+      "keyword": "spending",
       "delta": -1
     },
     {
@@ -12606,11 +13202,27 @@
       "delta": -1
     },
     {
-      "keyword": "minister",
+      "keyword": "ukraine",
       "delta": -1
     },
     {
-      "keyword": "crash",
+      "keyword": "found",
+      "delta": -1
+    },
+    {
+      "keyword": "media",
+      "delta": -1
+    },
+    {
+      "keyword": "california",
+      "delta": -1
+    },
+    {
+      "keyword": "chinese",
+      "delta": -1
+    },
+    {
+      "keyword": "property",
       "delta": -1
     },
     {
@@ -12618,19 +13230,31 @@
       "delta": -1
     },
     {
-      "keyword": "helicopter",
+      "keyword": "americans",
       "delta": -1
     },
     {
-      "keyword": "hind",
+      "keyword": "kenya",
       "delta": -1
     },
     {
-      "keyword": "rajab",
+      "keyword": "platform",
       "delta": -1
     },
     {
-      "keyword": "without",
+      "keyword": "game",
+      "delta": -1
+    },
+    {
+      "keyword": "launches",
+      "delta": -1
+    },
+    {
+      "keyword": "across",
+      "delta": -1
+    },
+    {
+      "keyword": "verge",
       "delta": -1
     },
     {
@@ -12638,7 +13262,23 @@
       "delta": -1
     },
     {
-      "keyword": "users",
+      "keyword": "companies",
+      "delta": -1
+    },
+    {
+      "keyword": "live",
+      "delta": -1
+    },
+    {
+      "keyword": "joint",
+      "delta": -1
+    },
+    {
+      "keyword": "natalie",
+      "delta": -1
+    },
+    {
+      "keyword": "three",
       "delta": -1
     },
     {
@@ -12646,79 +13286,63 @@
       "delta": -1
     },
     {
-      "keyword": "day",
+      "keyword": "detention",
       "delta": -1
     },
     {
-      "keyword": "car",
+      "keyword": "boost",
       "delta": -1
     },
     {
-      "keyword": "court",
+      "keyword": "brutal",
       "delta": -1
     },
     {
-      "keyword": "arrested",
+      "keyword": "track",
       "delta": -1
     },
     {
-      "keyword": "police",
+      "keyword": "remain",
       "delta": -1
     },
     {
-      "keyword": "israeli",
+      "keyword": "spent",
       "delta": -1
     },
     {
-      "keyword": "hospital",
+      "keyword": "rust",
       "delta": -1
     },
     {
-      "keyword": "threat",
+      "keyword": "crisis",
       "delta": -1
     },
     {
-      "keyword": "man",
+      "keyword": "access",
       "delta": -1
     },
     {
-      "keyword": "power",
+      "keyword": "becoming",
       "delta": -1
     },
     {
-      "keyword": "sea",
+      "keyword": "reports",
       "delta": -1
     },
     {
-      "keyword": "runs",
+      "keyword": "guardian",
       "delta": -1
     },
     {
-      "keyword": "staff",
+      "keyword": "cut",
       "delta": -1
     },
     {
-      "keyword": "slack",
+      "keyword": "economy",
       "delta": -1
     },
     {
-      "keyword": "all",
-      "delta": -1
-    },
-    {
-      "keyword": "tech",
-      "delta": -1
-    },
-    {
-      "keyword": "missile",
-      "delta": -1
-    },
-    {
-      "keyword": "drone",
-      "delta": -1
-    },
-    {
-      "keyword": "missiles",
+      "keyword": "shares",
       "delta": -1
     },
     {
@@ -12726,335 +13350,63 @@
       "delta": -1
     },
     {
-      "keyword": "seven",
-      "delta": -1
-    },
-    {
       "keyword": "opens",
       "delta": -1
     },
     {
-      "keyword": "first",
+      "keyword": "long",
       "delta": -1
     },
     {
-      "keyword": "deadly",
+      "keyword": "workers",
       "delta": -1
     },
     {
-      "keyword": "japan",
+      "keyword": "bbc",
       "delta": -1
     },
     {
-      "keyword": "american",
+      "keyword": "aide",
       "delta": -1
     },
     {
-      "keyword": "election",
+      "keyword": "market",
       "delta": -1
     },
     {
-      "keyword": "driver",
+      "keyword": "five",
       "delta": -1
     },
     {
-      "keyword": "tennessee",
+      "keyword": "seven",
       "delta": -1
     },
     {
-      "keyword": "college",
+      "keyword": "climate",
       "delta": -1
     },
     {
-      "keyword": "team",
+      "keyword": "events",
       "delta": -1
     },
     {
-      "keyword": "held",
+      "keyword": "union",
       "delta": -1
     },
     {
-      "keyword": "newly",
+      "keyword": "rosie",
       "delta": -1
     },
     {
-      "keyword": "office",
+      "keyword": "donnell",
       "delta": -1
     },
     {
-      "keyword": "vaccine",
+      "keyword": "good",
       "delta": -1
     },
     {
-      "keyword": "cancer",
-      "delta": -1
-    },
-    {
-      "keyword": "massive",
-      "delta": -1
-    },
-    {
-      "keyword": "people",
-      "delta": -1
-    },
-    {
-      "keyword": "execution",
-      "delta": -1
-    },
-    {
-      "keyword": "seeks",
-      "delta": -1
-    },
-    {
-      "keyword": "left",
-      "delta": -1
-    },
-    {
-      "keyword": "week",
-      "delta": -1
-    },
-    {
-      "keyword": "backs",
-      "delta": -1
-    },
-    {
-      "keyword": "browser",
-      "delta": -1
-    },
-    {
-      "keyword": "risk",
-      "delta": -1
-    },
-    {
-      "keyword": "since",
-      "delta": -1
-    },
-    {
-      "keyword": "prices",
-      "delta": -1
-    },
-    {
-      "keyword": "making",
-      "delta": -1
-    },
-    {
-      "keyword": "plans",
-      "delta": -1
-    },
-    {
-      "keyword": "source",
-      "delta": -1
-    },
-    {
-      "keyword": "meta",
-      "delta": -1
-    },
-    {
-      "keyword": "year",
-      "delta": -1
-    },
-    {
-      "keyword": "passes",
-      "delta": -1
-    },
-    {
-      "keyword": "giants",
-      "delta": -1
-    },
-    {
-      "keyword": "local",
-      "delta": -1
-    },
-    {
-      "keyword": "far",
-      "delta": -1
-    },
-    {
-      "keyword": "stripe",
-      "delta": -1
-    },
-    {
-      "keyword": "openrouter",
-      "delta": -1
-    },
-    {
-      "keyword": "future",
-      "delta": -1
-    },
-    {
-      "keyword": "meeting",
-      "delta": -1
-    },
-    {
-      "keyword": "kills",
-      "delta": -1
-    },
-    {
-      "keyword": "politico",
-      "delta": -1
-    },
-    {
-      "keyword": "pixel",
-      "delta": -1
-    },
-    {
-      "keyword": "belgian",
-      "delta": -1
-    },
-    {
-      "keyword": "confirmed",
-      "delta": -1
-    },
-    {
-      "keyword": "time",
-      "delta": -1
-    },
-    {
-      "keyword": "must",
-      "delta": -1
-    },
-    {
-      "keyword": "move",
-      "delta": -1
-    },
-    {
-      "keyword": "confirms",
-      "delta": -1
-    },
-    {
-      "keyword": "probe",
-      "delta": -1
-    },
-    {
-      "keyword": "outraged",
-      "delta": -1
-    },
-    {
-      "keyword": "decides",
-      "delta": -1
-    },
-    {
-      "keyword": "open",
-      "delta": -1
-    },
-    {
-      "keyword": "worker",
-      "delta": -1
-    },
-    {
-      "keyword": "accused",
-      "delta": -1
-    },
-    {
-      "keyword": "wartime",
-      "delta": -1
-    },
-    {
-      "keyword": "call",
-      "delta": -1
-    },
-    {
-      "keyword": "pay",
-      "delta": -1
-    },
-    {
-      "keyword": "keep",
-      "delta": -1
-    },
-    {
-      "keyword": "toll",
-      "delta": -1
-    },
-    {
-      "keyword": "forced",
-      "delta": -1
-    },
-    {
-      "keyword": "pipeline",
-      "delta": -1
-    },
-    {
-      "keyword": "rules",
-      "delta": -1
-    },
-    {
-      "keyword": "jong-un",
-      "delta": -1
-    },
-    {
-      "keyword": "sister",
-      "delta": -1
-    },
-    {
-      "keyword": "casts",
-      "delta": -1
-    },
-    {
-      "keyword": "doubt",
-      "delta": -1
-    },
-    {
-      "keyword": "claims",
-      "delta": -1
-    },
-    {
-      "keyword": "secret",
-      "delta": -1
-    },
-    {
-      "keyword": "us-north",
-      "delta": -1
-    },
-    {
-      "keyword": "talks",
-      "delta": -1
-    },
-    {
-      "keyword": "something",
-      "delta": -1
-    },
-    {
-      "keyword": "sacked",
-      "delta": -1
-    },
-    {
-      "keyword": "fear",
-      "delta": -1
-    },
-    {
-      "keyword": "amid",
-      "delta": -1
-    },
-    {
-      "keyword": "destroys",
-      "delta": -1
-    },
-    {
-      "keyword": "city",
-      "delta": -1
-    },
-    {
-      "keyword": "threatens",
-      "delta": -1
-    },
-    {
-      "keyword": "admits",
-      "delta": -1
-    },
-    {
-      "keyword": "book",
-      "delta": -1
-    },
-    {
-      "keyword": "state",
-      "delta": -1
-    },
-    {
-      "keyword": "law",
-      "delta": -1
-    },
-    {
-      "keyword": "don",
+      "keyword": "jackson",
       "delta": -1
     },
     {
@@ -13062,112 +13414,36 @@
       "delta": -2
     },
     {
-      "keyword": "australia",
+      "keyword": "killed",
       "delta": -2
     },
     {
-      "keyword": "south",
+      "keyword": "new",
       "delta": -2
-    },
-    {
-      "keyword": "military",
-      "delta": -2
-    },
-    {
-      "keyword": "china",
-      "delta": -2
-    },
-    {
-      "keyword": "have",
-      "delta": -2
-    },
-    {
-      "keyword": "israel",
-      "delta": -2
-    },
-    {
-      "keyword": "criminal",
-      "delta": -2
-    },
-    {
-      "keyword": "investigation",
-      "delta": -2
-    },
-    {
-      "keyword": "has",
-      "delta": -2
-    },
-    {
-      "keyword": "reuters",
-      "delta": -2
-    },
-    {
-      "keyword": "live",
-      "delta": -2
-    },
-    {
-      "keyword": "strikes",
-      "delta": -2
-    },
-    {
-      "keyword": "two",
-      "delta": -2
-    },
-    {
-      "keyword": "project",
-      "delta": -2
-    },
-    {
-      "keyword": "defence",
-      "delta": -2
-    },
-    {
-      "keyword": "war",
-      "delta": -2
-    },
-    {
-      "keyword": "aid",
-      "delta": -2
-    },
-    {
-      "keyword": "her",
-      "delta": -2
-    },
-    {
-      "keyword": "against",
-      "delta": -2
-    },
-    {
-      "keyword": "kim",
-      "delta": -2
-    },
-    {
-      "keyword": "iran",
-      "delta": -3
-    },
-    {
-      "keyword": "says",
-      "delta": -3
-    },
-    {
-      "keyword": "economic",
-      "delta": -3
-    },
-    {
-      "keyword": "strike",
-      "delta": -3
     },
     {
       "keyword": "korea",
-      "delta": -4
+      "delta": -2
     },
     {
-      "keyword": "ukraine",
-      "delta": -4
+      "keyword": "bloomberg",
+      "delta": -2
     },
     {
-      "keyword": "russian",
-      "delta": -5
+      "keyword": "agents",
+      "delta": -2
+    },
+    {
+      "keyword": "users",
+      "delta": -2
+    },
+    {
+      "keyword": "bond",
+      "delta": -2
+    },
+    {
+      "keyword": "com",
+      "delta": -3
     }
   ]
 }
